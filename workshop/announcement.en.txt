@@ -1,0 +1,7 @@
+Location Descriptions for Every Tile — first English and Simplified Chinese alpha
+
+Historical and geographical descriptions for cities, towns, countryside, mountains, seas and lakes. The same mod includes English and Simplified Chinese, with 28,449 added entries and the 124 vanilla descriptions left intact.
+
+This is an alpha: some entries are brief or use regional background, and full independent fact-checking is still ahead. The prose was written with AI assistance after consulting sources. If a place, date or translation looks wrong, please send the name, region, screenshot and a useful reference. Feedback in either language is welcome; no coding or internal ID is required.
+
+Please read the compatibility notes before combining description mods. New prose uses CC BY-SA 4.0; source credits and licenses are included.

@@ -1,0 +1,14 @@
+// TESTING FALLBACK ONLY. Prefer EU5's in-game Mod Tools.
+// Copy to an ignored *.local.vdf and replace REPLACE_* values.
+// Never store a Steam password here. This file is not executed by the build.
+"workshopitem"
+{
+    "appid" "3450310"
+    "publishedfileid" "0"
+    "contentfolder" "REPLACE_WITH_ABSOLUTE_PATH_TO_BUILT_MOD_FOLDER"
+    "previewfile" "REPLACE_WITH_ABSOLUTE_PATH_TO_COVER_PNG"
+    "visibility" "2"
+    "title" "Location Descriptions for Every Tile"
+    "description" "REPLACE_WITH_REVIEWED_WORKSHOP_DESCRIPTION"
+    "changenote" "REPLACE_WITH_RELEASE_CHANGE_NOTE"
+}

@@ -1,0 +1,21 @@
+{
+  "package_sha256": null,
+  "game_build": null,
+  "mod_version": "0.2.0-alpha.1",
+  "tested_at": null,
+  "tester": null,
+  "languages": {"english": "pending", "simp_chinese": "pending"},
+  "normal_land": "pending",
+  "sea_and_lake": "pending",
+  "special_land": "pending",
+  "long_text": "pending",
+  "official_text_preserved": "pending",
+  "save_reload": "pending",
+  "achievements": "not_tested",
+  "multiplayer": "not_tested",
+  "screenshots": [],
+  "log_evidence": [],
+  "workshop_item_id": null,
+  "subscription_hashes_match": "pending",
+  "notes": []
+}

@@ -1,0 +1,7 @@
+Title / 标题: History and translation corrections / 史实与翻译纠错
+
+Found a wrong place, date or translation? English and Chinese reports are welcome. Please include the location name and region, the text or a screenshot, what should change, and a useful reference. If you know the internal ID, include it; if not, the name and screenshot are fine. A short explanation is enough to start. You do not have to write both languages.
+
+发现地点对应、年代或译文有问题，欢迎中文或英文反馈。请附地点名称和地区、原文或截图、修改理由及资料链接。知道内部ID可以附上，不知道也没关系，不要求一次写好两种语言。
+
+Maintainers check accepted corrections against the research record before updating the release. Please keep discussion about the evidence and wording. / 维护者会核对资料后回写研究记录再更新发布版；请围绕依据和措辞讨论。

@@ -1,0 +1,7 @@
+# Rights and publication status
+
+This is an unpublished coverage-first alpha. On 2026-10-26 the owner selected **MIT for the tools and technical documentation**, and **CC BY-SA 4.0 for new English descriptions and Simplified Chinese translations**, to the extent the contributors have rights to license them. See [LICENSE](LICENSE), [MIT](LICENSES/MIT.txt) and [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt). This choice does not by itself constitute in-game validation or publication.
+
+Third-party rights remain with their respective holders. Wikipedia-derived wording, translations and other adaptations retain applicable attribution and share-alike requirements; see [CREDITS.md](CREDITS.md). Project descriptions are modified, condensed AI-assisted summaries and translations, not the unchanged source pages. Per-location page/revision/contributor-history links and the full CC license accompany the runtime package. A check of all exceptional upstream notices and potential protected quotations has not been completed; no claim is made that every description has passed legal or factual review.
+
+Europa Universalis V and associated marks are owned by their respective rights holders. This is an unofficial community project. Distribution must comply with the applicable [Paradox User Agreement](https://legal.paradoxplaza.com/eula), [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/) and Workshop terms. The copyright notices and usage conditions for third-party materials are not replaced by any future project license.

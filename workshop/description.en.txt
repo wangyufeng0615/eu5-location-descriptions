@@ -1,0 +1,22 @@
+[h1]More context for the places on your map[/h1]
+Location Descriptions for Every Tile adds historical and geographical text to EU5 locations that have no vanilla description.
+
+[h2]What's included[/h2]
+28,449 new descriptions covering cities, towns, countryside, mountains, sea zones and lakes. The 124 existing vanilla descriptions are kept. English and Simplified Chinese are included in one download; no separate translation mod is needed.
+
+[h2]How to use it[/h2]
+Subscribe, wait for Steam to finish downloading, then enable the mod in the game's Mods and DLC menu. Use English or Simplified Chinese as your game language. Disable the old placeholder prototype and avoid enabling local and Workshop copies together.
+
+[h2]Compatibility[/h2]
+Text only, with no declared dependency on another mod or DLC. Prepared against Steam build 24187685. Achievements, multiplayer and other game builds are not yet confirmed.
+
+Mods that change the map or the same location descriptions can conflict. This includes some place-name and flavour mods. Mixing them can also leave English and Chinese showing different versions of an entry; there is no tested compatibility patch yet.
+
+[h2]Alpha notes[/h2]
+Coverage is complete for this map baseline, but editing and independent fact-checking are not. Some entries are short or describe the surrounding region. The text was written with AI assistance after consulting sources, mainly Wikipedia. Corrections and better local references are very welcome.
+
+[h2]Help improve it[/h2]
+Found a mistake or awkward wording? Leave a comment or use the corrections discussion, in English or Chinese. Include the place name, region, a screenshot and a source if you have one. An internal location ID helps, but isn't required. You can help without coding or translating both versions.
+
+[h2]Credits and reuse[/h2]
+New descriptions and translations: CC BY-SA 4.0. Tools: MIT. Credit EU5 Location Descriptions contributors and the Wikipedia contributors linked in the included source records. The material has been condensed, edited and translated; retain attribution, mark changes and preserve applicable share-alike terms. The cover is an AI-assisted graphic, not a game screenshot. This is an unofficial community project.

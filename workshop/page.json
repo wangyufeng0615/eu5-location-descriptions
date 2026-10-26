@@ -1,0 +1,18 @@
+{
+  "default_language": "english",
+  "game_languages": {"english": "english", "schinese": "simp_chinese"},
+  "titles": {
+    "english": "Location Descriptions for Every Tile (EN + ZH) [Alpha]",
+    "schinese": "全地图地点介绍（英文＋简体中文）[Alpha]"
+  },
+  "descriptions": {
+    "english": "workshop/description.en.txt",
+    "schinese": "workshop/description.zh-CN.txt"
+  },
+  "fallback_description": "workshop/description.default.txt",
+  "tags": ["Historical", "Translation"],
+  "initial_visibility": 2,
+  "publishedfileid": null,
+  "github_url": "https://github.com/wangyufeng0615/eu5-location-descriptions",
+  "comment_policy": "Welcome feedback in English or Chinese. A place name, region, screenshot and source are enough to start; internal IDs are optional. Ask for game build and enabled mods for loading problems, never credentials."
+}

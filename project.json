@@ -1,0 +1,16 @@
+{
+  "name": "Location Descriptions for Every Tile",
+  "mod_id": "location_descriptions_enhanced",
+  "version": "0.2.0-alpha.1",
+  "game_id": "eu5",
+  "first_release_languages": ["english", "simp_chinese"],
+  "steam_app_id": 3450310,
+  "supported_game_version": "*",
+  "short_description": "English and Simplified Chinese historical descriptions for every location missing vanilla text, including towns, countryside, seas and lakes. Alpha.",
+  "tags": ["Historical", "Translation"],
+  "license_status": "selected",
+  "licenses": {"tools": "MIT", "descriptions": "CC-BY-SA-4.0"},
+  "cover_file": "workshop/assets/cover.jpg",
+  "thumbnail_file": "workshop/assets/thumbnail.png",
+  "independent_fact_review_complete": false
+}

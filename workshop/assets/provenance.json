@@ -1,0 +1,25 @@
+{
+  "created_on_local_date": "2026-10-26",
+  "generation_tool": "image_gen (built-in)",
+  "generated_filename": "exec-9ec9d0c1-a338-4b25-ac64-19125c473b8a.png",
+  "input_images": [],
+  "prompt_file": "prompt.txt",
+  "is_game_screenshot": false,
+  "design": "Plain typography, light background and schematic adjoining map cells",
+  "master_dimensions": [
+    1254,
+    1254
+  ],
+  "derivatives": {
+    "cover.jpg": "JPEG encoding, quality 88, unchanged pixel dimensions",
+    "thumbnail.png": "512 x 512 bicubic downsample, PNG encoding"
+  },
+  "previous_artwork_archive": "dist/artwork-history-20261026-v1",
+  "file_sha256": {
+    "cover-master.png": "c077cb17e5077ab9ff113f8bf0e2c3c7f2e17662e3ffbf57f9bccf9af6d089ad",
+    "cover.jpg": "a957688708a6b2ff765f65f841cac07d66628a3ab03b2f4e0488b24f2886de65",
+    "prompt.txt": "92f05408e6683c359fab084cc7e16017a5f23634a6e14dd500f8cb7dc4358e76",
+    "README.md": "9c134caffac0073b1433902225356367706835d44cb4dd6dcbb649c88a94079b",
+    "thumbnail.png": "ae481a3361906a4b1f989fe4cb19ea6a4307000d6fee23a24ed2b9c899d646ea"
+  }
+}

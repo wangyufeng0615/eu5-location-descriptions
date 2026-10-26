@@ -1,0 +1,7 @@
+Title / 标题: Missing text and loading problems / 文本缺失与加载问题
+
+Please post your game build, mod version, language, affected place and other enabled mods. Add a screenshot and the relevant log lines if available, with personal details removed. First disable the placeholder prototype and duplicate local/Workshop copies, then try this mod on its own. Do not replace original game files.
+
+请提供游戏build、模组版本、语言、地点和其他启用模组。有截图或相关日志片段更好，请先去掉个人信息。先停用旧占位原型和重复副本，再尝试只启用本模组，不要替换原版游戏文件。
+
+If English and Chinese show different accounts, mention any other description or naming/flavour mod you use. / 如果英中介绍的事实不同，请特别说明是否同时使用其他介绍或地名风味模组。

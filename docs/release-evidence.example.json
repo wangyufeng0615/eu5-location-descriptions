@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "archive_sha256": null,
+  "mod_version": "0.2.0-alpha.1",
+  "game_build": "24187685",
+  "workshop_item_id": null,
+  "checks": {
+    "in_game_english": {"status": "pending", "record_file": null, "sha256": null},
+    "in_game_simp_chinese": {"status": "pending", "record_file": null, "sha256": null},
+    "long_text_and_special_locations": {"status": "pending", "record_file": null, "sha256": null},
+    "official_text_preserved": {"status": "pending", "record_file": null, "sha256": null},
+    "source_rights_exceptions": {"status": "pending", "record_file": null, "sha256": null},
+    "steam_account_terms": {"status": "pending", "record_file": null, "sha256": null},
+    "steam_private_subscription": {"status": "pending", "record_file": null, "sha256": null},
+    "github_upload": {"status": "pending", "record_file": null, "sha256": null}
+  }
+}
