@@ -114,8 +114,12 @@ class BuildGuards(unittest.TestCase):
                 mod_build.build(root, root / "dist/test")
                 mod = root / "dist/test/location_descriptions_enhanced"
                 if tamper == "text":
-                    target = next(mod.rglob("*.yml"))
-                    target.write_bytes(target.read_bytes().replace(b"river", b"ocean"))
+                    target = mod / "main_menu/localization/english/lde_001_l_english.yml"
+                    original = target.read_bytes()
+                    self.assertIn(b"river", original)
+                    modified = original.replace(b"river", b"ocean")
+                    self.assertNotEqual(original, modified)
+                    target.write_bytes(modified)
                 else:
                     (mod / "unexpected.exe").write_bytes(b"extra")
                 with self.assertRaises(ValueError):
