@@ -14,8 +14,9 @@
 - 运行包附带双语使用说明、FAQ与贡献指南，手动下载玩家也能找到。英中离线工坊文案预览已实际渲染并查看，未用预览代替真实Steam页面或游戏截图。
 - 构建后重新读取成品及ZIP，比对全部本地化、元数据、来源与许可；拒绝官方ID覆盖、重复ID、缺语种、无来源及异常配置路径。
 - 预检检查UTF-8页面字节数、图片尺寸/大小、许可、文件清单、链接、敏感模式，以及可选的7份游戏源指纹/Steam build。
-- GitHub Windows/Ubuntu构建检查已启用，第三方Actions固定到已查询的commit，仅有contents读取权限，不上传工坊或改变可见性。首次云端检查发现篡改测试依赖文件遍历顺序：Ubuntu先选中文文件，英文替换没有发生。已将测试固定为英文文件并断言实际修改，修复后的云端结果待核对。
-- 私有仓库：[wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)。首批提交 `8a1fa58` 已推送，API确认private和main，远端120个文件与本地Git文件清单一致，包含58个数据文件。研究库历史、数据库、缓存、dist及游戏原文件未上传；游戏与工坊验收完成前保持私有，之后由用户确认公开。
+- GitHub Windows/Ubuntu构建检查已启用，第三方Actions固定到已查询的commit，仅有contents读取权限，不上传工坊或改变可见性。首次云端检查发现篡改测试依赖文件遍历顺序，已固定英文目标并断言实际修改。修复提交 `388f7a2` 的 [Windows与Ubuntu检查](https://github.com/wangyufeng0615/eu5-location-descriptions/actions/runs/40318351150) 均已成功，包含22项测试、构建、成品/ZIP复验及预检；这些结果不代表游戏跨平台实测。
+- 私有仓库：[wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)。首批提交 `8a1fa58` 和修复提交 `388f7a2` 已推送，API确认private和main，远端120个文件与本地Git文件清单一致，包含58个数据文件。研究库历史、数据库、缓存、dist及游戏原文件未上传；按用户安排，游戏与工坊验收完成前保持私有。
+- 本次上传的是已整理、核对的发布快照。另一个任务已在研究工程继续扩写；本轮未将进行中的新稿混入发布数据。公开前须从确认过的研究检查点单向同步、重新构建及验收，旧包回执不能证明新正文已验收。
 - 具体实机样本、截图计划、更新/回滚和上传排错说明已准备。新增只读地点搜索工具及首发资料包生成器；人工证据须绑定当前ZIP、版本、游戏build及证据文件哈希，缺记录保持未就绪。工具不独立判断记录真实性或史实正确性。
 
 ## 当前运行包与命令
@@ -46,7 +47,8 @@ python -B tools/prepare_launch.py --build dist/YOUR_NEW_CANDIDATE --output dist/
 | 完整正文包实机显示及真实截图 | 待执行 | 按 [SMOKE_TEST.md](SMOKE_TEST.md)，由用户进行游戏操作，保存包哈希、语言、样本、截图和日志 |
 | 第三方特殊声明与受保护引用 | 未做逐篇穷尽检查 | 对实际复用材料保留必要声明，发现问题回原内容工程处理；不能仅凭许可文件声称全部通过 |
 | 独立史实复核 | 未完成 | 继续明确披露覆盖优先Alpha，按用户后续独立审核安排推进 |
-| GitHub仓库可见性及上传 | 已私有上传并核对远端，云端检查跟进中 | [wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)，账号、private、main与120个源文件清单均已核对；不把私有链接当公开支持入口 |
+| GitHub仓库可见性及上传 | 已私有上传，远端和修复提交CI已通过 | [wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)，账号、private、main与120个源文件清单均已核对；不把私有链接当公开支持入口 |
+| 研究工程后续扩写同步 | 本次未同步 | 按STRUCTURE的单向流程从确认过的检查点导出，核对差异后形成新候选并重新验收，不触碰另一任务进行中的写作 |
 | Steam账号资格、条款、注册邮箱 | 待账号所有者确认 | 在实际提交流程检查，不读取或记录凭据 |
 | 首次私有上传、审核与实际订阅 | 待执行 | 保留真实条目ID，核对实际下载版本/文件并进游戏复验 |
 | 成就、联机和跨平台 | 未验证 | 无实测前不作为对外兼容承诺 |

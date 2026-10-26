@@ -23,7 +23,7 @@ After real tests, fill the generated evidence form with records for that exact Z
 1. Review the English and Chinese README, selected license scopes, attribution and page drafts. Retain upstream third-party notices; the project license does not override them.
 2. Run `python -B tools/build.py --check`, unit tests, then build into a new `dist/` directory. Preserve its `build_receipt.json` and ZIP hash.
 3. The owner authorized `wangyufeng0615/eu5-location-descriptions` as a private repository on 2026-10-26. This source tree has its own main history; the research history, databases, caches and dist output are excluded. `.gitignore` cannot remove already tracked history. Verify the pushed commit and remote file tree after each upload.
-4. Keep GitHub private through game and Workshop acceptance. After those checks, obtain the owner's confirmation before changing repository visibility. The private URL is for maintainers and invited collaborators, not a publicly accessible support channel. CI checks the source and build only; it does not publish to the Workshop or change visibility.
+4. Keep GitHub private until game and Workshop acceptance is complete, as the owner requested. Those checks are still pending; this source upload does not satisfy them. The private URL is for maintainers and invited collaborators, not a publicly accessible support channel. CI checks the source and build only; it does not publish to the Workshop or change visibility.
 
 ## EU5 Workshop
 
