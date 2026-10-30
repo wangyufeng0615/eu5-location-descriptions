@@ -1,12 +1,12 @@
 # Workshop artwork
 
-- `cover-master.png`: selected English Sicily-outline master, copied unchanged from `title-20261031-sicily/cover.en.png`.
+- `cover-master.png`: selected English four-colour Sicily master, copied unchanged from `title-20261031-four-color/cover.en.png`.
 - `cover.jpg`: English primary Workshop cover, 1254×1254 JPEG, quality 90.
-- `cover.zh-CN.jpg`: matching Chinese cover for the Chinese README and additional promotional material, 1254×1254 JPEG, quality 90.
+- `cover.zh-CN.jpg`: matching Chinese cover, 1254×1254 JPEG, quality 90.
 - `thumbnail.png`: 512×512 English PNG derivative for the shared package's `.metadata/thumbnail.png`.
-- `prompt.txt` / `provenance.json`: actual edit prompts, source references, derivative settings and file hashes.
+- `prompt.txt` / `provenance.json`: actual prompts, source references, derivative settings and file hashes.
 
-The owner selected the two Sicily-outline images on 2026-10-31. They were edited with built-in `image_gen`; publishing derivatives only resize/encode the approved images. Both emphasize EVERY TILE / 所有地块 on a white background. They are typographic graphics, **not in-game screenshots**. The exterior follows a simplified real Sicily coastline reference; interior divisions are illustrative tiles, not administrative borders. Data, source revision, geographic reference images, generation prompts and visual-comparison details are in [the selected artwork folder](title-20261031-sicily/README.md).
+The owner selected the four-colour covers on 2026-10-31. The map follows the 23 game locations of Sicily's main island, coloured so that neighbouring locations differ; see [the selected artwork folder](title-20261031-four-color/README.md). They are graphics made with built-in `image_gen`, **not in-game screenshots**. The previous Sicily-outline artwork is preserved in `dist/artwork-history-20261031-sicily-outline/`.
 
 Display names: **Descriptions for Every Tile** / **所有地块的描述**. The English image is the shared Workshop primary cover and runtime thumbnail. The Chinese README uses the Chinese image. Both covers are listed in `workshop/page.json` for validation; this does not claim that Steam automatically changes a single item's primary image with the reader's language. The Chinese JPEG may also be uploaded as an additional image.
 

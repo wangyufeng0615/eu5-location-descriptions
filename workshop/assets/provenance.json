@@ -1,10 +1,10 @@
 {
   "selected_on_local_date": "2026-10-31",
   "generation_tool": "image_gen (built-in)",
-  "selected_source_directory": "title-20261031-sicily",
+  "selected_source_directory": "title-20261031-four-color",
   "prompt_file": "prompt.txt",
-  "prompt_set_file": "title-20261031-sicily/prompts.json",
-  "map_source_file": "title-20261031-sicily/map-source.json",
+  "prompt_set_file": "title-20261031-four-color/prompts.json",
+  "map_source_file": "title-20261031-four-color/map-source.json",
   "is_game_screenshot": false,
   "display_names": {
     "english": "Descriptions for Every Tile",
@@ -17,15 +17,15 @@
     "cover-master.png": "Unchanged copy of approved English PNG",
     "cover.jpg": "JPEG quality 90, 1254x1254, encoded from approved English image",
     "cover.zh-CN.jpg": "JPEG quality 90, 1254x1254, encoded from approved Chinese image",
-    "thumbnail.png": "English image resized to 512x512 with high-quality bicubic interpolation; PNG"
+    "thumbnail.png": "English image resized to 512x512 with bicubic interpolation; PNG"
   },
-  "previous_artwork_archive": "dist/artwork-history-20261031-before-sicily",
+  "previous_artwork_archive": "dist/artwork-history-20261031-sicily-outline",
   "file_sha256": {
-    "cover-master.png": "9d39c1e25c1999640ade7babbc195fc040ef15ccc4f60e33ee2f52b9d3eb67d1",
-    "cover.jpg": "e248e052cad4a670dd9c20994f7283f704563936c8e5b15b871ef7763d133d9d",
-    "cover.zh-CN.jpg": "327f1bad931cd83622d6f15e03920aea993e2c281c8fb4414248b47734610752",
-    "thumbnail.png": "4e5b7693dddfe1fcf3e29688e66fbacacdbfd260c9dc09a434d9abf962cb0dcc",
-    "prompt.txt": "f92f738f4876fb36371489808d7b664d3754f4ccd147553c54141afb4888d086",
-    "README.md": "09d952a75af46cd21bbf94485d7e855f73cb2321263a87512cda7c24a0d168b9"
+    "cover-master.png": "212972836bce4f79f6aec5fedaeb917d0c6b7e9ce9f435fddcb675ea1d4473db",
+    "cover.jpg": "f7a2c3220bdb82cb3131febc5be046ac0458fa26ec89ec6450b25d9c72e00cde",
+    "cover.zh-CN.jpg": "d21a699994187231868797148a330bc3edbee0153addaf268a4acfde6d1d2a60",
+    "thumbnail.png": "0d1713a3620f71402435b978bdfffff1df7667d84f7c7939fd62ca70a74e49e2",
+    "prompt.txt": "aa4f11e50c633e970eebf4ba5e5505620bb8b0d1c73fd4e06c917aa252e25465",
+    "README.md": "74c5a9ae5d67626fdbea623a5fc3968194cd7a24eaa776de787abad765491c24"
   }
 }

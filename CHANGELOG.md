@@ -2,6 +2,7 @@
 
 ## Unreleased — artwork update, 2026-10-31
 
+- Adopt the four-colour Sicily covers (23 game locations, neighbours in different colours, larger title) for the Workshop cover, Chinese cover and package thumbnail; archive the Sicily-outline set.
 - Remove the unused local HTML preview generator, its tests, duplicate launch packs, temporary rendering profiles and discussion templates. Keep build/validation tools, approved artwork, release candidates and manual acceptance records.
 - Add short English/Chinese installation instructions and make Workshop comments the primary feedback channel, with the author's commitment to active maintenance and game-update support.
 - Rename the display title to **Descriptions for Every Tile** / **所有地块的描述**; keep the stable mod ID and version.
