@@ -8,7 +8,7 @@
 - Adopt matching English and Chinese Sicily-outline artwork, emphasizing EVERY TILE and 所有地块. Use the English cover and thumbnail for the shared package; use the Chinese artwork in the Chinese README and additional promotional material.
 - Preserve the previous artwork and release candidates. No location descriptions or source records changed in this artwork update.
 
-## 1.0.0 — first release candidate, 2026-10-30
+## 1.0.0 — released 2026-10-31 on the Steam Workshop (item 3830305546)
 
 - Rebuilt for game 1.4.6 (Steam build 26300913); map and vanilla description files are unchanged from 1.3. `supported_game_version` widened to `1.*`.
 

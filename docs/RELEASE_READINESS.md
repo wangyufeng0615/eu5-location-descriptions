@@ -49,7 +49,7 @@ python -B tools/preflight.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_
 | GitHub仓库可见性及上传 | 已私有上传，远端和修复提交CI已通过 | [wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)，账号、private、main与120个源文件清单均已核对；不把私有链接当公开支持入口 |
 | 研究工程后续扩写同步 | 本次未同步 | 按STRUCTURE的单向流程从确认过的检查点导出，核对差异后形成新候选并重新验收，不触碰另一任务进行中的写作 |
 | Steam账号资格、条款、注册邮箱 | 待账号所有者确认 | 在实际提交流程检查，不读取或记录凭据 |
-| 首次私有上传、审核与实际订阅 | 待执行 | 保留真实条目ID，核对实际下载版本/文件并进游戏复验 |
+| 首次私有上传、审核与实际订阅 | 已完成 | 2026-10-31 上传为条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546)，隐藏状态下订阅实测正常，下载的 187 个文件与 dist/release-1.0.0 逐一一致，随后改为公开 |
 | 成就、联机和跨平台 | 未验证 | 无实测前不作为对外兼容承诺 |
 
 这些剩余项包含明确需要游戏、账号或后续独立核验的工作，不用占位截图、生成图或自动生成的“通过”记录代替。
