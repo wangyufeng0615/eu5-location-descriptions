@@ -1,7 +1,6 @@
-0.2.0-alpha.1 — Initial coverage alpha (prepared locally; not yet uploaded)
+1.0.0 — First release
 
-- Adds English and Simplified Chinese descriptions for 28,449 locations without official text in the frozen baseline.
-- Preserves the 124 official descriptions in Steam build 24187685.
-- Adds source/revision credits, full license texts and a project cover illustration.
-- Text-only scope; no gameplay or location-name changes.
-- Independent fact review is pending. Full-text game and subscription test results must be recorded before public release.
+- English and Simplified Chinese descriptions for all 28,254 locations without vanilla text in game version 1.3 (Steam build 26211608).
+- The 257 vanilla descriptions are left untouched.
+- City entries rewritten with fuller local history and checked against English and local-language sources; other entries corrected for broken text, modern-day content and English/Chinese mismatches.
+- Text only; no gameplay, map or name changes.

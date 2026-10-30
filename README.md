@@ -6,7 +6,7 @@
 
 Historical and geographical descriptions for the places EU5 leaves blank. English and Simplified Chinese are included in the same mod.
 
-The current baseline has 28,573 locations. This mod adds descriptions to 28,449 of them and leaves the 124 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
+Game version 1.3 has 28,511 locations. This mod adds descriptions to the 28,254 without vanilla text and leaves the 257 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
 
 ## Getting started
 
@@ -14,17 +14,17 @@ Subscribe on the Steam Workshop, wait for the download to finish, then enable th
 
 For a manual download, extract the ZIP and put the whole location_descriptions_enhanced folder, including its hidden .metadata folder, in EU5's user-data mod directory. Enable it in the game. Keep only one copy enabled; disable the old placeholder prototype if you used it.
 
-This is the source project for an unpublished alpha candidate. The complete-text package still needs its in-game and subscription checks before public release. See [release status](docs/RELEASE_READINESS.md).
+Version 1.0.0. In-game and subscription checks are tracked in [release status](docs/RELEASE_READINESS.md).
 
 ## What to expect
 
-Some places have a detailed local history; others have a shorter description of the surrounding region, landscape or waterways. This is an alpha, and the entries have not all been independently fact-checked. They were written with AI assistance after consulting sources, chiefly Wikipedia. Corrections and better local references are welcome.
+Some places have a detailed local history; others have a shorter description of the surrounding region, landscape or waterways. The texts were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, then corrected and checked by the author, a geography enthusiast; city entries were checked fact by fact. Corrections and better local references are welcome.
 
 The mod adds description text. It does not add events, change location names or alter gameplay rules. No other mod or DLC dependency is declared.
 
 ## Compatibility
 
-Prepared against Steam build 24187685. Compatibility with other game builds, achievements, multiplayer and other operating systems has not been confirmed.
+Made for game version 1.3 (Steam build 26211608). Compatibility with achievements and multiplayer has not been tested.
 
 Mods that replace the map or write the same location descriptions can conflict. This includes name/flavour mods that also contain descriptions: load order can give you one mod's English text and another's Chinese text. There is no tested compatibility patch yet.
 

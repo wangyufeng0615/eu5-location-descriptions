@@ -2,17 +2,17 @@
 
 [简体中文](README.zh-CN.md)
 
-English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,449 added entries and 124 vanilla entries left intact in the current baseline.
+English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,254 added entries for game version 1.3, with the 257 vanilla descriptions left intact.
 
 ## Install
 
 For a manual download, place this whole location_descriptions_enhanced folder in EU5's user-data mod directory, including its hidden .metadata folder. Enable it in Mods and DLC, and choose English or Simplified Chinese in the game. For Workshop installs, subscribe and wait for the download before enabling it. Do not enable the local and subscribed copies together.
 
-This alpha includes historical and geographical text written with AI assistance after consulting sources. Entries vary in detail and have not all been independently fact-checked. The complete-text candidate still requires its recorded in-game and subscription checks before public release.
+The texts were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, then corrected and checked by the author, a geography enthusiast; city entries were checked fact by fact. Entries vary in detail, and some mistakes will remain.
 
 ## Compatibility and help
 
-Prepared against Steam build 24187685. Other description mods and map overhauls may conflict; English and Chinese can end up displaying different versions of an entry. Saves, achievements and multiplayer have not been confirmed for this candidate.
+Made for game version 1.3 (Steam build 26211608). Other description mods and map overhauls may conflict; English and Chinese can end up displaying different versions of an entry.
 
 Read the [FAQ](docs/FAQ.md), [compatibility notes](docs/COMPATIBILITY.md) or [contributing guide](CONTRIBUTING.md). A Workshop comment with a place name, region, screenshot and source is welcome in either language; an internal ID is optional.
 

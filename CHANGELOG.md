@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 — first release candidate, 2026-10-30
+
+- Data re-exported from the research project's YAML entries for game version 1.3 (Steam build 26211608, map of 28,511 locations).
+- 28,254 locations described in English and Simplified Chinese. The 257 vanilla descriptions (133 more than in build 24187685) are protected and left untouched; 62 IDs no longer on the 1.3 map are dropped.
+- Cities (1337 town rank or above) rewritten with fuller local history and checked fact by fact against English and local-language Wikipedia; other entries corrected for broken text, modern-day content and English/Chinese mismatches.
+- Sources may now be any public page (Wikipedia in many languages, UNESCO, local gazetteers); revision pins are optional.
+- `supported_game_version` set to `1.3.*` (the bare `*` was rejected by the game as a version mismatch).
+- Workshop page copy shortened; Alpha labels removed.
+
 ## 0.2.0-alpha.1 — local packaging preview, 2026-10-26
 
 - Display name updated to **Location Descriptions for Every Tile**; replace the decorative book-and-landscape cover with a plain typographic design. The stable internal mod ID remains unchanged. Previous artwork and builds are retained as history.

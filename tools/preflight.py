@@ -15,7 +15,8 @@ except ModuleNotFoundError:
     import build as mod_build
 
 ROOT = Path(__file__).resolve().parents[1]
-PERSONAL_PATH_RE = r"(?:[A-Z]:[\\/](?:Users|UserData)[\\/]|/Users/|/home/)[A-Za-z0-9_.-]+[\\/]"
+# /home/ and /Users/ only count at the start of a path, not inside a URL such as https://example.org/en/home/science/.
+PERSONAL_PATH_RE = r"(?:[A-Z]:[\\/](?:Users|UserData)[\\/]|(?<![\w.%/-])/Users/|(?<![\w.%/-])/home/)[A-Za-z0-9_.-]+[\\/]"
 EVIDENCE_CHECKS = {
     "in_game_english": "English in-game display and screenshot",
     "in_game_simp_chinese": "Simplified Chinese in-game display and screenshot",

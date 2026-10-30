@@ -6,7 +6,7 @@
 
 ## 已落实
 
-- 独立工坊工程保留原研究工程的边界，28,449个地点双语首稿、124个官方保护ID及28,457条来源关联不变。
+- 2026-10-30 按游戏 1.3（build 26211608）从原工程重新导出：28,254 个地点双语正文，257 个官方保护ID（1.3 新增 133 个官方介绍，原有对应正文不再导出），62 个已不在 1.3 地图上的ID移除。
 - 用户已选择MIT工具许可、CC BY-SA 4.0新增正文许可；完整许可、具体适用范围、维基贡献者链接和改写/翻译声明随包提供。
 - 原创AI封面及512像素包内PNG缩略图，保存主图、实际提示词和哈希来源；封面不冒充截图，也不混用官方游戏美术。
 - 实际阅读六个EU5社区作者页面，按功能、使用、兼容、反馈和归属组织自然的英中文案；参考与取舍见 [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md)。Oikoumene也含地点介绍，明确提示覆盖及两语内容不一致风险，没有冒称实测兼容。
@@ -38,7 +38,7 @@ python -B tools/preflight.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_
 python -B tools/prepare_launch.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_NEW_LAUNCH_PACK
 ```
 
-预检可加 `--game-root` 指向本机游戏根目录，检查实际基线。本机7份游戏源文件及Steam build 24187685已匹配。真实验收后用 `--evidence` 引用对应证据表；`--require-publish-ready` 在人工和外部记录未齐时返回非零。普通本地预检通过只代表本地材料和格式通过。工具不会上传、接受协议或自动改变公开状态。
+预检可加 `--game-root` 指向本机游戏根目录，检查实际基线。本机7份游戏源文件及Steam build 26211608已匹配（Steam 显示有待安装的更新，装上后需重新导出和预检）。真实验收后用 `--evidence` 引用对应证据表；`--require-publish-ready` 在人工和外部记录未齐时返回非零。普通本地预检通过只代表本地材料和格式通过。工具不会上传、接受协议或自动改变公开状态。
 
 ## 尚待真实完成
 
@@ -46,7 +46,7 @@ python -B tools/prepare_launch.py --build dist/YOUR_NEW_CANDIDATE --output dist/
 |---|---|---|
 | 完整正文包实机显示及真实截图 | 待执行 | 按 [SMOKE_TEST.md](SMOKE_TEST.md)，由用户进行游戏操作，保存包哈希、语言、样本、截图和日志 |
 | 第三方特殊声明与受保护引用 | 未做逐篇穷尽检查 | 对实际复用材料保留必要声明，发现问题回原内容工程处理；不能仅凭许可文件声称全部通过 |
-| 独立史实复核 | 未完成 | 继续明确披露覆盖优先Alpha，按用户后续独立审核安排推进 |
+| 独立史实复核 | 城市已完成，其余未逐篇 | 城市 573 条已对照英文和当地语言维基逐项核对；工坊介绍如实说明“AI 辅助起草、作者订正校验、难免疏漏”，欢迎纠错 |
 | GitHub仓库可见性及上传 | 已私有上传，远端和修复提交CI已通过 | [wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)，账号、private、main与120个源文件清单均已核对；不把私有链接当公开支持入口 |
 | 研究工程后续扩写同步 | 本次未同步 | 按STRUCTURE的单向流程从确认过的检查点导出，核对差异后形成新候选并重新验收，不触碰另一任务进行中的写作 |
 | Steam账号资格、条款、注册邮箱 | 待账号所有者确认 | 在实际提交流程检查，不读取或记录凭据 |

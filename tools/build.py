@@ -84,11 +84,16 @@ def load(root):
             if not row["sources"]:
                 raise ValueError(f"No source attribution: {key}")
             for source in row["sources"]:
+                # Sources are any public web page (Wikipedia in many languages, UNESCO, local gazetteers...).
+                # Revision pins are kept when the research export provides them, but are not required.
                 parsed = urlsplit(source["url"])
-                if parsed.scheme != "https" or parsed.hostname not in ("en.wikipedia.org", "zh.wikipedia.org") or parsed.username or parsed.password:
+                if parsed.scheme not in ("https", "http") or not parsed.hostname or parsed.username or parsed.password:
                     raise ValueError(f"Unexpected source URL: {key}")
-                if not source["title"] or type(source["revision_id"]) is not int or source["revision_id"] <= 0:
-                    raise ValueError(f"Unpinned source: {key}")
+                if not source.get("title"):
+                    raise ValueError(f"Untitled source: {key}")
+                revision = source.get("revision_id")
+                if revision is not None and (type(revision) is not int or revision <= 0):
+                    raise ValueError(f"Invalid source revision: {key}")
             records[key] = row
     if set(records) != targets:
         raise ValueError(f"Coverage differs from baseline: {len(records)}/{len(targets)}")

@@ -1,7 +1,5 @@
-Location Descriptions for Every Tile — first English and Simplified Chinese alpha
+Location Descriptions for Every Tile — 1.0 released
 
-Historical and geographical descriptions for cities, towns, countryside, mountains, seas and lakes. The same mod includes English and Simplified Chinese, with 28,449 added entries and the 124 vanilla descriptions left intact.
+Every location without vanilla flavour text now has a description: 28,254 towns, villages, mountains, lakes and sea zones, in English and Simplified Chinese in one mod. The 257 vanilla descriptions are left as they are.
 
-This is an alpha: some entries are brief or use regional background, and full independent fact-checking is still ahead. The prose was written with AI assistance after consulting sources. If a place, date or translation looks wrong, please send the name, region, screenshot and a useful reference. Feedback in either language is welcome; no coding or internal ID is required.
-
-Please read the compatibility notes before combining description mods. New prose uses CC BY-SA 4.0; source credits and licenses are included.
+I'm a geography enthusiast; the texts were drafted with AI assistance from published sources and corrected and checked by me as carefully as I could. With this many entries some mistakes will remain. If a place, date or translation looks wrong, a comment with the place name and a source is the most helpful. Either language is fine.

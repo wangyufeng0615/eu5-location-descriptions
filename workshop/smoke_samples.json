@@ -1,24 +1,24 @@
 {
-  "steam_build_id": "24187685",
-  "mod_version": "0.2.0-alpha.1",
+  "steam_build_id": "26211608",
+  "mod_version": "1.0.0",
   "actual_in_game_tests_performed": false,
   "samples": [
-    {
-      "id": "abdalkuri_island",
-      "category": "impassable_land",
-      "purpose": "Category display and language test",
-      "expected_text_source": "mod",
-      "english_prefix": "Abd al-Kuri belongs to the Socotra archipelago off southern Arabia. In modern history the archipelag",
-      "simp_chinese_prefix": "阿卜杜勒库里岛属于阿拉伯南部外海的索科特拉群岛。近代群岛曾属南也门，其领土包括今也门南部与东部，直至1990年",
-      "test_status": "pending"
-    },
     {
       "id": "abitibi_uplands",
       "category": "impassable_land",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "The Abitibi Uplands belong to the forested country drained by the Abitibi River toward the Moose and",
-      "simp_chinese_prefix": "阿比蒂比高地属于阿比蒂比河经穆斯河流向詹姆斯湾的森林地区。河流成为哈德逊湾公司的重要毛皮通道，其阿尔冈昆语名称",
+      "english_prefix": "The Abitibi Uplands lie in the forested country of northeastern Ontario. The Abitibi River runs nort",
+      "simp_chinese_prefix": "阿比蒂比高地位于安大略省东北部森林密布的地区。阿比蒂比河从阿比蒂比湖向西北流经5",
+      "test_status": "pending"
+    },
+    {
+      "id": "abu_jungle",
+      "category": "impassable_land",
+      "purpose": "Category display and language test",
+      "expected_text_source": "mod",
+      "english_prefix": "The forested highlands around Abu lie north of the Mount Hagen country, home to speakers of Melpa. T",
+      "simp_chinese_prefix": "阿布周围林木覆盖的高地位于哈根山地区以北，后者是梅尔帕语使用者的家园。包括卡韦尔",
       "test_status": "pending"
     },
     {
@@ -26,8 +26,8 @@
       "category": "lake",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "Aberdeen Lake is an irregular lake on the Canadian Shield in Nunavut’s Kivalliq region. A central pe",
-      "simp_chinese_prefix": "阿伯丁湖是努纳武特基瓦利克地区加拿大地盾上的不规则湖泊。中央半岛几乎将其狭长湖盆分为两半。塞隆河流入并流出该湖",
+      "english_prefix": "Aberdeen Lake is a large, irregular lake on the Canadian Shield. A peninsula divides its basin into ",
+      "simp_chinese_prefix": "阿伯丁湖位于加拿大地盾，湖面广阔，形状不规则。一座半岛将湖盆分成两条宽阔的湖汊。",
       "test_status": "pending"
     },
     {
@@ -35,8 +35,8 @@
       "category": "lake",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "Lake Atna was a prehistoric glacial lake in Alaska’s Copper River Basin. It formed during the last g",
-      "simp_chinese_prefix": "阿特纳湖曾是阿拉斯加科珀河盆地的一座史前冰川湖。它形成于末次冰期，可能曾引发已知规模最大的冰湖溃决洪水之一。",
+      "english_prefix": "Lake Atna was a great ice-dammed lake that once occupied much of the Copper River Basin. Glaciers bl",
+      "simp_chinese_prefix": "阿特纳湖曾是一座被冰川阻挡形成的大湖，覆盖铜河盆地的广大地区。冰川封住河流穿越山",
       "test_status": "pending"
     },
     {
@@ -44,8 +44,8 @@
       "category": "non_ownable_land",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "The central Saharan corridor towards Djanet approaches the Tassili n’Ajjer plateau in southeastern A",
-      "simp_chinese_prefix": "通往贾奈特的中撒哈拉走廊接近阿尔及利亚东南部的塔西利纳杰尔高原。这片砂岩山地保存大量史前岩画，名称意为“河流高",
+      "english_prefix": "Abalessa lies in the Ahaggar mountains of southern Algeria, and Djanet, to the northeast, is an oasi",
+      "simp_chinese_prefix": "阿巴莱萨位于阿尔及利亚南部的阿哈加尔山地，东北方的贾内特是塔西利阿杰尔高原边缘的",
       "test_status": "pending"
     },
     {
@@ -53,8 +53,8 @@
       "category": "non_ownable_land",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "Mouydir belongs to the central Saharan part of the Maghreb. The wider Maghreb extends across western",
-      "simp_chinese_prefix": "穆伊迪尔走廊属于马格里布的中撒哈拉地带。广义马格里布横跨北非西部与中部，既包括地中海沿岸，也包括撒哈拉沙漠的很",
+      "english_prefix": "Northwest of the Ahaggar massif, Mouydir rises from the central Sahara in a chain of rocky heights a",
+      "simp_chinese_prefix": "阿哈加尔山群西北面，穆伊迪尔的岩山与高原耸立在中撒哈拉。干河谷从高地向四方延伸，",
       "test_status": "pending"
     },
     {
@@ -62,8 +62,8 @@
       "category": "ownable_land",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "A Keis belongs to the Karoo, the semidesert country of southern Africa. Low rainfall, dry air and ma",
-      "simp_chinese_prefix": "阿凯斯属于非洲南部的卡鲁半荒漠地区。更广阔的地区降雨稀少、空气干燥、温差显著，裸露的沉积岩层保存着丰富的化石记",
+      "english_prefix": "The dry uplands of Bushmanland lie south of the Orange River, between Namaqualand and the interior K",
+      "simp_chinese_prefix": "布须曼兰干燥的高地位于奥兰治河南方，介于纳马夸兰和卡鲁内陆之间。岩丘高出植被稀疏",
       "test_status": "pending"
     },
     {
@@ -71,8 +71,8 @@
       "category": "ownable_land",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "A’taw’bun’kut’en belongs to the Dakelh country of interior British Columbia. The Dakelh also call th",
-      "simp_chinese_prefix": "阿托邦库滕属于不列颠哥伦比亚内陆的达凯尔地区。达凯尔人亦自称Yinka Dene，意为土地上的人，其乡土包括弗",
+      "english_prefix": "The long waters of Babine Lake lie within the homeland of the Nat’oot’en. The lake drains north thro",
+      "simp_chinese_prefix": "巴宾湖的狭长湖水位于纳托滕人的家园。湖水经巴宾河向北流往斯基纳河，沿岸分布着一处",
       "test_status": "pending"
     },
     {
@@ -80,8 +80,8 @@
       "category": "sea",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "The Somali approaches open toward the Arabian Sea. This northern Indian Ocean basin connects the Afr",
-      "simp_chinese_prefix": "索马里外海通向阿拉伯海。这一北印度洋海盆连接非洲海岸、阿拉伯与印度。亚丁湾构成西面通向红海的门户，使这些水域邻",
+      "english_prefix": "The northeastern Somali shore meets the Gulf of Aden below a rugged range of dry mountains. Rocky po",
+      "simp_chinese_prefix": "索马里东北岸在干燥崎岖的山脉下方濒临亚丁湾。岩石岬角和陡坡分割岸线，季节风则穿过",
       "test_status": "pending"
     },
     {
@@ -89,28 +89,43 @@
       "category": "sea",
       "purpose": "Category display and language test",
       "expected_text_source": "mod",
-      "english_prefix": "The Abaco Coast belongs to the Lucayan island world within the wider Caribbean region. This region i",
-      "simp_chinese_prefix": "阿巴科海岸属于广义加勒比地区的卢卡亚群岛海域。这一地区除西印度群岛的大岛外，还包含众多小沙洲、礁石与浅滩。",
+      "english_prefix": "Abaco lies on the Little Bahama Bank at the northeastern end of the Bahamian archipelago. Outer cays",
+      "simp_chinese_prefix": "阿巴科位于巴哈马群岛东北端的小巴哈马浅滩上。外侧礁岛与珊瑚礁为阿巴科海阻挡大西洋",
       "test_status": "pending"
     },
     {
-      "id": "aabenraa",
+      "id": "adoni",
       "category": "ownable_land",
       "purpose": "Longest English text layout",
       "expected_text_source": "mod",
-      "english_prefix": "Aabenraa, known in German as Apenrade and in South Jutlandic as Affenråe, stands at the head of Aabe",
-      "simp_chinese_prefix": "奥本罗在德语中称阿彭拉德，在 Sønderjylland 方言中称 Affenråe，位于丹麦南部小贝尔特海峡",
+      "english_prefix": "Adoni grew as a market and fortress settlement below a granite hill-fort in the dry Rayalaseema upla",
+      "simp_chinese_prefix": "阿多尼最初作为市场和设防城镇，在干旱的拉亚拉西马高地、通加巴德拉河与克里希纳河流",
+      "test_status": "pending"
+    },
+    {
+      "id": "salzburg",
+      "category": "ownable_land",
+      "purpose": "Multi-paragraph city: paragraph breaks render",
+      "expected_text_source": "mod",
+      "english_prefix": "Salzburg lies on the Salzach where the river leaves the Alps, in the ruins of the Roman town of Iuva",
+      "simp_chinese_prefix": "萨尔茨堡坐落在萨尔察河出阿尔卑斯山处，建在罗马城镇尤瓦武姆的废墟上。约700年，",
       "test_status": "pending"
     },
     {
       "id": "alexandria",
-      "purpose": "Compare unchanged official text with mod disabled/enabled",
+      "purpose": "Compare unchanged official text with mod",
       "expected_text_source": "official_game",
       "test_status": "pending"
     },
     {
       "id": "amasya",
-      "purpose": "Compare unchanged official text with mod disabled/enabled",
+      "purpose": "Compare unchanged official text with mod",
+      "expected_text_source": "official_game",
+      "test_status": "pending"
+    },
+    {
+      "id": "aarhus",
+      "purpose": "Compare unchanged official text with mod (official since 1.3)",
       "expected_text_source": "official_game",
       "test_status": "pending"
     }

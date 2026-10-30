@@ -6,7 +6,7 @@ Checked documentation and local package baseline: 2026-10-26. This table separat
 
 | Combination / 组合 | Status / 状态 | Guidance / 建议 |
 |---|---|---|
-| Vanilla map, build 24187685 / 原版地图 | Seven source fingerprints match; runtime pending / 7份源指纹一致，实机待验收 | First test this combination / 首先验收此组合 |
+| Vanilla map 1.3, build 26211608 / 原版地图 | Seven source fingerprints match; runtime pending / 7份源指纹一致，实机待验收 | First test this combination / 首先验收此组合 |
 | Other location-description mods / 其他地点介绍模组 | Possible same-key overlap / 可能同键覆盖 | Use one description set pending a patch / 暂用一套介绍 |
 | Oikoumene: Dynamic Place Names | Its author also lists description content; combination not tested / 作者列有地点介绍，组合未测试 | Check English and Chinese together, not just names / 同时核对英中介绍，不只看地名 |
 | Map overhauls / 地图大修 | IDs and location scope may differ / ID和地理范围可能变化 | Requires explicit mapping and protection review / 需要重新映射并核对官方保护 |

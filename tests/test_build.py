@@ -58,14 +58,23 @@ class BuildGuards(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     mod_build.load(root)
 
-    def test_rejects_unpinned_source(self):
+    def test_rejects_bad_source(self):
+        for field, value, message in (("url", "ftp://example.org/x", "Unexpected source URL"), ("title", "", "Untitled"), ("revision_id", -1, "Invalid source revision")):
+            with self.subTest(field=field), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                row = self.row()
+                row["sources"][0][field] = value
+                self.fixture(root, [row])
+                with self.assertRaisesRegex(ValueError, message):
+                    mod_build.load(root)
+
+    def test_accepts_unpinned_non_wikipedia_source(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             row = self.row()
-            row["sources"][0]["revision_id"] = None
+            row["sources"] = [{"title": "Gazetteer", "url": "http://dfz.example.gov.cn/page"}]
             self.fixture(root, [row])
-            with self.assertRaisesRegex(ValueError, "Unpinned"):
-                mod_build.load(root)
+            self.assertEqual(len(mod_build.load(root)[2]), 1)
 
     def test_refuses_overwrite(self):
         with tempfile.TemporaryDirectory() as temporary:
