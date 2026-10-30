@@ -28,14 +28,9 @@
   "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546",
   "screenshots": [
     {
-      "file": "workshop/screenshots/mount-etna.zh-CN.png",
-      "language": "schinese",
-      "caption": "埃特纳火山：不可通行地块的介绍"
-    },
-    {
-      "file": "workshop/screenshots/piazza.zh-CN.png",
-      "language": "schinese",
-      "caption": "基亚扎：城镇的两段介绍"
+      "file": "workshop/screenshots/nicosia.en.png",
+      "language": "english",
+      "caption": "Nicusìa: a town description in two paragraphs"
     },
     {
       "file": "workshop/screenshots/mount-etna.en.png",
@@ -43,9 +38,14 @@
       "caption": "Mount Etna: description of an impassable location"
     },
     {
-      "file": "workshop/screenshots/nicosia.en.png",
-      "language": "english",
-      "caption": "Nicusìa: a town description in two paragraphs"
+      "file": "workshop/screenshots/piazza.zh-CN.png",
+      "language": "schinese",
+      "caption": "基亚扎：城镇的两段介绍"
+    },
+    {
+      "file": "workshop/screenshots/mount-etna.zh-CN.png",
+      "language": "schinese",
+      "caption": "埃特纳火山：不可通行地块的介绍"
     }
   ],
   "published": {
