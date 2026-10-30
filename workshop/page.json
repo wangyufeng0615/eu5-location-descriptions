@@ -5,8 +5,8 @@
     "schinese": "simp_chinese"
   },
   "titles": {
-    "english": "Descriptions for Every Tile (EN + ZH)",
-    "schinese": "所有地块的描述（英文＋简体中文）"
+    "english": "Descriptions for Every Tile",
+    "schinese": "所有地块的描述"
   },
   "cover_images": {
     "english": "workshop/assets/cover.jpg",
