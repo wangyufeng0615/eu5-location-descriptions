@@ -22,7 +22,30 @@
     "Translation"
   ],
   "initial_visibility": 2,
-  "publishedfileid": null,
+  "publishedfileid": 3830305546,
   "github_url": "https://github.com/wangyufeng0615/eu5-location-descriptions",
-  "comment_policy": "Workshop comments are the primary feedback channel; English and Chinese are welcome. A place name is enough to start; screenshots, sources and internal IDs are optional. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Ask for game build and enabled mods when needed for loading problems, never credentials."
+  "comment_policy": "Workshop comments are the primary feedback channel; English and Chinese are welcome. A place name is enough to start; screenshots, sources and internal IDs are optional. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Ask for game build and enabled mods when needed for loading problems, never credentials.",
+  "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546",
+  "screenshots": [
+    {
+      "file": "workshop/screenshots/mount-etna.zh-CN.png",
+      "language": "schinese",
+      "caption": "埃特纳火山：不可通行地块的介绍"
+    },
+    {
+      "file": "workshop/screenshots/piazza.zh-CN.png",
+      "language": "schinese",
+      "caption": "基亚扎：城镇的两段介绍"
+    },
+    {
+      "file": "workshop/screenshots/mount-etna.en.png",
+      "language": "english",
+      "caption": "Mount Etna: description of an impassable location"
+    },
+    {
+      "file": "workshop/screenshots/nicosia.en.png",
+      "language": "english",
+      "caption": "Nicusìa: a town description in two paragraphs"
+    }
+  ]
 }

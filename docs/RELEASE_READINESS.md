@@ -43,7 +43,7 @@ python -B tools/preflight.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_
 
 | 项目 | 当前状态 | 完成方式 |
 |---|---|---|
-| 完整正文包实机显示及真实截图 | 待执行 | 按 [SMOKE_TEST.md](SMOKE_TEST.md)，由用户进行游戏操作，保存包哈希、语言、样本、截图和日志 |
+| 完整正文包实机显示及真实截图 | 已完成 | 2026-10-31 用 release-1.0.0 本地安装版实测：中英文城镇与不可通行地块的悬停介绍、分段显示正常；4 张截图在 `workshop/screenshots/`。订阅版复测见下行 |
 | 第三方特殊声明与受保护引用 | 未做逐篇穷尽检查 | 对实际复用材料保留必要声明，发现问题回原内容工程处理；不能仅凭许可文件声称全部通过 |
 | 独立史实复核 | 城市已完成，其余未逐篇 | 城市 573 条已对照英文和当地语言维基逐项核对；工坊介绍如实说明“AI 辅助起草、作者订正校验、难免疏漏”，欢迎纠错 |
 | GitHub仓库可见性及上传 | 已私有上传，远端和修复提交CI已通过 | [wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)，账号、private、main与120个源文件清单均已核对；不把私有链接当公开支持入口 |

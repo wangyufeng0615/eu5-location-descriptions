@@ -22,6 +22,13 @@ Some places have a detailed local history; others have a shorter description of 
 
 The mod adds description text. It does not add events, change location names or alter gameplay rules. No other mod or DLC dependency is declared.
 
+## In game
+
+Hover over a location to read its description. Seas, lakes and impassable places have them too.
+
+![Nicusìa town description in English](workshop/screenshots/nicosia.en.png)
+![Mount Etna description in English](workshop/screenshots/mount-etna.en.png)
+
 ## Compatibility
 
 Made for game version 1.4 (Steam build 26300913). Compatibility with achievements and multiplayer has not been tested.

@@ -23,6 +23,13 @@
 
 模组只增加介绍文本，不新增事件、不改地名或玩法数值，也没有声明需要其他模组或额外 DLC。
 
+## 游戏内效果
+
+鼠标悬停在地点上就能看到介绍，海域、湖泊和不可通行地块也有。
+
+![基亚扎的中文介绍](workshop/screenshots/piazza.zh-CN.png)
+![埃特纳火山的中文介绍](workshop/screenshots/mount-etna.zh-CN.png)
+
 ## 兼容性
 
 适配游戏 1.4 版（Steam build 26300913）。成就和联机尚未测试。
