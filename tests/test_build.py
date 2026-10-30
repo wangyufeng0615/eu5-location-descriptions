@@ -23,6 +23,10 @@ class BuildGuards(unittest.TestCase):
             target = root / name
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("Fixture attribution and license\n", encoding="utf-8")
+        for name in mod_build.GAME_FILES.values():
+            target = root / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text("template fixture {}\n", encoding="utf-8")
         for name in mod_build.PLAYER_DOCUMENTS.values():
             target = root / name
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -123,7 +127,7 @@ class BuildGuards(unittest.TestCase):
                 mod_build.build(root, root / "dist/test")
                 mod = root / "dist/test/location_descriptions_enhanced"
                 if tamper == "text":
-                    target = mod / "main_menu/localization/english/lde_001_l_english.yml"
+                    target = mod / "in_game/localization/english/lde_001_l_english.yml"
                     original = target.read_bytes()
                     self.assertIn(b"river", original)
                     modified = original.replace(b"river", b"ocean")

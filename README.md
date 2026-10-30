@@ -6,7 +6,7 @@
 
 Historical and geographical descriptions for the places EU5 leaves blank. English and Simplified Chinese are included in the same mod.
 
-Game version 1.3 has 28,511 locations. This mod adds descriptions to the 28,254 without vanilla text and leaves the 257 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
+Game version 1.4 has 28,511 locations. This mod adds descriptions to the 28,254 without vanilla text and leaves the 257 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
 
 ## Getting started
 
@@ -24,7 +24,7 @@ The mod adds description text. It does not add events, change location names or 
 
 ## Compatibility
 
-Made for game version 1.3 (Steam build 26211608). Compatibility with achievements and multiplayer has not been tested.
+Made for game version 1.4 (Steam build 26300913). Compatibility with achievements and multiplayer has not been tested.
 
 Mods that replace the map or write the same location descriptions can conflict. This includes name/flavour mods that also contain descriptions: load order can give you one mod's English text and another's Chinese text. There is no tested compatibility patch yet.
 

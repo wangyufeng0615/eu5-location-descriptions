@@ -12,7 +12,7 @@ EU5 ships with flavour text for only a few hundred locations. This mod fills in 
 I'm a geography enthusiast. The descriptions were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, and I have corrected and checked them as carefully as I could, with city entries checked fact by fact. With more than 28,000 entries, mistakes will remain. If you spot one, please leave a comment with the place name and, if you can, a source. English or Chinese is fine.
 
 [h2]Compatibility[/h2]
-Made for game version 1.3. Mods that rewrite the same location descriptions will conflict; load whichever you prefer last. Map overhauls that rename or add locations will leave those places without text.
+Made for game version 1.4; any 1.x version is accepted. Mods that rewrite the same location descriptions will conflict; load whichever you prefer last. Map overhauls that rename or add locations will leave those places without text.
 
 [h2]Credits[/h2]
 New text and translations are licensed CC BY-SA 4.0; source links are included in the mod folder. Unofficial fan project, not affiliated with Paradox Interactive.
@@ -31,7 +31,7 @@ New text and translations are licensed CC BY-SA 4.0; source links are included i
 我是一个地理爱好者。这些介绍先以 AI 辅助、依据公开资料起草（主要是英文和当地语言的维基百科），再由我尽可能逐条订正、校验，城市条目逐项核对过年份和人物。条目超过两万八千条，难免还有疏漏，发现错误欢迎留言，写明地点名称，有资料链接更好，中英文都可以。
 
 [h2]兼容性[/h2]
-适配游戏 1.3 版。和其他修改地点介绍的模组会冲突，想用哪个就把哪个放在后面加载。改地图、增改地点的大型模组里，新增或改名的地点不会有介绍。
+适配游戏 1.4 版，1.x 各版本均可启用。和其他修改地点介绍的模组会冲突，想用哪个就把哪个放在后面加载。改地图、增改地点的大型模组里，新增或改名的地点不会有介绍。
 
 [h2]版权[/h2]
 新增介绍与翻译采用 CC BY-SA 4.0 许可，资料来源链接随模组附带。本模组为玩家自制，与 Paradox Interactive 无关。

@@ -1,6 +1,6 @@
 1.0.0 — First release
 
-- English and Simplified Chinese descriptions for all 28,254 locations without vanilla text in game version 1.3 (Steam build 26211608).
+- English and Simplified Chinese descriptions for all 28,254 locations without vanilla text in game version 1.4 (Steam build 26300913).
 - The 257 vanilla descriptions are left untouched.
 - City entries rewritten with fuller local history and checked against English and local-language sources; other entries corrected for broken text, modern-day content and English/Chinese mismatches.
 - Text only; no gameplay, map or name changes.

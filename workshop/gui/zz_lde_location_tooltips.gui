@@ -1,0 +1,143 @@
+# Location Descriptions for Every Tile: vanilla seazone_tooltip and Wasteland_tooltip from
+# in_game/gui/shared/location_tooltips.gui (game 1.4.6), with the vanilla flavour-text block added
+# so seas, lakes and impassable locations show their description like land locations do.
+
+template seazone_tooltip {
+    ContextualTooltipType = {
+        blockoverride "title_text" {
+            raw_text = "[Location.GetNameWithNoTooltip]"
+        }
+
+        blockoverride "title_icon" {
+            icon = {
+                using = tooltip_title_icon_size
+                texture = "[GetTopographyIcon(Location.GetTopography)]"
+                glow = {
+                    name = "drop_shadow"
+                    glow_radius = 3
+                    color = {0.0 0.0 0.0 1.0}
+                    alpha = 0.3
+                }
+                background =  {
+                    texture = "[GetClimateFrame(Location.GetClimate)]"
+                }
+            }
+        }
+
+       blockoverride "concept_link" {
+            text = "[Select_CString(Location.GetTopography.IsLake, lake, seazone)|e]"
+        }
+
+        blockoverride "tooltip_content" {
+
+            TooltipDebugStringPairList = {
+                textcontext = "[Location.GetDebugText]"
+            }
+
+            TooltipIconTextItem =  {
+                visible = "[Location.IsFrozen]"
+                blockoverride "item_icon" {
+                    size = { 32 32 }
+                    texture = "gfx/interface/icons/location_icons/blockade_byice.dds"
+                    glow = {
+                        name = "drop_shadow"
+                        glow_radius = 3
+                        color = {0.0 0.0 0.0 1.0}
+                        alpha = 0.3
+                    }
+                }
+
+                blockoverride "item_text" {
+                    text = "[frozen|e]"
+                }
+            }
+
+            TooltipStringPairList = {
+                visible = "[Location.HasWinter]"
+                textcontext = "[Location.GetWinterInfo]"
+            }
+
+            TooltipScrolledTextBlock = {
+                visible = "[Not(StringIsEmpty(Location.GetMapmodeSpecificTooltip))]"
+                blockoverride "block_scrollarea" { maximumsize = { -1 300 } }
+                textcontext = "[Location.GetMapmodeSpecificTooltip]"
+            }
+
+            TooltipStringPairList = {
+                textcontext = "[Location.GetUITooltip]"
+            }
+
+            TooltipFlavorTextBlock = {
+                visible = "[And(Location.HasFlavorText, Not(HasAnyUnitsSelected))]"
+                blockoverride "text" {
+                    text = "[Location.GetFlavorText]"
+                }
+            }
+
+            TooltipIllustration = {
+                blockoverride "illustration_scene" {
+                    scene = "[Location.GenerateSceneDesc]"
+                }
+            }
+        }
+    }
+}
+
+template Wasteland_tooltip {
+    ContextualTooltipType = {
+        blockoverride "title_text" {
+            raw_text = "[Location.GetNameWithNoTooltip]"
+        }
+
+        blockoverride "concept_link" {
+            text = [impassable|E]
+        }
+
+        blockoverride "title_icon" {
+            icon = {
+                using = tooltip_title_icon_size
+                texture = "gfx/interface/icons/map_subdivisons/impassable_terrain.dds"
+            }
+        }
+
+        blockoverride "tooltip_content" {
+
+            TooltipDebugStringPairList = {
+                textcontext = "[Location.GetDebugText]"
+            }
+
+            TooltipStringPairList = {
+                visible = "[Location.HasWinter]"
+                textcontext = "[Location.GetWinterInfo]"
+            }
+
+            TooltipTextBlock = {
+                visible = "[And(Location.ShowSpecificsForSeazoneMapModeTooltip, Location.HasMapmodeSpecificTooltip)]"
+                blockoverride "text" {
+                    text = "[Location.GetMapmodeSpecificTooltip]"
+                }
+            }
+
+            TooltipBlockList = {
+                textcontext = "[Location.GetUITooltip]"
+            }
+
+            TooltipFlavorTextBlock = {
+                visible = "[And(Location.HasFlavorText, Not(HasAnyUnitsSelected))]"
+                blockoverride "text" {
+                    text = "[Location.GetFlavorText]"
+                }
+            }
+
+            TooltipIllustration = {
+
+                blockoverride "illustration_scene" {
+                    scene = "[Location.GenerateSceneDesc]"
+                }
+            }
+        }
+
+        blockoverride "tooltip_ui_action_block" {}
+    }
+}
+

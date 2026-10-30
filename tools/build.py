@@ -22,6 +22,11 @@ PLAYER_DOCUMENTS = {
     "docs/FAQ.zh-CN.md": "docs/FAQ.zh-CN.md",
     "docs/COMPATIBILITY.md": "docs/COMPATIBILITY.md",
 }
+# Game files shipped as-is. Seas, lakes and impassable locations use their own vanilla tooltips
+# without a flavour-text block; this GUI file redefines those two templates with the block added.
+GAME_FILES = {
+    "in_game/gui/zz_lde_location_tooltips.gui": "workshop/gui/zz_lde_location_tooltips.gui",
+}
 
 
 def project_file(root, relative):
@@ -117,10 +122,13 @@ def expected_payload(root, config, rows):
     files = {".metadata/metadata.json": (json.dumps(metadata, ensure_ascii=False, indent=2) + "\n").encode("utf-8")}
     for language in LANGUAGES:
         for offset in range(0, len(rows), 500):
-            name = f"main_menu/localization/{language}/lde_{offset // 500 + 1:03d}_l_{language}.yml"
+            # in_game/, not main_menu/: main_menu/localization is listed in the game's checksum manifest.
+            name = f"in_game/localization/{language}/lde_{offset // 500 + 1:03d}_l_{language}.yml"
             files[name] = localization_bytes(language, rows[offset:offset + 500])
     for name in ("CREDITS.md", "NOTICE.md", *LICENSE_FILES):
         files[name] = project_file(root, name).read_bytes()
+    for target, source in GAME_FILES.items():
+        files[target] = project_file(root, source).read_bytes()
     for target, source in PLAYER_DOCUMENTS.items():
         files[target] = project_file(root, source).read_bytes()
     files[".metadata/thumbnail.png"] = project_file(root, config["thumbnail_file"]).read_bytes()

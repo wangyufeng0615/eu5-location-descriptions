@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,254 added entries for game version 1.3, with the 257 vanilla descriptions left intact.
+English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,254 added entries for game version 1.4, with the 257 vanilla descriptions left intact.
 
 ## Install
 
@@ -12,7 +12,7 @@ The texts were drafted with AI assistance from published sources, mostly Wikiped
 
 ## Compatibility and help
 
-Made for game version 1.3 (Steam build 26211608). Other description mods and map overhauls may conflict; English and Chinese can end up displaying different versions of an entry.
+Made for game version 1.4 (Steam build 26300913). Other description mods and map overhauls may conflict; English and Chinese can end up displaying different versions of an entry.
 
 Read the [FAQ](docs/FAQ.md), [compatibility notes](docs/COMPATIBILITY.md) or [contributing guide](CONTRIBUTING.md). A Workshop comment with a place name, region, screenshot and source is welcome in either language; an internal ID is optional.
 

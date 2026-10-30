@@ -8,7 +8,7 @@
     "simp_chinese"
   ],
   "steam_app_id": 3450310,
-  "supported_game_version": "1.3.*",
+  "supported_game_version": "1.*",
   "short_description": "English and Simplified Chinese descriptions for the 28,254 EU5 locations without vanilla flavour text: towns, countryside, mountains, lakes and sea zones.",
   "tags": [
     "Historical",
