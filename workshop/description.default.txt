@@ -1,51 +1,19 @@
-[h1]A description for every place on the map[/h1]
-EU5 ships with flavour text for only a few hundred locations. This mod fills in the rest: 28,254 short descriptions of the towns, countryside, mountains, lakes and sea zones you click on every day, written in the style of the vanilla texts and focused on 1337–1837.
-
+[h1]A description for [b]every tile[/b] on the map[/h1]
+Vanilla EU5 describes only a few hundred locations. This mod adds descriptions to all the other [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Yes, impassable tiles too.
 [list]
-[*]English and Simplified Chinese in one download.
-[*]Major cities get two or three paragraphs of local history; small places and sea zones get a short note on their landscape, people and past.
-[*]The 257 vanilla descriptions are left untouched.
-[*]Text only: no gameplay, map or name changes.
+[*]Languages: English, Chinese
+[*]Written in EU5's own style
+[*]Vanilla descriptions are left unchanged
+[*]Adds tile descriptions and nothing else
 [/list]
+I'm a geography enthusiast and have checked these descriptions as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
 
-[h2]How to use[/h2]
-Subscribe and wait for the download to finish → enable the mod in EU5's Mods and DLC menu → choose English or Simplified Chinese as your game language.
-Keep only one copy enabled: either the local installation or the Workshop subscription.
-
-[h2]About these texts[/h2]
-I'm a geography enthusiast. The descriptions were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, and I have corrected and checked them as carefully as I could, with city entries checked fact by fact. With more than 28,000 entries, mistakes will remain.
-
-[h2]Compatibility[/h2]
-Made for game version 1.4; any 1.x version is accepted. Mods that rewrite the same location descriptions will conflict; load whichever you prefer last. Map overhauls that rename or add locations will leave those places without text.
-
-[h2]Comments and updates[/h2]
-I'll actively maintain this mod, follow up on feedback, fix problems and keep it up to date as the game changes. If you find a mistake or have trouble with missing text or loading, just leave a comment below. English and Chinese are both welcome. Include the place name if relevant; screenshots or sources are helpful, but optional.
-
-[h2]Credits[/h2]
-New text and translations are licensed CC BY-SA 4.0; source links are included in the mod folder. Unofficial fan project, not affiliated with Paradox Interactive.
-
-[h1]地图上的每个地点都有介绍[/h1]
-原版只给几百个地点写了介绍。这个模组补上其余的 28,254 个：平时点开的乡镇、乡野、山地、湖泊和海域都有一段介绍，文风参照原版，内容以 1337—1837 年为主。
-
+[h1]为地图上的[b]每个地块[/b]都补充了介绍[/h1]
+原版只给小几百个地点写了介绍。这个模组为其余全部 [b]28,254[/b] 个地块补上介绍：城镇、乡野、山地、湖泊、海域。是的，不可通行地块也补充了。
 [list]
-[*]英文和简体中文在同一个模组里，不用另装汉化。
-[*]重要城市有两三段地方史；小地方和海域是一段简短的地理、人群与历史说明。
-[*]原版已有的 257 条介绍保持原样。
-[*]只加文本，不改玩法、地图和地名。
+[*]目前支持：英文、中文
+[*]EU5 的风味
+[*]未修改官方自带描述
+[*]除了补充地块描述，无其他任何影响
 [/list]
-
-[h2]怎么使用[/h2]
-订阅并等待下载完成 → 在游戏内“模组和 DLC”中启用 → 游戏语言选择英文或简体中文。
-本地版和工坊订阅版不要同时启用，保留一份即可。
-
-[h2]关于这些文字[/h2]
-我是一个地理爱好者。这些介绍先以 AI 辅助、依据公开资料起草（主要是英文和当地语言的维基百科），再由我尽可能逐条订正、校验，城市条目逐项核对过年份和人物。条目超过两万八千条，难免还有疏漏。
-
-[h2]兼容性[/h2]
-适配游戏 1.4 版，1.x 各版本均可启用。和其他修改地点介绍的模组会冲突，想用哪个就把哪个放在后面加载。改地图、增改地点的大型模组里，新增或改名的地点不会有介绍。
-
-[h2]留言与维护[/h2]
-我会积极维护这个模组，认真查看反馈，持续修正问题并跟进游戏更新。发现介绍有误、文本缺失或加载问题，直接在下方留言就好，中英文都可以。涉及具体地点时，请带上地点名称；有截图或资料链接更好，没有也没关系。
-
-[h2]版权[/h2]
-新增介绍与翻译采用 CC BY-SA 4.0 许可，资料来源链接随模组附带。本模组为玩家自制，与 Paradox Interactive 无关。
+我是一名地理爱好者，这些介绍都尽量逐条订正过。如果发现错误，欢迎留言，我会持续维护更新这个mod！
