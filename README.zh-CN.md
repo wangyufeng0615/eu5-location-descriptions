@@ -1,9 +1,9 @@
-# 全地图地点介绍
-## Location Descriptions for Every Tile
+# 所有地块的描述
+## Descriptions for Every Tile
 
 [English](README.md)
 
-![模组封面](workshop/assets/cover.jpg)
+![模组封面](workshop/assets/cover.zh-CN.jpg)
 
 为 EU5 中原本没有介绍的地点补上历史与地理文本。英文、简体中文首发一起提供，订阅同一个模组即可，不需要另装汉化包。
 
@@ -13,7 +13,7 @@
 
 在 Steam 创意工坊订阅，等待下载完成，再到游戏内“模组和 DLC”中启用。游戏语言选择英文或简体中文。
 
-手动安装时，将 ZIP 中整个 location_descriptions_enhanced 文件夹放入 EU5 用户数据目录的 mod 文件夹，保留隐藏的 .metadata 目录，再在游戏中启用。如果用过之前的占位原型，先停用它；本地版和订阅版也不要同时启用。
+手动安装时，将 ZIP 中整个 location_descriptions_enhanced 文件夹放入 EU5 用户数据目录的 mod 文件夹，保留隐藏的 .metadata 目录，再在游戏中启用。本地版和订阅版不要同时启用。
 
 当前版本 1.0.0，实机和订阅检查进展见[发布状态](docs/RELEASE_READINESS.md)。
 
@@ -33,9 +33,9 @@
 
 ## 想帮忙完善
 
-如果发现年代有误、中文不通顺、地点认错，欢迎直接用中文或英文反馈。提供地点名称、所在地区、截图和资料链接即可，不知道内部 ID 也没关系。
+如果发现年代有误、中文不通顺、地点认错，直接在工坊页面留言就好，中英文都可以。请带上地点名称；所在地区、截图和资料链接有的话可以附上，不知道内部 ID 也没关系。
 
-可以使用本仓库的 Issues，或在工坊评论区、讨论区留言。不需要会写代码，也不要求一次把两种语言都改完。具体方式见[贡献指南](CONTRIBUTING.zh-CN.md)。
+我会积极维护这个模组，认真查看反馈，持续修正问题并跟进游戏更新。不需要会写代码，也不要求一次把两种语言都改完。具体方式见[贡献指南](CONTRIBUTING.zh-CN.md)。
 
 ## 源码与构建
 

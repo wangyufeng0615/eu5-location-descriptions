@@ -1,8 +1,8 @@
 # 发布准备情况
 
-更新：2026-10-26（Asia/Shanghai）。当前结论：**英文与简体中文首发材料及候选包已准备，发布工程已上传私有GitHub；正文包尚未安装，工坊尚未上传或公开，实机及订阅验收仍待完成。**
+更新：2026-10-31（Asia/Shanghai）。当前版本已接入西西里岛轮廓版双语封面及新名称，补齐英中使用方法，统一引导工坊留言，并按用户授权加入积极维护、查看反馈、持续修正问题及跟进游戏更新的承诺。README、贡献指南、FAQ、包内说明及公告草稿同步。当前GitHub仍为私有；本轮改动尚未推送、安装或上传工坊，不能沿用旧包的验收记录。下方较早的CI、上传及内容同步记录保留为历史依据。
 
-显示名为 **Location Descriptions for Every Tile**（全地图地点介绍），内部ID保留 `location_descriptions_enhanced`。英文与简体中文同一个工坊条目、同一个运行包；其他语言作为后续贡献方向，不冒称已支持。封面沿用用户选定的朴素文字与地块线条，历史素材保留。
+显示名为 **Descriptions for Every Tile**（所有地块的描述），内部ID保留 `location_descriptions_enhanced`。英文与简体中文同一个工坊条目、同一个运行包；其他语言作为后续贡献方向，不冒称已支持。英文主封面与包内缩略图突出EVERY TILE；中文README及配套发布素材用中文版，突出所有地块。地图以真实西西里岛海岸线为参考，内部划线为示意；素材来源与原版归档见 [素材说明](../workshop/assets/README.md)。
 
 ## 已落实
 
@@ -10,24 +10,24 @@
 - 用户已选择MIT工具许可、CC BY-SA 4.0新增正文许可；完整许可、具体适用范围、维基贡献者链接和改写/翻译声明随包提供。
 - 原创AI封面及512像素包内PNG缩略图，保存主图、实际提示词和哈希来源；封面不冒充截图，也不混用官方游戏美术。
 - 实际阅读六个EU5社区作者页面，按功能、使用、兼容、反馈和归属组织自然的英中文案；参考与取舍见 [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md)。Oikoumene也含地点介绍，明确提示覆盖及两语内容不一致风险，没有冒称实测兼容。
-- 英中工坊页面、合并后备文案、FAQ、完整贡献指南、公告、变更说明、三个双语反馈讨论主题及GitHub Issue/PR模板已准备。允许单语言、无内部ID的反馈；采纳的正文修改先回研究主库，再导出发布。不虚构外部联系方式、GitHub链接或工坊ID。
-- 运行包附带双语使用说明、FAQ与贡献指南，手动下载玩家也能找到。英中离线工坊文案预览已实际渲染并查看，未用预览代替真实Steam页面或游戏截图。
+- 英中工坊页面、合并后备文案、FAQ、完整贡献指南、公告、变更说明及GitHub Issue/PR模板已准备。普通玩家直接在工坊留言；允许单语言、无内部ID的反馈，采纳的正文修改先回研究主库，再导出发布。不虚构外部联系方式、GitHub链接或工坊ID。
+- 运行包附带双语使用说明、FAQ与贡献指南，手动下载玩家也能找到。按用户要求移除本地HTML预览、重复首发资料包、临时渲染缓存及不用的分类讨论模板。文案和封面直接使用workshop中的原文件，最终页面效果在实际私有工坊条目检查。
 - 构建后重新读取成品及ZIP，比对全部本地化、元数据、来源与许可；拒绝官方ID覆盖、重复ID、缺语种、无来源及异常配置路径。
 - 预检检查UTF-8页面字节数、图片尺寸/大小、许可、文件清单、链接、敏感模式，以及可选的7份游戏源指纹/Steam build。
 - GitHub Windows/Ubuntu构建检查已启用，第三方Actions固定到已查询的commit，仅有contents读取权限，不上传工坊或改变可见性。首次云端检查发现篡改测试依赖文件遍历顺序，已固定英文目标并断言实际修改。修复提交 `388f7a2` 的 [Windows与Ubuntu检查](https://github.com/wangyufeng0615/eu5-location-descriptions/actions/runs/40318351150) 均已成功，包含22项测试、构建、成品/ZIP复验及预检；这些结果不代表游戏跨平台实测。
 - 私有仓库：[wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)。首批提交 `8a1fa58` 和修复提交 `388f7a2` 已推送，API确认private和main，远端120个文件与本地Git文件清单一致，包含58个数据文件。研究库历史、数据库、缓存、dist及游戏原文件未上传；按用户安排，游戏与工坊验收完成前保持私有。
 - 本次上传的是已整理、核对的发布快照。另一个任务已在研究工程继续扩写；本轮未将进行中的新稿混入发布数据。公开前须从确认过的研究检查点单向同步、重新构建及验收，旧包回执不能证明新正文已验收。
-- 具体实机样本、截图计划、更新/回滚和上传排错说明已准备。新增只读地点搜索工具及首发资料包生成器；人工证据须绑定当前ZIP、版本、游戏build及证据文件哈希，缺记录保持未就绪。工具不独立判断记录真实性或史实正确性。
+- 具体实机样本、截图计划、更新/回滚和上传排错说明已准备。保留只读地点搜索工具；人工证据须绑定当前ZIP、版本、游戏build及证据文件哈希，缺记录保持未就绪。工具不独立判断记录真实性或史实正确性。
 
 ## 当前运行包与命令
 
-当前模组文件夹：`dist/release-candidate-20261026-en-zh-final/location_descriptions_enhanced/`。同目录有ZIP和 `build_receipt.json`。最终预检记录为 `dist/release-preflight-en-zh-readycheck-20261026.json`；旧候选、预检及旧图保留历史，之后重建继续使用新目录。
+当前模组文件夹：`dist/release-candidate-20261031-1.0.0-final/location_descriptions_enhanced/`。同目录有ZIP和 `build_receipt.json`。本轮预检记录为 `dist/release-preflight-20261031-1.0.0-final.json`；旧候选、预检及旧图保留历史，之后重建继续使用新目录。
 
-22个自动测试通过，覆盖官方保护、双语缺失、来源修订、成品及ZIP篡改、双语页面、预览转义、包与人工证据绑定等。运行包186个文件，其中114个本地化文件；正文及原始58个数据文件不因发布整理而修改。当前1254×1254 JPG为108209 bytes、512×512 PNG为240629 bytes，低于项目预算。13个实机样本仍待用户操作验收。
+移除3个预览工具专用测试后，剩余20个自动测试覆盖官方保护、双语缺失、来源、成品及ZIP篡改、双语页面、包与人工证据绑定等。清理后的实测结果见 `dist/release-preflight-20261031-1.0.0-final.json`。运行包187个文件，其中114个本地化文件；58个数据文件保持原hash。英文1254×1254 JPG为105366 bytes，中文1254×1254 JPG为106284 bytes，英文512×512 PNG缩略图为229085 bytes，均低于项目预算。新包仍须独立记录实机与订阅验收，不能把封面接入当作已发布。
 
-首发资料包：`dist/launch-pack-20261026-en-zh-final/`，包括英中及合并HTML预览、可复制文案、`private-test.local.vdf`、`release-evidence.json` 与文件清单。VDF可见性2、首次ID为0，仅为SteamCMD测试后备配置，未执行上传。证据表已填入包身份，人工项全部pending。游戏工具仍为首选；已有条目更新必须填写真实条目ID。
+`private-test.local.vdf` 和 `release-evidence.json` 已保留到 `dist/release-candidate-20261031-1.0.0-final/`，与ZIP、构建回执并列，不在实际模组文件夹内。VDF可见性2、首次ID为0，仅为SteamCMD测试后备配置，未执行上传。证据表绑定当前包，人工项全部pending。游戏工具仍为首选；已有条目更新必须填写真实条目ID。被移除的源码、讨论模板、3份旧资料包及4个临时渲染配置目录在工程外 `V:/cache/eu5-workshop-cleanup-20261031/` 保存恢复副本，发布候选和素材历史留在本工程。
 
-当前ZIP SHA-256：`8485d0cc975b2f3fa753f4a25491bf15e06be0b8a0165040b07e75444ffca322`。
+当前ZIP SHA-256：`51e6215ec00f1aa79b1d0a89d8df9c01478a09a8136016d62ac0b53cc4986e53`。
 
 ```sh
 python -B tools/build.py --check
@@ -35,7 +35,6 @@ python -B -m unittest discover -s tests -v
 python -B tools/build.py --output dist/YOUR_NEW_CANDIDATE
 python -B tools/build.py --verify dist/YOUR_NEW_CANDIDATE
 python -B tools/preflight.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_NEW_REPORT.json
-python -B tools/prepare_launch.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_NEW_LAUNCH_PACK
 ```
 
 预检可加 `--game-root` 指向本机游戏根目录，检查实际基线。本机7份游戏源文件及Steam build 26300913（1.4.6）已匹配。真实验收后用 `--evidence` 引用对应证据表；`--require-publish-ready` 在人工和外部记录未齐时返回非零。普通本地预检通过只代表本地材料和格式通过。工具不会上传、接受协议或自动改变公开状态。

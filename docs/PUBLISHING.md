@@ -8,15 +8,13 @@ This is an alpha Workshop publishing project. The owner selected MIT for tools a
 
 Use one Workshop item containing both languages. Maintain the native [English](../README.md) and [Chinese](../README.zh-CN.md) player pages, [English](FAQ.md) and [Chinese](FAQ.zh-CN.md) FAQs, and both contribution guides together. Feedback may use either language and does not require an internal ID. Accepted content proposals go through the research ledger before export; see [MAINTAINING.md](MAINTAINING.md).
 
-The current candidate is `dist/release-candidate-20261026-en-zh-final/`. Its local launch pack is `dist/launch-pack-20261026-en-zh-final/`: separate and combined page previews, copy-ready announcements/change notes/discussion topics, a private SteamCMD testing fallback and an all-pending evidence form. These are prepared materials, not posted messages. Community-page choices and the Oikoumene overlap finding are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
+The current candidate is `dist/release-candidate-20261031-1.0.0-final/`. That directory retains `private-test.local.vdf` and `release-evidence.json` alongside the ZIP and build receipt, outside the actual mod folder; the evidence form identifies this exact package and all manual checks remain pending. Page text, announcements, change notes and artwork stay in `workshop/`, without a duplicate launch pack. These are prepared materials, not posted messages. Workshop comments are the player feedback channel. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Community-page choices are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
 
-For a later build, generate a new launch pack after validating the candidate:
+Check the final page appearance on the actual private Steam Workshop item. No local HTML preview tool is required or maintained.
 
-```sh
-python -B tools/prepare_launch.py --build dist/YOUR_CANDIDATE --output dist/YOUR_NEW_LAUNCH_PACK
-```
+The selected display title is **Descriptions for Every Tile** / **所有地块的描述**. `workshop/page.json` lists both cover images for validation; the Chinese README uses the Chinese JPEG. The shared Workshop primary image and runtime thumbnail remain English. Use the Chinese JPEG as additional promotional material; no automatic language-specific Steam primary-image switching is assumed. Source geometry, prompts, selected images and old-artwork preservation are documented in [artwork notes](../workshop/assets/README.md).
 
-After real tests, fill the generated evidence form with records for that exact ZIP, then run `tools/preflight.py --build dist/YOUR_CANDIDATE --evidence dist/YOUR_NEW_LAUNCH_PACK/release-evidence.json --require-publish-ready`. Missing records keep the release pending; incorrect file hashes or a different candidate fail validation. The tool checks record completeness, not the truth of game screenshots, account actions or historical claims, and never authorizes an upload.
+For a later build, copy [release-evidence.example.json](release-evidence.example.json) into the new candidate directory alongside its ZIP and build receipt. Fill in the exact ZIP hash, version and game build. After real tests, reference the records for that package and run `python -B tools/preflight.py --build dist/YOUR_CANDIDATE --evidence dist/YOUR_CANDIDATE/release-evidence.json --require-publish-ready`. Missing records keep the release pending; incorrect file hashes or a different candidate fail validation. The tool checks record completeness, not the truth of game screenshots, account actions or historical claims, and never authorizes an upload. If needed, adapt `workshop/upload.vdf.example` for private SteamCMD testing; the game tools remain the preferred upload route.
 
 ## GitHub first
 

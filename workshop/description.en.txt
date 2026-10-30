@@ -8,11 +8,18 @@ EU5 ships with flavour text for only a few hundred locations. This mod fills in 
 [*]Text only: no gameplay, map or name changes.
 [/list]
 
+[h2]How to use[/h2]
+Subscribe and wait for the download to finish → enable the mod in EU5's Mods and DLC menu → choose English or Simplified Chinese as your game language.
+Keep only one copy enabled: either the local installation or the Workshop subscription.
+
 [h2]About these texts[/h2]
-I'm a geography enthusiast. The descriptions were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, and I have corrected and checked them as carefully as I could, with city entries checked fact by fact. With more than 28,000 entries, mistakes will remain. If you spot one, please leave a comment with the place name and, if you can, a source. English or Chinese is fine.
+I'm a geography enthusiast. The descriptions were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, and I have corrected and checked them as carefully as I could, with city entries checked fact by fact. With more than 28,000 entries, mistakes will remain.
 
 [h2]Compatibility[/h2]
 Made for game version 1.4; any 1.x version is accepted. Mods that rewrite the same location descriptions will conflict; load whichever you prefer last. Map overhauls that rename or add locations will leave those places without text.
+
+[h2]Comments and updates[/h2]
+I'll actively maintain this mod, follow up on feedback, fix problems and keep it up to date as the game changes. If you find a mistake or have trouble with missing text or loading, just leave a comment below. English and Chinese are both welcome. Include the place name if relevant; screenshots or sources are helpful, but optional.
 
 [h2]Credits[/h2]
 New text and translations are licensed CC BY-SA 4.0; source links are included in the mod folder. Unofficial fan project, not affiliated with Paradox Interactive.

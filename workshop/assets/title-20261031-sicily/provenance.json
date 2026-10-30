@@ -1,0 +1,42 @@
+{
+  "created_on": "2026-10-31",
+  "generation_tool": "image_gen (built-in)",
+  "files": {
+    "english": {
+      "file": "cover.en.png",
+      "generation_filename": "exec-4d2148e8-4500-49ab-94be-5a1f46c7edcf.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "9d39c1e25c1999640ade7babbc195fc040ef15ccc4f60e33ee2f52b9d3eb67d1"
+    },
+    "simp_chinese": {
+      "file": "cover.zh-CN.png",
+      "generation_filename": "exec-f348f3e7-7db6-42d3-ace0-717f5e7a790b.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "1656ad64f6a6bbefeb621ef44b5f3586a535f2705ca6055882d987e35cbd63d2"
+    }
+  },
+  "map_source_file": "map-source.json",
+  "geography": "Sicily main island, north up",
+  "map_method": "English cover edited using the coordinate-plotted reference; Chinese edition localized from that English cover with the lower region locked in the prompt",
+  "internal_lines": "Illustrative tiles, not actual administrative boundaries",
+  "postprocessing": "None; generated PNGs copied unchanged",
+  "validation": {
+    "text_and_layout_visually_inspected": true,
+    "shared_map_layout_visually_confirmed": true,
+    "lower_region_pixel_identical": false,
+    "map_dark_pixel_intersection_over_union": 0.9281
+  },
+  "active_project_cover_replaced": true,
+  "selected_on": "2026-10-31",
+  "publishing_derivatives": {
+    "english": "../cover.jpg",
+    "simp_chinese": "../cover.zh-CN.jpg",
+    "runtime_thumbnail": "../thumbnail.png"
+  }
+}

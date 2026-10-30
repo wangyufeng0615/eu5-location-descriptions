@@ -8,11 +8,18 @@ EU5 ships with flavour text for only a few hundred locations. This mod fills in 
 [*]Text only: no gameplay, map or name changes.
 [/list]
 
+[h2]How to use[/h2]
+Subscribe and wait for the download to finish → enable the mod in EU5's Mods and DLC menu → choose English or Simplified Chinese as your game language.
+Keep only one copy enabled: either the local installation or the Workshop subscription.
+
 [h2]About these texts[/h2]
-I'm a geography enthusiast. The descriptions were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, and I have corrected and checked them as carefully as I could, with city entries checked fact by fact. With more than 28,000 entries, mistakes will remain. If you spot one, please leave a comment with the place name and, if you can, a source. English or Chinese is fine.
+I'm a geography enthusiast. The descriptions were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, and I have corrected and checked them as carefully as I could, with city entries checked fact by fact. With more than 28,000 entries, mistakes will remain.
 
 [h2]Compatibility[/h2]
 Made for game version 1.4; any 1.x version is accepted. Mods that rewrite the same location descriptions will conflict; load whichever you prefer last. Map overhauls that rename or add locations will leave those places without text.
+
+[h2]Comments and updates[/h2]
+I'll actively maintain this mod, follow up on feedback, fix problems and keep it up to date as the game changes. If you find a mistake or have trouble with missing text or loading, just leave a comment below. English and Chinese are both welcome. Include the place name if relevant; screenshots or sources are helpful, but optional.
 
 [h2]Credits[/h2]
 New text and translations are licensed CC BY-SA 4.0; source links are included in the mod folder. Unofficial fan project, not affiliated with Paradox Interactive.
@@ -27,11 +34,18 @@ New text and translations are licensed CC BY-SA 4.0; source links are included i
 [*]只加文本，不改玩法、地图和地名。
 [/list]
 
+[h2]怎么使用[/h2]
+订阅并等待下载完成 → 在游戏内“模组和 DLC”中启用 → 游戏语言选择英文或简体中文。
+本地版和工坊订阅版不要同时启用，保留一份即可。
+
 [h2]关于这些文字[/h2]
-我是一个地理爱好者。这些介绍先以 AI 辅助、依据公开资料起草（主要是英文和当地语言的维基百科），再由我尽可能逐条订正、校验，城市条目逐项核对过年份和人物。条目超过两万八千条，难免还有疏漏，发现错误欢迎留言，写明地点名称，有资料链接更好，中英文都可以。
+我是一个地理爱好者。这些介绍先以 AI 辅助、依据公开资料起草（主要是英文和当地语言的维基百科），再由我尽可能逐条订正、校验，城市条目逐项核对过年份和人物。条目超过两万八千条，难免还有疏漏。
 
 [h2]兼容性[/h2]
 适配游戏 1.4 版，1.x 各版本均可启用。和其他修改地点介绍的模组会冲突，想用哪个就把哪个放在后面加载。改地图、增改地点的大型模组里，新增或改名的地点不会有介绍。
+
+[h2]留言与维护[/h2]
+我会积极维护这个模组，认真查看反馈，持续修正问题并跟进游戏更新。发现介绍有误、文本缺失或加载问题，直接在下方留言就好，中英文都可以。涉及具体地点时，请带上地点名称；有截图或资料链接更好，没有也没关系。
 
 [h2]版权[/h2]
 新增介绍与翻译采用 CC BY-SA 4.0 许可，资料来源链接随模组附带。本模组为玩家自制，与 Paradox Interactive 无关。

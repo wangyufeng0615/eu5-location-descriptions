@@ -12,7 +12,7 @@ They use EU5's existing location-description text, rather than a separate menu a
 
 ## The text is missing or still shows an ID. What should I try?
 
-Check that Steam finished the download and that the mod is enabled in EU5's Mods and DLC menu. Disable the old placeholder prototype and duplicate local/Workshop copies, use English or Simplified Chinese, and restart as the game requests. Then test with other mods disabled. If the problem remains, report the place, language, game/mod versions and a screenshot. Do not replace the original game files.
+Check that Steam finished the download and that the mod is enabled in EU5's Mods and DLC menu. Disable duplicate local/Workshop copies, use English or Simplified Chinese, and restart as the game requests. Then test with other mods disabled. If the problem remains, report the place, language, game/mod versions and a screenshot. Do not replace the original game files.
 
 ## Can I use it with Oikoumene or another flavour mod?
 
@@ -32,7 +32,7 @@ Location IDs and new vanilla descriptions need to be checked again. The metadata
 
 ## Can I help without GitHub or without knowing English?
 
-Yes. A Workshop comment with the place name, region, screenshot and a useful reference is enough. English and Chinese reports are equally welcome. If you do not know the ID, do not let that stop you. See [contributing](../CONTRIBUTING.md).
+Yes. Just leave a comment on the Workshop page in English or Chinese. The place name is enough to start; a region, screenshot or source helps if you have one. No GitHub account or internal ID is required. See [contributing](../CONTRIBUTING.md).
 
 ## May I reuse the text?
 

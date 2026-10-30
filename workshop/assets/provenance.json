@@ -1,25 +1,31 @@
 {
-  "created_on_local_date": "2026-10-26",
+  "selected_on_local_date": "2026-10-31",
   "generation_tool": "image_gen (built-in)",
-  "generated_filename": "exec-9ec9d0c1-a338-4b25-ac64-19125c473b8a.png",
-  "input_images": [],
+  "selected_source_directory": "title-20261031-sicily",
   "prompt_file": "prompt.txt",
+  "prompt_set_file": "title-20261031-sicily/prompts.json",
+  "map_source_file": "title-20261031-sicily/map-source.json",
   "is_game_screenshot": false,
-  "design": "Plain typography, light background and schematic adjoining map cells",
-  "master_dimensions": [
-    1254,
-    1254
-  ],
-  "derivatives": {
-    "cover.jpg": "JPEG encoding, quality 88, unchanged pixel dimensions",
-    "thumbnail.png": "512 x 512 bicubic downsample, PNG encoding"
+  "display_names": {
+    "english": "Descriptions for Every Tile",
+    "simp_chinese": "所有地块的描述"
   },
-  "previous_artwork_archive": "dist/artwork-history-20261026-v1",
+  "primary_cover": "cover.jpg",
+  "chinese_cover": "cover.zh-CN.jpg",
+  "runtime_thumbnail": "thumbnail.png",
+  "derivatives": {
+    "cover-master.png": "Unchanged copy of approved English PNG",
+    "cover.jpg": "JPEG quality 90, 1254x1254, encoded from approved English image",
+    "cover.zh-CN.jpg": "JPEG quality 90, 1254x1254, encoded from approved Chinese image",
+    "thumbnail.png": "English image resized to 512x512 with high-quality bicubic interpolation; PNG"
+  },
+  "previous_artwork_archive": "dist/artwork-history-20261031-before-sicily",
   "file_sha256": {
-    "cover-master.png": "c077cb17e5077ab9ff113f8bf0e2c3c7f2e17662e3ffbf57f9bccf9af6d089ad",
-    "cover.jpg": "a957688708a6b2ff765f65f841cac07d66628a3ab03b2f4e0488b24f2886de65",
-    "prompt.txt": "92f05408e6683c359fab084cc7e16017a5f23634a6e14dd500f8cb7dc4358e76",
-    "README.md": "9c134caffac0073b1433902225356367706835d44cb4dd6dcbb649c88a94079b",
-    "thumbnail.png": "ae481a3361906a4b1f989fe4cb19ea6a4307000d6fee23a24ed2b9c899d646ea"
+    "cover-master.png": "9d39c1e25c1999640ade7babbc195fc040ef15ccc4f60e33ee2f52b9d3eb67d1",
+    "cover.jpg": "e248e052cad4a670dd9c20994f7283f704563936c8e5b15b871ef7763d133d9d",
+    "cover.zh-CN.jpg": "327f1bad931cd83622d6f15e03920aea993e2c281c8fb4414248b47734610752",
+    "thumbnail.png": "4e5b7693dddfe1fcf3e29688e66fbacacdbfd260c9dc09a434d9abf962cb0dcc",
+    "prompt.txt": "f92f738f4876fb36371489808d7b664d3754f4ccd147553c54141afb4888d086",
+    "README.md": "09d952a75af46cd21bbf94485d7e855f73cb2321263a87512cda7c24a0d168b9"
   }
 }

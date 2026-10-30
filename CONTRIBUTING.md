@@ -6,7 +6,7 @@ Help is welcome in English or Chinese. You do not need to know Git, identify an 
 
 ## Report a correction
 
-Use the location-correction issue template, or the Workshop's corrections discussion. If you cannot access GitHub, a Workshop comment is fine.
+Just leave a comment on the Workshop page in English or Chinese. There is no need to open a GitHub issue or choose a discussion category. The author will actively maintain the mod, follow up on feedback, fix problems and keep it up to date as the game changes.
 
 Please include what you can:
 

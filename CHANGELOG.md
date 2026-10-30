@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — artwork update, 2026-10-31
+
+- Remove the unused local HTML preview generator, its tests, duplicate launch packs, temporary rendering profiles and discussion templates. Keep build/validation tools, approved artwork, release candidates and manual acceptance records.
+- Add short English/Chinese installation instructions and make Workshop comments the primary feedback channel, with the author's commitment to active maintenance and game-update support.
+- Rename the display title to **Descriptions for Every Tile** / **所有地块的描述**; keep the stable mod ID and version.
+- Adopt matching English and Chinese Sicily-outline artwork, emphasizing EVERY TILE and 所有地块. Use the English cover and thumbnail for the shared package; use the Chinese artwork in the Chinese README and additional promotional material.
+- Preserve the previous artwork and release candidates. No location descriptions or source records changed in this artwork update.
+
 ## 1.0.0 — first release candidate, 2026-10-30
 
 - Rebuilt for game 1.4.6 (Steam build 26300913); map and vanilla description files are unchanged from 1.3. `supported_game_version` widened to `1.*`.

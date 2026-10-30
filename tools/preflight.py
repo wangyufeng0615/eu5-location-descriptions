@@ -32,7 +32,9 @@ EVIDENCE_CHECKS = {
 def check_launch_materials(root, page):
     if page.get("game_languages") != {"english": "english", "schinese": "simp_chinese"}:
         raise ValueError("Steam/game language mapping is incomplete")
-    required = ("README.md", "README.zh-CN.md", "CONTRIBUTING.md", "CONTRIBUTING.zh-CN.md", "docs/FAQ.md", "docs/FAQ.zh-CN.md", "docs/COMPATIBILITY.md", *mod_build.PLAYER_DOCUMENTS.values(), "workshop/announcement.en.txt", "workshop/announcement.zh-CN.txt", "workshop/changenotes.en.txt", "workshop/changenotes.zh-CN.txt", "workshop/discussions/bugs.txt", "workshop/discussions/corrections.txt", "workshop/discussions/contributions.txt")
+    if "cover_images" in page and (not isinstance(page["cover_images"], dict) or set(page["cover_images"]) != {"english", "schinese"}):
+        raise ValueError("Configured page artwork must include both English and Simplified Chinese")
+    required = ("README.md", "README.zh-CN.md", "CONTRIBUTING.md", "CONTRIBUTING.zh-CN.md", "docs/FAQ.md", "docs/FAQ.zh-CN.md", "docs/COMPATIBILITY.md", *mod_build.PLAYER_DOCUMENTS.values(), "workshop/announcement.en.txt", "workshop/announcement.zh-CN.txt", "workshop/changenotes.en.txt", "workshop/changenotes.zh-CN.txt")
     for name in required:
         if not mod_build.project_file(root, name).read_text(encoding="utf-8").strip():
             raise ValueError(f"Empty launch material: {name}")
@@ -136,7 +138,9 @@ def check(root, output, game_root=None, evidence_path=None):
             raise ValueError("Combined page copy is stale")
     check_bbcode(fallback)
     artwork = {}
-    for label, name in (("cover", config["cover_file"]), ("thumbnail", config["thumbnail_file"])):
+    image_files = [("cover", config["cover_file"]), ("thumbnail", config["thumbnail_file"])]
+    image_files.extend((f"page_{language}", name) for language, name in page.get("cover_images", {}).items() if name != config["cover_file"])
+    for label, name in image_files:
         path = mod_build.project_file(root, name)
         width, height = image_size(path)
         # Project budgets, stricter than an unverified game-specific primary-image limit.

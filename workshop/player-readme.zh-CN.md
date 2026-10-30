@@ -1,4 +1,4 @@
-# 全地图地点介绍
+# 所有地块的描述
 
 [English](README.md)
 
@@ -14,6 +14,6 @@
 
 适配游戏1.4版（Steam build 26300913）。地图大修和其他介绍模组可能冲突，英中甚至可能显示不同版本。
 
-见[常见问题](docs/FAQ.zh-CN.md)、[兼容性说明](docs/COMPATIBILITY.md)和[贡献指南](CONTRIBUTING.zh-CN.md)。工坊留言附地点名称、地区、截图和资料即可，中文或英文都欢迎，不强制内部ID。
+见[常见问题](docs/FAQ.zh-CN.md)、[兼容性说明](docs/COMPATIBILITY.md)和[贡献指南](CONTRIBUTING.zh-CN.md)。发现错误或加载问题，直接在工坊留言就好，中英文都可以。涉及具体地点时请带上地点名称，截图或资料链接有的话可以附上。我会积极维护这个模组，认真查看反馈，持续修正问题并跟进游戏更新。
 
 新增正文与翻译用CC BY-SA 4.0，工具用MIT，见 [LICENSE](LICENSE)、[CREDITS.md](CREDITS.md)与 [NOTICE.md](NOTICE.md)。逐地点修订和贡献者历史在sources/；封面不是游戏截图。

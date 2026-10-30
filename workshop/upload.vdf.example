@@ -8,7 +8,7 @@
     "contentfolder" "REPLACE_WITH_ABSOLUTE_PATH_TO_BUILT_MOD_FOLDER"
     "previewfile" "REPLACE_WITH_ABSOLUTE_PATH_TO_COVER_PNG"
     "visibility" "2"
-    "title" "Location Descriptions for Every Tile"
+    "title" "Descriptions for Every Tile"
     "description" "REPLACE_WITH_REVIEWED_WORKSHOP_DESCRIPTION"
     "changenote" "REPLACE_WITH_RELEASE_CHANGE_NOTE"
 }

@@ -1,7 +1,0 @@
-Title / 标题: Suggestions and ways to help / 建议与参与
-
-Local knowledge, reliable sources, English editing and Simplified Chinese proofreading are all welcome. Tell us which place or language you would like to help with. Coding and GitHub accounts are optional for feedback. Additional languages can be proposed, but English and Simplified Chinese are the first-release languages.
-
-欢迎提供地方知识、可靠资料、英文润色和简体中文校对。可以说说想参与哪个地区或哪种工作。反馈不需要会写代码或有GitHub账号；其他语言可先提计划，首发提供英文和简体中文。
-
-There is no fixed response time. Please check earlier suggestions and keep proposals focused. / 不承诺固定回复时间，请先看看已有建议，提案尽量集中。

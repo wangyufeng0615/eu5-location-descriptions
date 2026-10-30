@@ -1,4 +1,4 @@
-# Location Descriptions for Every Tile
+# Descriptions for Every Tile
 
 [简体中文](README.zh-CN.md)
 
@@ -12,7 +12,7 @@ Game version 1.4 has 28,511 locations. This mod adds descriptions to the 28,254 
 
 Subscribe on the Steam Workshop, wait for the download to finish, then enable the mod in EU5's Mods and DLC menu. Set the game language to English or Simplified Chinese. You do not need a separate Chinese translation mod.
 
-For a manual download, extract the ZIP and put the whole location_descriptions_enhanced folder, including its hidden .metadata folder, in EU5's user-data mod directory. Enable it in the game. Keep only one copy enabled; disable the old placeholder prototype if you used it.
+For a manual download, extract the ZIP and put the whole location_descriptions_enhanced folder, including its hidden .metadata folder, in EU5's user-data mod directory. Enable it in the game. Keep only one copy enabled.
 
 Version 1.0.0. In-game and subscription checks are tracked in [release status](docs/RELEASE_READINESS.md).
 
@@ -32,9 +32,9 @@ See the [FAQ](docs/FAQ.md) and [compatibility notes](docs/COMPATIBILITY.md).
 
 ## Help improve a place
 
-Found a wrong date, awkward translation or a place matched to the wrong location? Tell us in English or Chinese. A location name, region, screenshot and a useful source are enough to start; you do not have to know the internal ID.
+Found a wrong date, awkward translation or a place matched to the wrong location? Leave a comment on the Workshop page in English or Chinese. Include the place name; a region, screenshot or source helps, but you do not need all of them or an internal ID.
 
-Use this repository's Issues tab if available, or the Workshop comments and discussions. You can help without writing code or working in both languages. See [contributing](CONTRIBUTING.md).
+I'll actively maintain the mod, follow up on feedback, fix problems and keep it up to date as the game changes. You can help without writing code or working in both languages. See [contributing](CONTRIBUTING.md).
 
 ## Source and build
 

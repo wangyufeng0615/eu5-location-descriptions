@@ -13,6 +13,6 @@ Location name/region, ID if known, and reproduction steps / 地点名称与地�
 Relevant sanitized log excerpt / 去除个人信息后的相关日志:
 Screenshot / 截图:
 
-Confirm that the placeholder prototype and duplicate local/Workshop copies are disabled. / 请确认已停用旧占位原型和重复副本。
+Confirm that duplicate local/Workshop copies are disabled. / 请确认已停用重复的本地版或订阅版。
 
 English or Chinese is welcome. / 中文或英文均可。

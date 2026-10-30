@@ -4,11 +4,11 @@
 
 ## 验收包与安装
 
-先在本工程执行构建和预检，使用当前 `dist/release-candidate-20261026-en-zh-final/location_descriptions_enhanced/` 文件夹。运行包包含隐藏 `.metadata/`、双语本地化、来源、许可及双语玩家说明。英文与简体中文都是首发必测语言，不能只验一种；后续重新构建应填写实际目录与ZIP哈希，不沿用旧记录。
+先在本工程执行构建和预检，使用当前 `dist/release-candidate-20261031-1.0.0-final/location_descriptions_enhanced/` 文件夹。显示名为Descriptions for Every Tile，运行包包含新英文缩略图、隐藏 `.metadata/`、双语本地化、来源、许可及双语玩家说明。英文与简体中文都是首发必测语言，不能只验一种；后续重新构建应填写实际目录与ZIP哈希，不沿用旧记录。
 
 将实际模组文件夹整体复制到EU5用户数据目录的 `mod/` 下，**不要复制整个GitHub工程或ZIP作为工坊内容文件夹**。若目的地已有同名目录，先停止，保留可恢复副本后再由用户决定替换。停用旧占位原型和订阅副本，在游戏“模组和DLC”中启用唯一的一份测试包。只安装模组，不修改Steam原游戏文件。
 
-游戏基线为Steam build 24187685。验收前可用预检的 `--game-root` 参数核对7份源文件和Steam build；游戏已更新时先重新处理地图/官方保护差异。不要因元数据使用星号就略过版本核对。
+游戏基线为Steam build 26300913（1.4.6）。验收前可用预检的 `--game-root` 参数核对7份源文件和Steam build；游戏已更新时先重新处理地图/官方保护差异。不要因元数据使用星号就略过版本核对。
 
 ## 具体检查
 
@@ -38,6 +38,6 @@
 
 在新的 `dist/` 验收记录填写：包SHA-256、游戏build、语言、样本ID、每项结果、截图文件、日志证据和实际验收日期。可从 [manual-test-record.example.json](manual-test-record.example.json) 复制模板，不改写历史记录。
 
-当前首发资料包中的 `release-evidence.json` 已填入本候选的哈希、版本和游戏build，人工项目全部为待验收。按 [MAINTAINING.md](MAINTAINING.md) 引用真实记录及其哈希后，可交给预检的 `--evidence` 检查；不把本地页面预览或自动检查回执作为实机证据。
+当前 `dist/release-candidate-20261031-1.0.0-final/release-evidence.json` 已填入本候选的哈希、版本和游戏build，人工项目全部为待验收。按 [MAINTAINING.md](MAINTAINING.md) 引用真实记录及其哈希后，可交给预检的 `--evidence` 检查；自动检查回执不能作为实机证据。
 
 首次私有上传后，再停用本地包，实际订阅下载，在Steam工坊内容目录核对元数据版本和文件哈希，重复上述关键检查。上传成功、看到自己的页面、下载完成和游戏加载成功是不同证据；必须分别记录。平台可能要求邮件确认或等待内容审核，不能用本地成功替代线上可见性。

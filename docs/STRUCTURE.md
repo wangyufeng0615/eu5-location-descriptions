@@ -35,7 +35,8 @@ eu5-location-descriptions-workshop/     当前发布工程，本目录
 | 构建工具和测试 | 本工程 | 读取本地 `data/`，无需研究库或游戏即可构建 |
 | 运行包、ZIP和构建回执 | 本工程 `dist/` | 实际模组文件夹用于工坊；ZIP供单独下载 |
 | 玩家FAQ、贡献指南和包内README | 本工程及 `workshop/player-readme.*.md` | 构建时按 `tools/build.py` 的映射复制，包内链接以模组根目录解析 |
-| 首发文案预览与验收记录模板 | 本工程 `dist/` | `tools/prepare_launch.py` 生成，不随整个资料包上传工坊 |
+| 发布文案与封面 | 本工程 `workshop/` | 直接使用原文件，最终页面效果在实际私有工坊条目检查 |
+| 人工验收记录 | 本工程 `dist/` | 从 `docs/release-evidence.example.json` 复制，绑定实际候选包；不上传至工坊运行目录 |
 
 `data/descriptions/` 为57个JSONL分片，500个地点一片，最后一片不足500。`data/baseline.json` 保存目标ID、124个官方保护ID及源文件指纹。不要在两个工程中各自修改同一介绍；不进行自动双向同步。将来若决定迁移正文的权威来源，应单独调整本约定。
 
