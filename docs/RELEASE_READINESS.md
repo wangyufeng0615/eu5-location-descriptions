@@ -1,8 +1,8 @@
 # 发布准备情况
 
-更新：2026-10-31（Asia/Shanghai）。当前版本已接入西西里岛轮廓版双语封面及新名称，补齐英中使用方法，统一引导工坊留言，并按用户授权加入积极维护、查看反馈、持续修正问题及跟进游戏更新的承诺。README、贡献指南、FAQ、包内说明及公告草稿同步。当前GitHub仍为私有；本轮改动尚未推送、安装或上传工坊，不能沿用旧包的验收记录。下方较早的CI、上传及内容同步记录保留为历史依据。
+更新：2026-10-31（Asia/Shanghai）。1.0.0 已公开发布为工坊条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546)，订阅下载与本地包逐文件一致。封面同日换成四色西西里版并重新上传；英中页面文案已精简，截图英文在前。GitHub 按用户要求保持私有。下方较早的记录保留为历史依据。
 
-显示名为 **Descriptions for Every Tile**（所有地块的描述），内部ID保留 `location_descriptions_enhanced`。英文与简体中文同一个工坊条目、同一个运行包；其他语言作为后续贡献方向，不冒称已支持。英文主封面与包内缩略图突出EVERY TILE；中文README及配套发布素材用中文版，突出所有地块。地图以真实西西里岛海岸线为参考，内部划线为示意；素材来源与原版归档见 [素材说明](../workshop/assets/README.md)。
+显示名为 **Descriptions for Every Tile**（所有地块的描述），内部ID保留 `location_descriptions_enhanced`。英文与简体中文同一个工坊条目、同一个运行包；其他语言作为后续贡献方向，不冒称已支持。封面与包内缩略图为四色西西里版，英文版突出EVERY TILE，中文版突出所有地块；素材来源与旧版归档见 [素材说明](../workshop/assets/README.md)。
 
 ## 已落实
 
@@ -21,13 +21,9 @@
 
 ## 当前运行包与命令
 
-当前模组文件夹：`dist/release-candidate-20261031-1.0.0-final/location_descriptions_enhanced/`。同目录有ZIP和 `build_receipt.json`。本轮预检记录为 `dist/release-preflight-20261031-1.0.0-final.json`；旧候选、预检及旧图保留历史，之后重建继续使用新目录。
+当前模组文件夹：`dist/release-1.0.0/location_descriptions_enhanced/`，同目录有ZIP和 `build_receipt.json`；预检记录 `dist/release-1.0.0-preflight.json`。`dist/` 只保留这一版和封面历史，旧候选已清理。运行包187个文件。
 
-移除3个预览工具专用测试后，剩余20个自动测试覆盖官方保护、双语缺失、来源、成品及ZIP篡改、双语页面、包与人工证据绑定等。清理后的实测结果见 `dist/release-preflight-20261031-1.0.0-final.json`。运行包187个文件，其中114个本地化文件；58个数据文件保持原hash。英文1254×1254 JPG为105366 bytes，中文1254×1254 JPG为106284 bytes，英文512×512 PNG缩略图为229085 bytes，均低于项目预算。新包仍须独立记录实机与订阅验收，不能把封面接入当作已发布。
-
-`private-test.local.vdf` 和 `release-evidence.json` 已保留到 `dist/release-candidate-20261031-1.0.0-final/`，与ZIP、构建回执并列，不在实际模组文件夹内。VDF可见性2、首次ID为0，仅为SteamCMD测试后备配置，未执行上传。证据表绑定当前包，人工项全部pending。游戏工具仍为首选；已有条目更新必须填写真实条目ID。被移除的源码、讨论模板、3份旧资料包及4个临时渲染配置目录在工程外 `V:/cache/eu5-workshop-cleanup-20261031/` 保存恢复副本，发布候选和素材历史留在本工程。
-
-当前ZIP SHA-256：`51e6215ec00f1aa79b1d0a89d8df9c01478a09a8136016d62ac0b53cc4986e53`。
+当前ZIP SHA-256：`a932e4a59fa7c6950dd0eec68d194a894ee50f7aedb6b092f3bdb1cbe649a6bc`。
 
 ```sh
 python -B tools/build.py --check
