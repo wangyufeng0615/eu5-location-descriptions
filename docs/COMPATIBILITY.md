@@ -1,5 +1,9 @@
 # Compatibility / 兼容性
 
+2026-11-01公开文案记录：作者明确要求工坊英中说明采用“Oikoumene介绍优先、无其他已知冲突”的表述，已同步发布并核对。此项为文案决策，不等同于新增合开测试或已证实不同目录的引擎覆盖顺序；下方静态分析结论及验证限制继续保留。
+
+2026-10-31补充：比对本工程当前1.0.2的28,316个英文介绍键与Oikoumene公开源码的618个英文介绍键，交集为578个。对方文件为 `main_menu/localization/english/zz_onomasticon_location_flavor_l_english.yml`，本工程为 `in_game/localization/english/lde_*.yml`；不能仅凭模组列表位置保证哪方生效。两边未进行合开实测。工坊英中页面现已增加相应说明，采用“可能覆盖”的表述，不承诺完全兼容或固定加载顺序。下表其余项目保留此前的检查范围，不视作新的游戏实测。
+
 Checked documentation and local package baseline: 2026-10-26. This table separates file-level reasoning from actual game tests. It is not a tested-mod whitelist.
 
 以下按文件职责判断潜在冲突，不代表已逐一进游戏验证。

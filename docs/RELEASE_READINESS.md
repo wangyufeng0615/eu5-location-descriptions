@@ -1,5 +1,9 @@
 # 发布状态与收尾记录
 
+2026-11-01页面措辞更新：按作者明确指定，将Oikoumene兼容说明改为“同时启用时，将优先显示Oikoumene的介绍。无其他已知冲突。”英文同步为“will take precedence / No other known conflicts”。两语线上正文已逐字读回匹配，标题、可见性保持不变，回执为 `dist/steam-oikoumene-wording-update-20261101.json`；旧稿保存在 `dist/description-before-compatibility-wording-20261101/`。这是作者指定的公开表述，本轮未新增引擎优先级证明或联合游戏实测；静态分析的不确定性仍保留在COMPATIBILITY记录中。此次只修改页面，无运行包上传或版本变更。
+
+2026-10-31页面兼容说明更新：在英中描述末尾新增Oikoumene专节，准确说明578个重叠英文介绍键，优先级只写“可能显示Oikoumene的介绍”；不承诺已验证固定顺序或“无其他冲突”。两语列表移除笼统的“无已知冲突”。当前源码28,316条仍与对方公开源码618条中的578条重叠。仅更新Steam页面标题/正文，不上传运行包或变更1.0.2版本；标题、正文和公开状态已通过API读回核验，证据为 `dist/steam-oikoumene-description-update-20261031.json`，旧稿位于 `dist/description-before-oikoumene-note-20261031/`。未启动游戏或进行合开实测。
+
 核对日期：2026-10-31（Asia/Shanghai）。项目为 **Descriptions for Every Tile / 所有地块的描述**，当前版本1.0.2，内部ID为 `location_descriptions_enhanced`。工坊条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546) 当前公开，已通过Steam API实时读回核对。
 
 ## 今天完成

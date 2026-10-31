@@ -9,9 +9,14 @@ This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles
 [*]Supports English and Chinese
 [*]Keeps EU5's flavour
 [*]Preserves the vanilla descriptions
-[*]Compatibility: no known conflicts; can be added to an existing save
+[*]Can be added to an existing save; see mod compatibility below
 [/list]
 
 Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. I used the best models available, went through a huge number of tokens and spent quite a bit of money. But for this mod, I think it was worth it :)
 
 I'm a geography and history enthusiast, and I've corrected and checked these entries as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
+
+[h2]Mod compatibility[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: Both mods provide English descriptions for 578 of the same locations. When both are enabled, Oikoumene's descriptions will take precedence. No other known conflicts.
+[/list]

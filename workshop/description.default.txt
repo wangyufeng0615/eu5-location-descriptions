@@ -9,12 +9,17 @@ This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles
 [*]Supports English and Chinese
 [*]Keeps EU5's flavour
 [*]Preserves the vanilla descriptions
-[*]Compatibility: no known conflicts; can be added to an existing save
+[*]Can be added to an existing save; see mod compatibility below
 [/list]
 
 Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. I used the best models available, went through a huge number of tokens and spent quite a bit of money. But for this mod, I think it was worth it :)
 
 I'm a geography and history enthusiast, and I've corrected and checked these entries as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
+
+[h2]Mod compatibility[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: Both mods provide English descriptions for 578 of the same locations. When both are enabled, Oikoumene's descriptions will take precedence. No other known conflicts.
+[/list]
 
 [h1]为地图上的[b]每个地块[/b]都补充了介绍[/h1]
 [img]https://images.steamusercontent.com/ugc/11172129997313305366/820A202F759037E92AB33A90CD335456260FE231/[/img]
@@ -27,9 +32,14 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 [*]支持：英文、中文
 [*]保持 EU5 的风味
 [*]保留了官方自带描述
-[*]兼容性：无已知冲突、存档可中途加入
+[*]存档可中途加入，模组兼容性见下文
 [/list]
 
 每个地块的描述，基于维基百科为主的当地语言资料，进行了多轮考证，消耗了我大量的 Token，使用的都是最好的模型，花了不少钱。但是为了这个 Mod，我想这是值得的 :)
 
 我是一个地理历史爱好者，这些词条都尽量逐条订正过。如果发现错误，欢迎留言，我会持续维护更新这个 mod！
+
+[h2]MOD 兼容性[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]：两者有 578 条英文地点介绍重叠，同时启用时，将优先显示 Oikoumene 的介绍。无其他已知冲突。
+[/list]
