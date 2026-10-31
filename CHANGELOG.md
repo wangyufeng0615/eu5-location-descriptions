@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2 — 2026-10-31
+
+- Restore paragraph breaks that an old cleanup script had merged in 124 English descriptions, and remove stray leading spaces from 182 Chinese paragraphs.
+- Fix 17 English sentences that had lost the space after a full stop, and a few stray blank lines, trailing spaces and invisible characters.
+- Change "early later" back to "early modern" in 40 English descriptions, and repair the remaining dates that an old script had turned into "later"/"后来".
+- Remove sentences that talked about the research material instead of the place ("the excerpt records…", "所给资料…", "仍需核实"), and a few references to events after 1837.
+- The exporter now cross-checks locations it believes are off the map against the game's location names.
+
 ## 1.0.1 — 2026-10-31
 
 - Add 62 locations the exporter had skipped because their IDs sat right before a closing brace in the map file (Porto Santo, Lampedusa, part of the Ligurian Sea and others). Coverage is now 28,316 of the 28,573 map locations, plus the 257 vanilla descriptions.

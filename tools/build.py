@@ -134,7 +134,7 @@ def expected_payload(root, config, rows):
     files[".metadata/thumbnail.png"] = project_file(root, config["thumbnail_file"]).read_bytes()
     files["ARTWORK.md"] = (
         "# Promotional illustration\n\n"
-        "The thumbnail was generated for this project with the built-in image_gen tool on 2026-10-26. "
+        "The thumbnail (the four-colour Sicily map, adopted 2026-10-31) was generated for this project with the built-in image_gen tool. "
         "It is an original AI-assisted promotional illustration, not a game screenshot or an official game asset. "
         "The project's MIT tool and CC BY-SA text licenses do not grant a separate blanket reuse license for this artwork. "
         "No endorsement by Valve, Paradox or Wikimedia is implied.\n"
