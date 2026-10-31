@@ -14,3 +14,4 @@
 - GitHub `wangyufeng0615/eu5-location-descriptions` 只含本发布工程，按用户要求保持私有。Windows 连不上 github.com：推送时在 Windows 打 `git bundle`，拷到能联网的机器克隆、导入、快进推送，再在 Windows 用 `git update-ref refs/remotes/origin/main <sha>` 对齐。用户已选择工具MIT、介绍CC BY-SA 4.0。发布状态见 [docs/RELEASE_READINESS.md](docs/RELEASE_READINESS.md)。
 - 当前已发布包为 `dist/release-1.0.0/`（预检 `dist/release-1.0.0-preflight.json`），英文和简体中文同条目、同运行包；`dist/` 只留最新一版和封面历史。文案、截图与封面直接维护在 `workshop/`。更新工坊用游戏内 Mod Tools 的“加载模组”选项卡→“从文件夹上传内容”，路径指向新构建的模组文件夹；不覆盖旧产物，预检不代表线上状态。
 - 不使用Computer Use／Computer User；不写入账号密码或token。上传、安装和可见性变更只在用户明确要求时做。
+- 项目总览（两个工程、数据流、技术要点、维护流程）和推广文案（Reddit、贴吧、B站脚本）在 Obsidian 笔记库的 生活/游戏/EU5 地块描述 Mod 项目总览.md 与 生活/游戏/EU5 地块描述 Mod 推广文案.md。
