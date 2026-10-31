@@ -1,6 +1,6 @@
 # 发布状态与收尾记录
 
-核对日期：2026-10-31（Asia/Shanghai）。项目为 **Descriptions for Every Tile / 所有地块的描述**，版本1.0.0，内部ID为 `location_descriptions_enhanced`。工坊条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546) 当前公开，已通过Steam API实时读回核对。
+核对日期：2026-10-31（Asia/Shanghai）。项目为 **Descriptions for Every Tile / 所有地块的描述**，当前版本1.0.2，内部ID为 `location_descriptions_enhanced`。工坊条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546) 当前公开，已通过Steam API实时读回核对。
 
 ## 今天完成
 
@@ -14,15 +14,19 @@
 
 ## 实际发布包
 
-当前已上传：`dist/release-1.0.0-language-artwork/location_descriptions_enhanced/`。
+当前已上传：`dist/release-1.0.2/location_descriptions_enhanced/`，2026-10-31 21:22 生效，Steam API 读回大小 38,097,176 字节，与本地包一致。
 
-- ZIP：`dist/release-1.0.0-language-artwork/location_descriptions_enhanced-1.0.0.zip`
-- SHA-256：`c4184d88cf02b533b2962c930fd576aa468114e8f849812cfc09b6bffbfb4f89`
-- 187个运行文件；与旧已发布包 `dist/release-1.0.0/` 相比，仅 `.metadata/thumbnail.png` 不同。
-- 1.0.1 补上导出时漏掉的62个地点：28,316条英中新增介绍，257条官方介绍受保护，适配原版地图合计28,573个地点。游戏基线记录为1.4.6 / Steam build 26300913。
+- ZIP SHA-256：`861109fac8b45a5fe71ecf1fad20393db09b8ac162c669b3263567aedf37310d`；187个运行文件。
+- 28,316条英中新增介绍，257条官方介绍受保护，适配原版地图合计28,573个地点。游戏基线为1.4.6 / Steam build 26300913。
 - 工具/技术文档MIT，新增介绍及翻译CC BY-SA 4.0；具体范围和第三方权利以LICENSE及归属文件为准。
 
-**本机订阅状态：**收尾核对时仅 `.metadata/thumbnail.png` 尚未更新，其余186个文件一致。待Steam下载后复核缩略图；不声称新图已在游戏内验收。
+| 版本 | 上线时间 | 内容 |
+|---|---|---|
+| 1.0.0 | 10-31 02:19 起 | 首发 28,254 条；下午换四色封面与页面文案（仍为1.0.0，包 `dist/release-1.0.0-language-artwork/`） |
+| 1.0.1 | 10-31 20:38 | 补上导出工具漏读的62个地点（ID紧贴 `}` 未被识别），33条去破折号；工坊简介数字同步改为28,316 |
+| 1.0.2 | 10-31 21:22 | 修复旧脚本留下的正文损坏：124条英文段落合并、182处中文段首空格、40条 early later、约50条谈论资料的句子等 |
+
+18:52 一次更新误传了整个工程文件夹（317 MB），18:54 已重传覆盖；工坊历史版本不能删除，旧版下载链接仅作者登录可见。
 
 ## 验证证据
 
