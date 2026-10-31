@@ -1,5 +1,5 @@
 Descriptions for Every Tile — 1.0 released
 
-Every location without vanilla flavour text now has a description: 28,254 towns, villages, mountains, lakes and sea zones, in English and Simplified Chinese in one mod. The 257 vanilla descriptions are left as they are.
+Every location without vanilla flavour text now has a description: 28,316 towns, villages, mountains, lakes and sea zones, in English and Simplified Chinese in one mod. The 257 vanilla descriptions are left as they are.
 
 I'm a geography enthusiast; the texts were drafted with AI assistance from published sources and corrected and checked by me as carefully as I could. With this many entries some mistakes will remain. Just leave a Workshop comment in English or Chinese if something looks wrong; the place name is enough to start, and a source or screenshot helps if you have one. I'll actively maintain the mod, follow up on feedback, fix problems and keep it up to date as the game changes.

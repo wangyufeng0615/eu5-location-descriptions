@@ -24,7 +24,7 @@ The package adds localization rather than gameplay scripts, but that alone is no
 
 ## Does “every tile” mean every entry is a long local history?
 
-No. It describes coverage of the current map: 28,254 new entries plus 257 vanilla entries left intact. Length varies, and some entries use relevant regional or geographical background.
+No. It describes coverage of the current map: 28,316 new entries plus 257 vanilla entries left intact. Length varies, and some entries use relevant regional or geographical background.
 
 ## What happens when the game updates?
 

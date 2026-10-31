@@ -6,7 +6,7 @@
 
 Historical and geographical descriptions for the places EU5 leaves blank. English and Simplified Chinese are included in the same mod.
 
-Game version 1.4 has 28,511 locations. This mod adds descriptions to the 28,254 without vanilla text and leaves the 257 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
+Game version 1.4 has 28,573 locations. This mod adds descriptions to the 28,316 without vanilla text and leaves the 257 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
 
 ## Getting started
 

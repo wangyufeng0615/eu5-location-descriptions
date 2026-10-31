@@ -19,7 +19,7 @@
 - ZIP：`dist/release-1.0.0-language-artwork/location_descriptions_enhanced-1.0.0.zip`
 - SHA-256：`c4184d88cf02b533b2962c930fd576aa468114e8f849812cfc09b6bffbfb4f89`
 - 187个运行文件；与旧已发布包 `dist/release-1.0.0/` 相比，仅 `.metadata/thumbnail.png` 不同。
-- 地点正文及来源本轮未改动：28,254条英中新增介绍，257条官方介绍受保护，适配原版地图合计28,511个地点。游戏基线记录为1.4.6 / Steam build 26300913。
+- 1.0.1 补上导出时漏掉的62个地点：28,316条英中新增介绍，257条官方介绍受保护，适配原版地图合计28,573个地点。游戏基线记录为1.4.6 / Steam build 26300913。
 - 工具/技术文档MIT，新增介绍及翻译CC BY-SA 4.0；具体范围和第三方权利以LICENSE及归属文件为准。
 
 **本机订阅状态：**收尾核对时仅 `.metadata/thumbnail.png` 尚未更新，其余186个文件一致。待Steam下载后复核缩略图；不声称新图已在游戏内验收。

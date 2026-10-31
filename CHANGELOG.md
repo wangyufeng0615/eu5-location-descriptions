@@ -2,6 +2,7 @@
 
 ## 1.0.1 — 2026-10-31
 
+- Add 62 locations the exporter had skipped because their IDs sat right before a closing brace in the map file (Porto Santo, Lampedusa, part of the Ligurian Sea and others). Coverage is now 28,316 of the 28,573 map locations, plus the 257 vanilla descriptions.
 - Fix punctuation in 33 descriptions (dashes replaced) and remove a corrupted closing passage from Beira Estuary.
 - Adopt the four-colour Sicily covers (23 game locations, neighbours in different colours, larger title) for the Workshop cover, Chinese cover and package thumbnail; archive the Sicily-outline set.
 - Remove the unused local HTML preview generator, its tests, duplicate launch packs, temporary rendering profiles and discussion templates. Keep build/validation tools, approved artwork, release candidates and manual acceptance records.

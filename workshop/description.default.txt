@@ -3,7 +3,7 @@
 
 Vanilla EU5 describes only a few hundred locations.
 
-This mod adds high-quality descriptions to all the remaining [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
+This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
 
 [list]
 [*]Supports English and Chinese
@@ -21,7 +21,7 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 
 原版只给小几百个地点写了介绍。
 
-此 MOD 为其余全部 [b]28,254[/b] 个地块补上了高质量的介绍：城镇、乡野、山地、湖泊、海域。不可通行地块也补充了！
+此 MOD 为其余全部 [b]28,316[/b] 个地块补上了高质量的介绍：城镇、乡野、山地、湖泊、海域。不可通行地块也补充了！
 
 [list]
 [*]支持：英文、中文

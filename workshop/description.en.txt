@@ -3,7 +3,7 @@
 
 Vanilla EU5 describes only a few hundred locations.
 
-This mod adds high-quality descriptions to all the remaining [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
+This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
 
 [list]
 [*]Supports English and Chinese
