@@ -1,53 +1,49 @@
-# 发布准备情况
+# 发布状态与收尾记录
 
-更新：2026-10-31（Asia/Shanghai）。1.0.0 已公开发布为工坊条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546)，订阅下载与本地包逐文件一致。封面同日换成四色西西里版并重新上传；英中页面文案已精简，截图英文在前。GitHub 按用户要求保持私有。下方较早的记录保留为历史依据。
+核对日期：2026-10-31（Asia/Shanghai）。项目为 **Descriptions for Every Tile / 所有地块的描述**，版本1.0.0，内部ID为 `location_descriptions_enhanced`。工坊条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546) 当前公开，已通过Steam API实时读回核对。
 
-显示名为 **Descriptions for Every Tile**（所有地块的描述），内部ID保留 `location_descriptions_enhanced`。英文与简体中文同一个工坊条目、同一个运行包；其他语言作为后续贡献方向，不冒称已支持。封面与包内缩略图为四色西西里版，英文版突出EVERY TILE，中文版突出所有地块；素材来源与旧版归档见 [素材说明](../workshop/assets/README.md)。
+## 今天完成
 
-## 已落实
+- 重做英中四色西西里封面，标题放大、顶部留白收紧。地图参考游戏中主岛的23个地点；左下角English ✓在上、中文 ✓在下。英文作主封面和包内缩略图，中文作附加图片。
+- 两枚徽章改为精确SVG排版并导出透明PNG，修正边缘、留白和coverage的视觉居中。英中各自制作，只保留100%覆盖和语言支持。
+- 按作者最终中文稿同步改写英文，去掉数字汇总说明；两语标题、正文和各自徽章已发布，线上读回与本地逐字一致。
+- 徽章改由Steam RemoteStorage/FileShare独立托管。移除画廊徽章后，两套正文图片实际HTTP 200且SHA-256与本地一致。画廊保留4张真实游戏截图和中文封面，原顺序不变。
+- 增加无界面的Steam页面维护工具，核对所有者，默认只读，写入须显式旗标及用户授权。两语标题与正文必须一起提交；不修改可见性或创建条目。
+- 增加两项画廊维护回归测试：不得删除任一正文仍引用的预览；只能移除指定徽章，按倒序索引操作。后续封面更新不再把徽章加入画廊。
+- 收尾归整文档与来源记录，形成本地Git提交；未执行远程推送。旧设计、旧包和回执保留，不删除恢复材料。
 
-- 2026-10-30 按游戏 1.4（build 26300913）从原工程重新导出：28,254 个地点双语正文，257 个官方保护ID（1.3 新增 133 个官方介绍，原有对应正文不再导出），62 个已不在 1.3 地图上的ID移除。
-- 用户已选择MIT工具许可、CC BY-SA 4.0新增正文许可；完整许可、具体适用范围、维基贡献者链接和改写/翻译声明随包提供。
-- 原创AI封面及512像素包内PNG缩略图，保存主图、实际提示词和哈希来源；封面不冒充截图，也不混用官方游戏美术。
-- 实际阅读六个EU5社区作者页面，按功能、使用、兼容、反馈和归属组织自然的英中文案；参考与取舍见 [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md)。Oikoumene也含地点介绍，明确提示覆盖及两语内容不一致风险，没有冒称实测兼容。
-- 英中工坊页面、合并后备文案、FAQ、完整贡献指南、公告、变更说明及GitHub Issue/PR模板已准备。普通玩家直接在工坊留言；允许单语言、无内部ID的反馈，采纳的正文修改先回研究主库，再导出发布。不虚构外部联系方式、GitHub链接或工坊ID。
-- 运行包附带双语使用说明、FAQ与贡献指南，手动下载玩家也能找到。按用户要求移除本地HTML预览、重复首发资料包、临时渲染缓存及不用的分类讨论模板。文案和封面直接使用workshop中的原文件，最终页面效果在实际私有工坊条目检查。
-- 构建后重新读取成品及ZIP，比对全部本地化、元数据、来源与许可；拒绝官方ID覆盖、重复ID、缺语种、无来源及异常配置路径。
-- 预检检查UTF-8页面字节数、图片尺寸/大小、许可、文件清单、链接、敏感模式，以及可选的7份游戏源指纹/Steam build。
-- GitHub Windows/Ubuntu构建检查已启用，第三方Actions固定到已查询的commit，仅有contents读取权限，不上传工坊或改变可见性。首次云端检查发现篡改测试依赖文件遍历顺序，已固定英文目标并断言实际修改。修复提交 `388f7a2` 的 [Windows与Ubuntu检查](https://github.com/wangyufeng0615/eu5-location-descriptions/actions/runs/40318351150) 均已成功，包含22项测试、构建、成品/ZIP复验及预检；这些结果不代表游戏跨平台实测。
-- 私有仓库：[wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)。首批提交 `8a1fa58` 和修复提交 `388f7a2` 已推送，API确认private和main，远端120个文件与本地Git文件清单一致，包含58个数据文件。研究库历史、数据库、缓存、dist及游戏原文件未上传；按用户安排，游戏与工坊验收完成前保持私有。
-- 本次上传的是已整理、核对的发布快照。另一个任务已在研究工程继续扩写；本轮未将进行中的新稿混入发布数据。公开前须从确认过的研究检查点单向同步、重新构建及验收，旧包回执不能证明新正文已验收。
-- 具体实机样本、截图计划、更新/回滚和上传排错说明已准备。保留只读地点搜索工具；人工证据须绑定当前ZIP、版本、游戏build及证据文件哈希，缺记录保持未就绪。工具不独立判断记录真实性或史实正确性。
+## 实际发布包
 
-## 当前运行包与命令
+当前已上传：`dist/release-1.0.0-language-artwork/location_descriptions_enhanced/`。
 
-当前模组文件夹：`dist/release-1.0.0/location_descriptions_enhanced/`，同目录有ZIP和 `build_receipt.json`；预检记录 `dist/release-1.0.0-preflight.json`。`dist/` 只保留这一版和封面历史，旧候选已清理。运行包187个文件。
+- ZIP：`dist/release-1.0.0-language-artwork/location_descriptions_enhanced-1.0.0.zip`
+- SHA-256：`c4184d88cf02b533b2962c930fd576aa468114e8f849812cfc09b6bffbfb4f89`
+- 187个运行文件；与旧已发布包 `dist/release-1.0.0/` 相比，仅 `.metadata/thumbnail.png` 不同。
+- 地点正文及来源本轮未改动：28,254条英中新增介绍，257条官方介绍受保护，适配原版地图合计28,511个地点。游戏基线记录为1.4.6 / Steam build 26300913。
+- 工具/技术文档MIT，新增介绍及翻译CC BY-SA 4.0；具体范围和第三方权利以LICENSE及归属文件为准。
 
-当前ZIP SHA-256：`a932e4a59fa7c6950dd0eec68d194a894ee50f7aedb6b092f3bdb1cbe649a6bc`。
+**本机订阅状态：**收尾核对时仅 `.metadata/thumbnail.png` 尚未更新，其余186个文件一致。待Steam下载后复核缩略图；不声称新图已在游戏内验收。
 
-```sh
-python -B tools/build.py --check
-python -B -m unittest discover -s tests -v
-python -B tools/build.py --output dist/YOUR_NEW_CANDIDATE
-python -B tools/build.py --verify dist/YOUR_NEW_CANDIDATE
-python -B tools/preflight.py --build dist/YOUR_NEW_CANDIDATE --output dist/YOUR_NEW_REPORT.json
-```
+## 验证证据
 
-预检可加 `--game-root` 指向本机游戏根目录，检查实际基线。本机7份游戏源文件及Steam build 26300913（1.4.6）已匹配。真实验收后用 `--evidence` 引用对应证据表；`--require-publish-ready` 在人工和外部记录未齐时返回非零。普通本地预检通过只代表本地材料和格式通过。工具不会上传、接受协议或自动改变公开状态。
+22项自动测试通过，当前包重新读取及ZIP校验通过。本地预检通过；未提供的人工验收项继续保持未就绪，不等同于线上发布失败，也不自动补写通过。
 
-## 尚待真实完成
+| 核对内容 | 本地证据 |
+|---|---|
+| 收尾时线上两语标题、正文和画廊 | `dist/steam-day-end-readback-20261031.json` |
+| 收尾时徽章HTTP/哈希、订阅差异及包哈希 | `dist/day-end-verification-20261031.json` |
+| 最新本地预检 | `dist/day-end-preflight-20261031.json` |
+| 独立徽章云文件、句柄及URL | `dist/steam-independent-badges-20261031.json`、`workshop/page.json` |
+| 最终画廊移除及图片可用性 | `dist/steam-gallery-cleanup-final-20261031.json`、`dist/steam-gallery-cleanup-final-verification-20261031.json` |
+| 作者最终文案发布记录 | `dist/steam-author-description-update-20261031.json` |
 
-| 项目 | 当前状态 | 完成方式 |
-|---|---|---|
-| 完整正文包实机显示及真实截图 | 已完成 | 2026-10-31 用 release-1.0.0 本地安装版实测：中英文城镇与不可通行地块的悬停介绍、分段显示正常；4 张截图在 `workshop/screenshots/`。订阅版复测见下行 |
-| 第三方特殊声明与受保护引用 | 未做逐篇穷尽检查 | 对实际复用材料保留必要声明，发现问题回原内容工程处理；不能仅凭许可文件声称全部通过 |
-| 独立史实复核 | 城市已完成，其余未逐篇 | 城市 573 条已对照英文和当地语言维基逐项核对；工坊介绍如实说明“AI 辅助起草、作者订正校验、难免疏漏”，欢迎纠错 |
-| GitHub仓库可见性及上传 | 已私有上传，远端和修复提交CI已通过 | [wangyufeng0615/eu5-location-descriptions](https://github.com/wangyufeng0615/eu5-location-descriptions)，账号、private、main与120个源文件清单均已核对；不把私有链接当公开支持入口 |
-| 研究工程后续扩写同步 | 本次未同步 | 按STRUCTURE的单向流程从确认过的检查点导出，核对差异后形成新候选并重新验收，不触碰另一任务进行中的写作 |
-| Steam账号资格、条款、注册邮箱 | 待账号所有者确认 | 在实际提交流程检查，不读取或记录凭据 |
-| 首次私有上传、审核与实际订阅 | 已完成 | 2026-10-31 上传为条目 [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546)，隐藏状态下订阅实测正常，下载的 187 个文件与 dist/release-1.0.0 逐一一致，随后改为公开 |
-| 成就、联机和跨平台 | 未验证 | 无实测前不作为对外兼容承诺 |
+关键实测教训已写入 [PUBLISHING.md](PUBLISHING.md)：单独更新简中描述会清空本地化标题；删除预览会使其旧CDN链接404。必须先独立托管图片、迁移正文并验证，再清理画廊。不能删除page.json记录的两个徽章云文件。
 
-这些剩余项包含明确需要游戏、账号或后续独立核验的工作，不用占位截图、生成图或自动生成的“通过”记录代替。
+## 剩余事项
 
-来源与要求见 [STEAM_REQUIREMENTS.md](STEAM_REQUIREMENTS.md)，操作顺序见 [PUBLISHING.md](PUBLISHING.md)，维护与回滚见 [UPDATE_AND_ROLLBACK.md](UPDATE_AND_ROLLBACK.md)。
+1. Steam下载完成后复核本机新缩略图，并按需在游戏里查看。正文双语由游戏语言选择；工坊标题及正文由Steam显示语言选择，主封面不随语言自动切换。
+2. 今天的本地源码提交尚待同步GitHub；沿用私有仓库安排，本轮未更改远端可见性。云端CI仍对应此前提交，不能冒称今天的源码已在云端通过。
+3. 页面兼容性文字按作者指定稿发布。本轮未新增中途加入存档、同类模组、成就、联机或跨平台实测；具体覆盖冲突参见 [COMPATIBILITY.md](COMPATIBILITY.md)。
+4. 独立史实复核和第三方特殊声明检查继续由内容工程处理；`independent_fact_review_complete`仍为false。本轮不扩大词条工作。
+
+收尾前的完整累计报告保存在本地 `dist/day-end-history-20261031/RELEASE_READINESS.before-closeout.md`，此前Git记录保留。发布步骤见 [PUBLISHING.md](PUBLISHING.md)，游戏验收见 [SMOKE_TEST.md](SMOKE_TEST.md)，更新回滚见 [UPDATE_AND_ROLLBACK.md](UPDATE_AND_ROLLBACK.md)。

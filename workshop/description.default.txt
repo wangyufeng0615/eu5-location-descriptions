@@ -1,23 +1,35 @@
 [h1]A description for [b]every tile[/b] on the map[/h1]
-Vanilla EU5 describes only a few hundred locations. This mod adds descriptions to all the other [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Yes, impassable tiles too.
-[list]
-[*]Languages: English, Chinese
-[*]Written in EU5's own style
-[*]Vanilla descriptions are left unchanged
-[*]Adds tile descriptions and nothing else
-[/list]
-Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. It cost me a lot of tokens, all with the best models available, but for this mod I think it was worth it :)
+[img]https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/[/img]
 
-I'm a geography enthusiast and have checked these descriptions as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
+Vanilla EU5 describes only a few hundred locations.
+
+This mod adds high-quality descriptions to all the remaining [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
+
+[list]
+[*]Supports English and Chinese
+[*]Keeps EU5's flavour
+[*]Preserves the vanilla descriptions
+[*]Compatibility: no known conflicts; can be added to an existing save
+[/list]
+
+Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. I used the best models available, went through a huge number of tokens and spent quite a bit of money. But for this mod, I think it was worth it :)
+
+I'm a geography and history enthusiast, and I've corrected and checked these entries as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
 
 [h1]为地图上的[b]每个地块[/b]都补充了介绍[/h1]
-原版只给小几百个地点写了介绍。这个模组为其余全部 [b]28,254[/b] 个地块补上介绍：城镇、乡野、山地、湖泊、海域。是的，不可通行地块也补充了。
-[list]
-[*]目前支持：英文、中文
-[*]EU5 的风味
-[*]未修改官方自带描述
-[*]除了补充地块描述，无其他任何影响
-[/list]
-每个地块的描述，都基于以维基百科为主的当地语言资料，进行了多轮考证，消耗了我大量的 Token，使用的都是最好的模型。但是为了这个 Mod，我想这是值得的 :)
+[img]https://images.steamusercontent.com/ugc/11172129997313305366/820A202F759037E92AB33A90CD335456260FE231/[/img]
 
-我是一名地理爱好者，这些介绍都尽量逐条订正过。如果发现错误，欢迎留言，我会持续维护更新这个mod！
+原版只给小几百个地点写了介绍。
+
+此 MOD 为其余全部 [b]28,254[/b] 个地块补上了高质量的介绍：城镇、乡野、山地、湖泊、海域。不可通行地块也补充了！
+
+[list]
+[*]支持：英文、中文
+[*]保持 EU5 的风味
+[*]保留了官方自带描述
+[*]兼容性：无已知冲突、存档可中途加入
+[/list]
+
+每个地块的描述，基于维基百科为主的当地语言资料，进行了多轮考证，消耗了我大量的 Token，使用的都是最好的模型，花了不少钱。但是为了这个 Mod，我想这是值得的 :)
+
+我是一个地理历史爱好者，这些词条都尽量逐条订正过。如果发现错误，欢迎留言，我会持续维护更新这个 mod！

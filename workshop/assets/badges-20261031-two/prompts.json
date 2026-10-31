@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "name": "en",
+      "prompt": "Generate a finished GitHub shields.io-style badge strip with EXACTLY TWO badges on a transparent background. First badge: charcoal label 'coverage', green value '100%'. Second badge: charcoal label 'languages', blue value 'English + 简中'. Small rounded corners, clean flat fills, white sans-serif lettering, no textures, no shadows, no decoration, no other badges. Both badges single line and equal height. Place side by side with small gap; use compact wide canvas. This is actual graphic artwork, not a mockup. Tight transparent padding. Accurately write the two Chinese characters 简中."
+    },
+    {
+      "name": "zh-CN",
+      "prompt": "生成一张成品GitHub shields.io风格徽章条，透明背景，横向只放两个徽章。第一个徽章：深灰标签写“覆盖率”，右侧绿色数值写“100%”；第二个徽章：深灰标签写“支持语言”，右侧蓝色数值写“English + 简中”。所有文字必须用准确的简体中文，尤其是“盖”写简体盖（上面羊字头，下面皿），不可写繁体蓋；语写讠旁的简体语，不可写語。白色清晰无衬线字体，小圆角，纯色扁平，无渐变无阴影无纹理。两个徽章等高并排，文字全部单行，间隔很小，画布尽量紧凑宽幅。只画这两个徽章，没有第三个徽章，没有其他文字。"
+    }
+  ],
+  "status": "local only; not uploaded"
+}

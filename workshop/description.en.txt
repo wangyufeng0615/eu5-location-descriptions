@@ -1,11 +1,17 @@
 [h1]A description for [b]every tile[/b] on the map[/h1]
-Vanilla EU5 describes only a few hundred locations. This mod adds descriptions to all the other [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Yes, impassable tiles too.
-[list]
-[*]Languages: English, Chinese
-[*]Written in EU5's own style
-[*]Vanilla descriptions are left unchanged
-[*]Adds tile descriptions and nothing else
-[/list]
-Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. It cost me a lot of tokens, all with the best models available, but for this mod I think it was worth it :)
+[img]https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/[/img]
 
-I'm a geography enthusiast and have checked these descriptions as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
+Vanilla EU5 describes only a few hundred locations.
+
+This mod adds high-quality descriptions to all the remaining [b]28,254[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
+
+[list]
+[*]Supports English and Chinese
+[*]Keeps EU5's flavour
+[*]Preserves the vanilla descriptions
+[*]Compatibility: no known conflicts; can be added to an existing save
+[/list]
+
+Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. I used the best models available, went through a huge number of tokens and spent quite a bit of money. But for this mod, I think it was worth it :)
+
+I'm a geography and history enthusiast, and I've corrected and checked these entries as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!

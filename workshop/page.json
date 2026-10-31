@@ -51,7 +51,34 @@
   "published": {
     "date": "2026-10-31",
     "visibility": 0,
-    "package": "dist/release-1.0.0",
-    "file_size": 38014896
+    "package": "dist/release-1.0.0-language-artwork",
+    "previous_package": "dist/release-1.0.0",
+    "archive_sha256": "c4184d88cf02b533b2962c930fd576aa468114e8f849812cfc09b6bffbfb4f89",
+    "assets_and_descriptions_updated": "2026-10-31",
+    "language_readback_verified": true,
+    "asset_cdn_hashes_verified": true,
+    "thumbnail_subscription_download_pending": true,
+    "previous_package_file_size": 38014896,
+    "badge_gallery_entries_removed": "2026-10-31",
+    "body_badge_urls_verified_after_removal": true,
+    "day_end_checked": "2026-10-31"
+  },
+  "description_badges": {
+    "english": {
+      "file": "workshop/assets/badges-20261031-vector/badges.en.png",
+      "url": "https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/",
+      "hosting": "Steam RemoteStorage FileShare",
+      "cloud_file": "eu5_description_badges_en_f1d4818d53a8eda1.png",
+      "ugc_handle": 13578589985414708755,
+      "gallery_entry": false
+    },
+    "schinese": {
+      "file": "workshop/assets/badges-20261031-vector/badges.zh-CN.png",
+      "url": "https://images.steamusercontent.com/ugc/11172129997313305366/820A202F759037E92AB33A90CD335456260FE231/",
+      "hosting": "Steam RemoteStorage FileShare",
+      "cloud_file": "eu5_description_badges_zh-CN_6ac5f5096d273e6a.png",
+      "ugc_handle": 11172129997313305366,
+      "gallery_entry": false
+    }
   }
 }

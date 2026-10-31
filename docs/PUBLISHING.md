@@ -1,16 +1,29 @@
 # Publication workflow / 发布流程
 
-本目录现为独立发布工程，结构和与原研究工程的边界见 [STRUCTURE.md](STRUCTURE.md)。目录独立不代表已经上传或公开。
+## Published-page maintenance, verified 2026-10-31
 
-This is an alpha Workshop publishing project. The owner selected MIT for tools and CC BY-SA 4.0 for new prose/translations on 2026-10-26; see [LICENSE](../LICENSE). English and Simplified Chinese launch copy, player guides, cover artwork and local checks are prepared. The GitHub repository is private by the owner's instruction. Exceptional third-party reuse review and full-text game/subscription testing remain pending; no Workshop upload has occurred. Current evidence and outstanding work are in [RELEASE_READINESS.md](RELEASE_READINESS.md); official requirements are in [STEAM_REQUIREMENTS.md](STEAM_REQUIREMENTS.md).
+The existing public item is `3830305546`. `tools/steam_page.py` uses the running Steam client through EU5's own Steam API DLL, checks the signed-in owner, and does not read credentials or operate a UI. With no write flags it only inspects the two language variants. Use a new `--output dist/<record>.json` path each time. Do not run Python with optimization: the helper checks Steam return values with assertions.
+
+- Inspect: `python -B tools/steam_page.py --output dist/NEW_INSPECTION.json`.
+- After building, validating and reviewing a candidate: `python -B tools/steam_page.py --assets --content dist/YOUR_CANDIDATE/location_descriptions_enhanced --output dist/NEW_ASSET_RECORD.json`. Omit `--content` for a page-artwork-only change. The command updates the main cover and Chinese supplementary cover, preserving existing screenshots and visibility. It deliberately does not add badges to the gallery.
+- Badge hosting: `python -B tools/steam_page.py --host-badges --output dist/NEW_BADGE_HOSTING.json`. This writes only the two known badge PNGs to content-addressed filenames in this app's Steam Remote Storage and shares them via FileShare. It checks any existing same-name file before reuse and verifies public CDN bytes. It does not enumerate unrelated Cloud files. Retain the two exact cloud_file names recorded in workshop/page.json: these files back the live body images and must not be deleted. Updating a badge creates a new hash-named file; update both language descriptions before retiring an old asset.
+- Insert the actual respective badge URL into each language description using `[img]URL[/img]`; maintain the combined fallback. Then run `python -B tools/steam_page.py --descriptions --output dist/NEW_DESCRIPTION_RECORD.json`. Each localized update must submit **both title and description**: an observed description-only Simplified Chinese update cleared its localized title. The helper now sends both and verifies exact readback.
+- If an older version added badges to the gallery, first move the body references to the independently shared URLs and verify them, then run `python -B tools/steam_page.py --clean-gallery --output dist/NEW_GALLERY_RECORD.json`. The command removes only badges.en.png and badges.zh-CN.png, in descending index order. It refuses to remove an entry still referenced by either localized description. Keep actual screenshots and the supplementary Chinese cover. An experiment on 2026-10-31 confirmed that removing gallery previews made their old CDN links return 404; do not rely on deleted previews as image hosting. Recheck independent URLs and hashes after removal.
+- Read back both languages and compare CDN file hashes. Record subscription mismatches separately: Steam may defer downloading the new thumbnail while EU5 is running. No screenshot, account term, review status, game acceptance result or visibility is inferred from successful API submission.
+
+The current upload is `dist/release-1.0.0-language-artwork/`; results are in RELEASE_READINESS. Earlier first-publication instructions below are retained for context.
+
+本目录为独立发布工程，结构和与原研究工程的边界见 [STRUCTURE.md](STRUCTURE.md)。既有工坊条目已公开；当前状态以 [RELEASE_READINESS.md](RELEASE_READINESS.md) 为准。
+
+This is the publishing source for the released 1.0.0 Workshop mod. The owner selected MIT for tools and CC BY-SA 4.0 for new prose/translations on 2026-10-26; see [LICENSE](../LICENSE). Keep GitHub under the owner's private-repository arrangement. Do not infer historical-review or compatibility-test completion from publication. Current evidence and outstanding work are in [RELEASE_READINESS.md](RELEASE_READINESS.md); official requirements are in [STEAM_REQUIREMENTS.md](STEAM_REQUIREMENTS.md).
 
 ## English and Simplified Chinese launch
 
 Use one Workshop item containing both languages. Maintain the native [English](../README.md) and [Chinese](../README.zh-CN.md) player pages, [English](FAQ.md) and [Chinese](FAQ.zh-CN.md) FAQs, and both contribution guides together. Feedback may use either language and does not require an internal ID. Accepted content proposals go through the research ledger before export; see [MAINTAINING.md](MAINTAINING.md).
 
-The current candidate is `dist/release-candidate-20261031-1.0.0-final/`. That directory retains `private-test.local.vdf` and `release-evidence.json` alongside the ZIP and build receipt, outside the actual mod folder; the evidence form identifies this exact package and all manual checks remain pending. Page text, announcements, change notes and artwork stay in `workshop/`, without a duplicate launch pack. These are prepared materials, not posted messages. Workshop comments are the player feedback channel. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Community-page choices are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
+The current uploaded build is `dist/release-1.0.0-language-artwork/`; keep previous packages as rollback material. Page text, announcements, change notes and artwork stay in `workshop/`, without a duplicate launch pack. Announcement drafts are not posted messages. Workshop comments are the player feedback channel. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Community-page choices are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
 
-Check the final page appearance on the actual private Steam Workshop item. No local HTML preview tool is required or maintained.
+Check final page appearance on the actual Workshop item. No local HTML preview tool is required or maintained. New items or unpublished candidates should first be checked privately.
 
 The selected display title is **Descriptions for Every Tile** / **所有地块的描述**. `workshop/page.json` lists both cover images for validation; the Chinese README uses the Chinese JPEG. The shared Workshop primary image and runtime thumbnail remain English. Use the Chinese JPEG as additional promotional material; no automatic language-specific Steam primary-image switching is assumed. Source geometry, prompts, selected images and old-artwork preservation are documented in [artwork notes](../workshop/assets/README.md).
 
@@ -34,7 +47,7 @@ For a later build, copy [release-evidence.example.json](release-evidence.example
 
 ## SteamCMD testing fallback
 
-Valve documents SteamCMD workshop upload as a **testing** route. `workshop/upload.vdf.example` is deliberately incomplete and uses private visibility (`2`). It is not a verified EU5 upload integration. New items use `publishedfileid` zero; updates must retain the returned nonzero ID. SteamCMD writes that ID back on success. Credentials and Guard codes must not be committed or put in scripts. No unattended uploader is supplied.
+Valve documents SteamCMD workshop upload as a **testing** route. `workshop/upload.vdf.example` is deliberately incomplete and uses private visibility (`2`). It is not a verified EU5 upload integration. New items use `publishedfileid` zero; updates must retain the returned nonzero ID. SteamCMD writes that ID back on success. Credentials and Guard codes must not be committed or put in scripts. The existing-item native API helper above requires explicit write flags and an already running Steam session.
 
 ## Official sources checked on 2026-10-26
 

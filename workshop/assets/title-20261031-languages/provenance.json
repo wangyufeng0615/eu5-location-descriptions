@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-31",
+  "tool": "built-in image_gen",
+  "status": "local draft; not uploaded",
+  "files": {
+    "cover.en.png": {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "8b4057fa8ba8d8c9ad53d47ed716c738acfa132213024fdb04943b54d537cfa3"
+    },
+    "cover.zh-CN.png": {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "6ae802250d00019db573b18c8d5d1206e7bea3b9bf37bf7328acf0a71a92dc30"
+    }
+  }
+}

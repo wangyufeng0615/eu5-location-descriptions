@@ -1,0 +1,15 @@
+{
+  "renderer": "SVG geometry and Pillow raster export",
+  "scale": 4,
+  "height": 40,
+  "horizontal_padding_minimum": 16,
+  "gap": 12,
+  "radius": 5,
+  "font": "msyhbd.ttc",
+  "files": {
+    "badges.en.svg": "bc672a081b25f7e2d52dc5fe471b29fd02cf13986009628b67844d7939f9e315",
+    "badges.en.png": "b24e7fc1fe6368d7042fa6eed3ec95d7fb3c719df04823192c1755058a8364ea",
+    "badges.zh-CN.svg": "5d669e942a39a0032f08f9492467d14d9c69eed93c696b1fd84d45d370f467fd",
+    "badges.zh-CN.png": "e7b3001ef1784b98d3452d0c955e60b9d1b543ae2dd3645c4bf7054bd045a31a"
+  }
+}

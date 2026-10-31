@@ -1,9 +1,9 @@
 {
   "selected_on_local_date": "2026-10-31",
   "generation_tool": "image_gen (built-in)",
-  "selected_source_directory": "title-20261031-four-color",
+  "selected_source_directory": "title-20261031-languages-v2",
   "prompt_file": "prompt.txt",
-  "prompt_set_file": "title-20261031-four-color/prompts.json",
+  "prompt_set_file": "title-20261031-languages-v2/prompts.json",
   "map_source_file": "title-20261031-four-color/map-source.json",
   "is_game_screenshot": false,
   "display_names": {
@@ -17,15 +17,15 @@
     "cover-master.png": "Unchanged copy of approved English PNG",
     "cover.jpg": "JPEG quality 90, 1254x1254, encoded from approved English image",
     "cover.zh-CN.jpg": "JPEG quality 90, 1254x1254, encoded from approved Chinese image",
-    "thumbnail.png": "English image resized to 512x512 with bicubic interpolation; PNG"
+    "thumbnail.png": "English approved cover resized to 512x512 with Lanczos; PNG"
   },
-  "previous_artwork_archive": "dist/artwork-history-20261031-sicily-outline",
+  "previous_artwork_archive": "dist/artwork-history-20261031-before-language-labels",
   "file_sha256": {
-    "cover-master.png": "212972836bce4f79f6aec5fedaeb917d0c6b7e9ce9f435fddcb675ea1d4473db",
-    "cover.jpg": "f7a2c3220bdb82cb3131febc5be046ac0458fa26ec89ec6450b25d9c72e00cde",
-    "cover.zh-CN.jpg": "d21a699994187231868797148a330bc3edbee0153addaf268a4acfde6d1d2a60",
-    "thumbnail.png": "0d1713a3620f71402435b978bdfffff1df7667d84f7c7939fd62ca70a74e49e2",
-    "prompt.txt": "aa4f11e50c633e970eebf4ba5e5505620bb8b0d1c73fd4e06c917aa252e25465",
-    "README.md": "74c5a9ae5d67626fdbea623a5fc3968194cd7a24eaa776de787abad765491c24"
+    "cover-master.png": "32bed7511898389fa71d593839c75a29de4339091a0451f659b67a266d2a39ff",
+    "cover.jpg": "72b7862504fb5bf47c3ab6139a80efa0063f2050c75c5597ab8a568b70c4a4ab",
+    "cover.zh-CN.jpg": "ccf11e9e51a180f20b4218e343b5214432c82a46d6d363078b28742db67e5d7a",
+    "thumbnail.png": "35c8f676e8b0c57308c9c8d1bcc2deddd915b12c5175241bc9def45c647fd744",
+    "prompt.txt": "1633054ecebd25d27a885684de83c8d8cf624271fb9990948fc59c9d9697bf2a",
+    "README.md": "26315d953bb084420fd755b29e6c5b901f48eaf476076c8e63bc5cc7bfb765c7"
   }
 }

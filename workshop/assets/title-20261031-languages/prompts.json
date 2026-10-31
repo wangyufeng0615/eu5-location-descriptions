@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Edit the attached square mod cover with a SINGLE localized addition. Preserve all existing title text, typography, all map pixels, map boundaries and four colors and image layout. In the EMPTY WHITE LOWER LEFT corner below the west coast of Sicily (roughly x=5%-34%, y=83%-96%), add a compact two-line language support label. Exact text: first line '中文 ✓', second line 'English ✓'. Bold clean black sans-serif text, green checkmarks placed at the right, lines left aligned, a 4% left margin, comfortably readable at thumbnail size (font approx 4.5% of canvas height). No box, no new logo, no extra symbols or captions. Do not overlap or move the map. Keep pure white background. Do not change any other text. Both languages must have the same label regardless of main cover language.",
+  "inputs": [
+    "../cover.jpg",
+    "../cover.zh-CN.jpg"
+  ],
+  "status": "local draft; not uploaded"
+}

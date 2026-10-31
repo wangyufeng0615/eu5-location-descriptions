@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-31",
+  "status": "local; not uploaded",
+  "export": "System.Drawing trims empty alpha padding only",
+  "files": {
+    "badges.en.master.png": {
+      "dimensions": [
+        2172,
+        724
+      ],
+      "sha256": "eb464672605ae6df9a4bd85473ae32d9f82f869fe7e24e35d700cbcfee44d437"
+    },
+    "badges.en.png": {
+      "dimensions": [
+        2172,
+        207
+      ],
+      "sha256": "7fa13d26e6edbc79e0417acc535803c42990122d5e9e6258edb752ccec409f12"
+    },
+    "badges.zh-CN.master.png": {
+      "dimensions": [
+        2172,
+        724
+      ],
+      "sha256": "c3337cf7255465c46165a64d70e8cb0b95cd9fdbd46eb54832870601d65f5e68"
+    },
+    "badges.zh-CN.png": {
+      "dimensions": [
+        2172,
+        211
+      ],
+      "sha256": "edb197bc63d2431b1447adb6e29b2e85e9131b74010ee80f425d2fb0ce73d557"
+    }
+  }
+}

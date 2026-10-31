@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-31",
+  "tool": "built-in image_gen",
+  "status": "local draft; not uploaded",
+  "export": "Badge masters preserved; empty transparent top/bottom margins trimmed with System.Drawing for embedding. No lettering recolored or repainted.",
+  "files": {
+    "badges.en.master.png": {
+      "dimensions": [
+        2172,
+        724
+      ],
+      "sha256": "e4bcace8ddecaefa417f6a30b3ca57ca48b9bd4131267d16d70ac69eb752118e"
+    },
+    "badges.en.png": {
+      "dimensions": [
+        2172,
+        142
+      ],
+      "sha256": "c7dd495d92e9f747b10d0ad7e095f5874af7b6f93d9c104258c818d36fc343e0"
+    },
+    "badges.zh-CN.master.png": {
+      "dimensions": [
+        2172,
+        724
+      ],
+      "sha256": "b9af45fc25bc054268fcaaaacf3fd9ca4c6f03be727caea7917e176e14bf4b92"
+    },
+    "badges.zh-CN.png": {
+      "dimensions": [
+        2172,
+        152
+      ],
+      "sha256": "8fe86a1aa37c4c595447adc5b7a30951a34b565507fa53ccf3b5ec20a1660270"
+    },
+    "cover.en.png": {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "32bed7511898389fa71d593839c75a29de4339091a0451f659b67a266d2a39ff"
+    },
+    "cover.zh-CN.png": {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "5d5535c3130be7c655f33c2c0622514a61a56225bfc7664aa6b47123b876db82"
+    }
+  }
+}

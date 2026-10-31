@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="571" height="40" viewBox="0 0 571 40">
+<defs><clipPath id="b0"><rect x="0" width="212" height="40" rx="5"/></clipPath></defs>
+<g clip-path="url(#b0)"><path fill="#34383d" d="M0 0h124v40H0z"/><path fill="#238636" d="M124 0h88v40H124z"/></g>
+<text x="16.125" y="22.875" font-family="Microsoft YaHei" font-weight="700" font-size="20" fill="white">coverage</text>
+<text x="140.250" y="27.625" font-family="Microsoft YaHei" font-weight="700" font-size="20" fill="white">100%</text>
+<defs><clipPath id="b1"><rect x="224" width="347" height="40" rx="5"/></clipPath></defs>
+<g clip-path="url(#b1)"><path fill="#34383d" d="M224 0h136v40H224z"/><path fill="#1f6feb" d="M360 0h211v40H360z"/></g>
+<text x="240.375" y="25.375" font-family="Microsoft YaHei" font-weight="700" font-size="20" fill="white">languages</text>
+<text x="376.000" y="25.375" font-family="Microsoft YaHei" font-weight="700" font-size="20" fill="white">English + Chinese</text>
+</svg>
