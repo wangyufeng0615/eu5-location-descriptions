@@ -42,7 +42,7 @@ def validate_config(config):
     title = config.get("name", "")
     if not isinstance(title, str) or not 3 <= len(title) <= 60 or len(title.encode("utf-8")) > 128 or any(ord(c) < 32 for c in title):
         raise ValueError("Invalid EU5/Steam title")
-    if not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+(?:-[A-Za-z0-9.]+)?", config.get("version", "")):
+    if not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", config.get("version", "")):
         raise ValueError("Invalid package version")
     if not isinstance(config.get("short_description"), str) or not config["short_description"].strip() or "\x00" in config["short_description"]:
         raise ValueError("Missing short description")
