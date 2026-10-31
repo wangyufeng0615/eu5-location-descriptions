@@ -11,7 +11,7 @@ The existing public item is `3830305546`. `tools/steam_page.py` uses the running
 - If an older version added badges to the gallery, first move the body references to the independently shared URLs and verify them, then run `python -B tools/steam_page.py --clean-gallery --output dist/NEW_GALLERY_RECORD.json`. The command removes only badges.en.png and badges.zh-CN.png, in descending index order. It refuses to remove an entry still referenced by either localized description. Keep actual screenshots and the supplementary Chinese cover. An experiment on 2026-10-31 confirmed that removing gallery previews made their old CDN links return 404; do not rely on deleted previews as image hosting. Recheck independent URLs and hashes after removal.
 - Read back both languages and compare CDN file hashes. Record subscription mismatches separately: Steam may defer downloading the new thumbnail while EU5 is running. No screenshot, account term, review status, game acceptance result or visibility is inferred from successful API submission.
 
-The current upload is `dist/release-1.0.2/` (versions are plain `x.y.z`; earlier packages kept for rollback); results are in RELEASE_READINESS. Earlier first-publication instructions below are retained for context.
+The current upload is `dist/release-1.0.3/` (versions are plain `x.y.z`; earlier packages kept for rollback); results are in RELEASE_READINESS. Earlier first-publication instructions below are retained for context.
 
 本目录为独立发布工程，结构和与原研究工程的边界见 [STRUCTURE.md](STRUCTURE.md)。既有工坊条目已公开；当前状态以 [RELEASE_READINESS.md](RELEASE_READINESS.md) 为准。
 
@@ -21,7 +21,7 @@ This is the publishing source for the released 1.0.0 Workshop mod. The owner sel
 
 Use one Workshop item containing both languages. Maintain the native [English](../README.md) and [Chinese](../README.zh-CN.md) player pages, [English](FAQ.md) and [Chinese](FAQ.zh-CN.md) FAQs, and both contribution guides together. Feedback may use either language and does not require an internal ID. Accepted content proposals go through the research ledger before export; see [MAINTAINING.md](MAINTAINING.md).
 
-The current uploaded build is `dist/release-1.0.2/`; keep previous packages as rollback material. Page text, announcements, change notes and artwork stay in `workshop/`, without a duplicate launch pack. Announcement drafts are not posted messages. Workshop comments are the player feedback channel. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Community-page choices are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
+The current uploaded build is `dist/release-1.0.3/`; keep previous packages as rollback material. Page text, announcements, change notes and artwork stay in `workshop/`, without a duplicate launch pack. Announcement drafts are not posted messages. Workshop comments are the player feedback channel. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Community-page choices are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
 
 Check final page appearance on the actual Workshop item. No local HTML preview tool is required or maintained. New items or unpublished candidates should first be checked privately.
 

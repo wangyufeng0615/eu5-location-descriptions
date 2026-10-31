@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 — 2026-11-01
+
+- Fix the name of the pigment in Wallerfangen: it is "Wallerfanger blue" (German "Wallerfanger Blau"), and it was traded as far as Italy. Reported by a player.
+
 ## 1.0.2 — 2026-10-31
 
 - Restore paragraph breaks that an old cleanup script had merged in 124 English descriptions, and remove stray leading spaces from 182 Chinese paragraphs.
