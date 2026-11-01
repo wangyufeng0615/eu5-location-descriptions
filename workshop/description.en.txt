@@ -10,6 +10,7 @@ This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles
 [*]Keeps EU5's flavour
 [*]Preserves the vanilla descriptions
 [*]Can be added to an existing save; see mod compatibility below
+[*]Achievement compatible
 [/list]
 
 Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. I used the best models available, went through a huge number of tokens and spent quite a bit of money. But for this mod, I think it was worth it :)

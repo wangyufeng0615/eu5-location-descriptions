@@ -10,6 +10,7 @@ This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles
 [*]Keeps EU5's flavour
 [*]Preserves the vanilla descriptions
 [*]Can be added to an existing save; see mod compatibility below
+[*]Achievement compatible
 [/list]
 
 Every description is based on local-language sources, mainly Wikipedia, and went through several rounds of fact-checking. I used the best models available, went through a huge number of tokens and spent quite a bit of money. But for this mod, I think it was worth it :)
@@ -33,6 +34,7 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 [*]保持 EU5 的风味
 [*]保留了官方自带描述
 [*]存档可中途加入，模组兼容性见下文
+[*]兼容成就
 [/list]
 
 每个地块的描述，基于维基百科为主的当地语言资料，进行了多轮考证，消耗了我大量的 Token，使用的都是最好的模型，花了不少钱。但是为了这个 Mod，我想这是值得的 :)
