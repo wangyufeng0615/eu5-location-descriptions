@@ -37,7 +37,7 @@ The Workshop item's `file_size` from Steam's public `ISteamRemoteStorage/GetPubl
 
 ## 5. Change notes
 
-EU5's Mod Tools upload sends no change note, so the Workshop's Change Notes tab stays empty unless one is added afterwards. Write the notes for this version in `workshop/changenotes.en.txt` and `workshop/changenotes.zh-CN.txt`, combine them into one file, and run `python -B tools/steam_page.py --change-note <file> --output dist/<record>.json` in the desktop session. This adds a change-note entry without touching the content, page text or artwork.
+EU5's Mod Tools upload sends no change note, so the Workshop's Change Notes tab stays empty unless one is added afterwards. Write the notes for this version in `workshop/changenotes.en.txt` and `workshop/changenotes.zh-CN.txt`, combine them into one file, and run `python -B tools/steam_page.py --change-note <file> --content <installed mod folder> --output dist/<record>.json` in the desktop session. Steam keeps a change-note entry only for an update that sets content (a note-only update is accepted but leaves nothing on the Change Notes tab), so the tool re-submits the folder that was just uploaded, unchanged, with the note attached. Page text and artwork are not touched.
 
 ## Workshop page
 

@@ -182,14 +182,21 @@ class Steam:
                                  'url':url, 'sha256':sha256, 'source':str(source.relative_to(ROOT))}
         return results
 
-    def change_note(self, text):
-        """Add a change-note entry without changing content, page text or artwork.
+    def change_note(self, text, content):
+        """Upload the built mod folder again with a change note.
 
-        EU5's Mod Tools upload sends no change note, so notes are added afterwards."""
+        Steam records a change-note entry only for an update that sets content; a note-only
+        update is accepted but leaves no entry. EU5's Mod Tools upload sends no note, so the
+        same folder that was just uploaded is submitted again here with the note attached.
+        Page text, artwork and previews are not touched."""
         if not text.strip():
             raise ValueError('Change note is empty')
+        path = Path(content).resolve()
+        if not (path/'.metadata/metadata.json').is_file():
+            raise ValueError('Content must be the built mod folder')
         handle = self.ug('StartItemUpdate', U64, [U32,U64], APP, ITEM)
-        self.submit(handle, text.strip())
+        assert self.ug('SetItemContent', B, [U64,S], handle, str(path).encode())
+        return self.submit(handle, text.strip())
 
     def description(self, lang, text, title):
         handle = self.ug('StartItemUpdate', U64, [U32,U64], APP, ITEM)
@@ -204,12 +211,14 @@ def main():
     parser.add_argument('--descriptions', action='store_true')
     parser.add_argument('--clean-gallery', action='store_true', help='Remove only the two badge previews')
     parser.add_argument('--host-badges', action='store_true', help='Share only the two badge PNGs via Steam Cloud')
-    parser.add_argument('--change-note', help='UTF-8 file whose text is added as a change-note entry')
-    parser.add_argument('--content', help='Optional built mod folder, only with --assets')
+    parser.add_argument('--change-note', help='UTF-8 file with the change note; requires --content (the folder just uploaded)')
+    parser.add_argument('--content', help='Built mod folder, with --assets or --change-note')
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
-    if args.content and not args.assets:
-        parser.error('--content requires --assets')
+    if args.content and not (args.assets or args.change_note):
+        parser.error('--content requires --assets or --change-note')
+    if args.change_note and not args.content:
+        parser.error('--change-note requires --content: Steam keeps no entry for a note-only update')
     if args.clean_gallery and (args.assets or args.descriptions):
         parser.error('--clean-gallery must run separately so changes can be verified')
     if args.host_badges and (args.assets or args.descriptions or args.clean_gallery):
@@ -230,7 +239,7 @@ def main():
             steam.clean_gallery(before['english'], [p['description'] for p in before.values()])
         hosted = steam.host_badges() if args.host_badges else None
         if note:
-            steam.change_note(note)
+            steam.change_note(note, args.content)
         if args.descriptions:
             titles = json.loads((ROOT/'workshop/page.json').read_text(encoding='utf-8'))['titles']
             for lang, file in [('english','description.en.txt'),('schinese','description.zh-CN.txt')]:

@@ -27,20 +27,27 @@ class GallerySafetyTests(unittest.TestCase):
 
 
 class ChangeNoteTests(unittest.TestCase):
-    def test_change_note_submits_text_without_setting_fields(self):
-        steam = Steam.__new__(Steam)
-        steam.ug = Mock(return_value=77)
-        steam.submit = Mock()
-        steam.change_note("  1.0.6\n\n- Fixed ten locations.  ")
-        names = [c.args[0] for c in steam.ug.call_args_list]
-        self.assertEqual(names, ['StartItemUpdate'])
-        steam.submit.assert_called_once_with(77, "1.0.6\n\n- Fixed ten locations.")
+    def test_change_note_uploads_content_with_the_note(self):
+        import tempfile, pathlib
+        with tempfile.TemporaryDirectory() as tmp:
+            mod = pathlib.Path(tmp) / "mod"; (mod / ".metadata").mkdir(parents=True)
+            (mod / ".metadata" / "metadata.json").write_text("{}", encoding="utf-8")
+            steam = Steam.__new__(Steam)
+            steam.ug = Mock(return_value=77)
+            steam.submit = Mock(return_value=1)
+            steam.change_note("  1.0.6\n\n- Fixed ten locations.  ", str(mod))
+            names = [c.args[0] for c in steam.ug.call_args_list]
+            self.assertEqual(names, ['StartItemUpdate', 'SetItemContent'])
+            steam.submit.assert_called_once_with(77, "1.0.6\n\n- Fixed ten locations.")
 
-    def test_empty_change_note_is_refused(self):
+    def test_refuses_empty_note_or_non_mod_folder(self):
+        import tempfile
         steam = Steam.__new__(Steam)
         steam.ug = Mock()
         with self.assertRaises(ValueError):
-            steam.change_note("   ")
+            steam.change_note("   ", ".")
+        with tempfile.TemporaryDirectory() as tmp, self.assertRaises(ValueError):
+            steam.change_note("note", tmp)
         steam.ug.assert_not_called()
 
 
