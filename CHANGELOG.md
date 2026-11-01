@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 — 2026-11-02
+
+- Fix Wuchang: the game's Wuchang is the old Wuchang county, modern Ezhou, not the city with the Yellow Crane Tower. It now covers Sun Quan's capital, the bream of Fankou and Su Shi's pavilion on the West Hill. Reported by a player.
+- Rework Jiangxia, the county of Wuchang city: the seat of Huguang province under the Yuan, the Yellow Crane Tower and the Ming princes of Chu.
+
 ## 1.0.4 — 2026-11-01
 
 - Rewrite Wuxi: the old text presented the "exhausted tin mines" story as the origin of the name, which is a later folk explanation. It now covers the town's Song-era fairs, its rise to a prefecture in 1295 and the Donglin Academy in more detail. Reported by a player.
