@@ -27,7 +27,11 @@ python -B tools/release.py 1.2.3 --note "Fix the pigment name in Wallerfangen."
 
 In EU5, open **Mod Tools**, select the mod, choose **Upload content from a folder**, and enter the **full path** of the installed folder printed by the script. Upload only `location_descriptions_enhanced/` (with its hidden `.metadata/`), never the repository or `dist/`. A relative name has uploaded the whole working folder before.
 
-## 4. Verify
+## 4. GitHub release
+
+Push the tag `vX.Y.Z` for the release commit (`tools/release.py` does not do this; the maintainer's release script does). `.github/workflows/release.yml` then checks that the tag matches `project.json`, runs the tests, builds and verifies the package, and attaches `location_descriptions_enhanced-X.Y.Z.zip` to a GitHub release, with the CHANGELOG entry and install steps as release notes.
+
+## 5. Verify
 
 The Workshop item's `file_size` from Steam's public `ISteamRemoteStorage/GetPublishedFileDetails` should equal the total bytes printed in step 2. Steam defers downloading updates for subscribers while EU5 is running.
 

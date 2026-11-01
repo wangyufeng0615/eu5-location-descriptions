@@ -1,0 +1,53 @@
+name: Release
+# Pushing a tag such as v1.0.5 builds the mod from this commit and attaches the ZIP to a GitHub release.
+on:
+  push:
+    tags: ['v[0-9]+.[0-9]+.[0-9]+']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1, official release verified 2026-10-26
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0, official release verified 2026-10-26
+        with:
+          python-version: '3.13'
+      - name: Tag must match project.json
+        run: |
+          version=$(python -c "import json; print(json.load(open('project.json'))['version'])")
+          if [ "v$version" != "$GITHUB_REF_NAME" ]; then echo "Tag $GITHUB_REF_NAME does not match project.json version $version"; exit 1; fi
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+      - run: python -B -m unittest discover -s tests
+      - run: python -B tools/build.py --output "dist/release-$VERSION"
+      - run: python -B tools/build.py --verify "dist/release-$VERSION"
+      - run: python -B tools/preflight.py --build "dist/release-$VERSION" --output dist/preflight.json
+      - name: Release notes
+        run: |
+          python - "$VERSION" > dist/notes.md <<'EOF'
+          import hashlib, re, sys
+          version = sys.argv[1]
+          text = open("CHANGELOG.md", encoding="utf-8").read()
+          m = re.search(rf"^## {re.escape(version)}\b[^\n]*\n(.*?)(?=^## |\Z)", text, re.M | re.S)
+          changes = m.group(1).strip() if m else ""
+          zip_name = f"location_descriptions_enhanced-{version}.zip"
+          digest = hashlib.sha256(open(f"dist/release-{version}/{zip_name}", "rb").read()).hexdigest()
+          print(f"""{changes}
+
+          ### Install / 安装
+
+          1. Download **{zip_name}** below. / 下载下方的 **{zip_name}**。
+          2. Extract it into `Documents\\Paradox Interactive\\Europa Universalis V\\mod\\`. You should end up with `mod\\location_descriptions_enhanced\\`. / 解压到 `文档\\Paradox Interactive\\Europa Universalis V\\mod\\`，解压后应有 `mod\\location_descriptions_enhanced\\` 文件夹。
+          3. Start EU5, enable **Descriptions for Every Tile** in Mods and DLC, and play in English or Simplified Chinese. / 启动游戏，在"模组和 DLC"里启用 **所有地块的描述**，游戏语言选英文或简体中文。
+
+          Don't enable this copy and the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546) copy at the same time. / 不要同时启用这份和创意工坊订阅的那份。
+
+          SHA-256 `{digest}`""".replace("\n          ", "\n"))
+          EOF
+          cat dist/notes.md
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "dist/release-$VERSION/location_descriptions_enhanced-$VERSION.zip" \
+            --title "$VERSION" --notes-file dist/notes.md --verify-tag

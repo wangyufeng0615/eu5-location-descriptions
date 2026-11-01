@@ -14,7 +14,13 @@ Game version 1.4 has 28,573 locations. This mod adds descriptions to the 28,316 
 
 Subscribe on the Steam Workshop, wait for the download to finish, then enable the mod in EU5's Mods and DLC menu. Set the game language to English or Simplified Chinese. You do not need a separate Chinese translation mod.
 
-For a manual download, extract the ZIP and put the whole location_descriptions_enhanced folder, including its hidden .metadata folder, in EU5's user-data mod directory. Enable it in the game. Keep only one copy enabled.
+Prefer not to use the Workshop? Download the ZIP from [Releases](https://github.com/wangyufeng0615/eu5-location-descriptions/releases/latest):
+
+1. Download `location_descriptions_enhanced-<version>.zip`.
+2. Extract it into `Documents\Paradox Interactive\Europa Universalis V\mod\`, so that you have `mod\location_descriptions_enhanced\`.
+3. Start EU5 and enable **Descriptions for Every Tile** in Mods and DLC.
+
+Use either the Workshop copy or the ZIP copy, not both. To update, delete the old folder and extract the new ZIP.
 
 See the [changelog](CHANGELOG.md) for the current version and what changed.
 
@@ -74,7 +80,13 @@ The cover is an AI-assisted graphic, not a game screenshot. This is an unofficia
 
 在 Steam 创意工坊订阅，等待下载完成，再到游戏内“模组和 DLC”中启用。游戏语言选择英文或简体中文。
 
-手动安装时，将 ZIP 中整个 location_descriptions_enhanced 文件夹放入 EU5 用户数据目录的 mod 文件夹，保留隐藏的 .metadata 目录，再在游戏中启用。本地版和订阅版不要同时启用。
+不想用创意工坊，也可以从 [Releases](https://github.com/wangyufeng0615/eu5-location-descriptions/releases/latest) 下载 ZIP：
+
+1. 下载 `location_descriptions_enhanced-<版本号>.zip`。
+2. 解压到 `文档\Paradox Interactive\Europa Universalis V\mod\`，解压后应有 `mod\location_descriptions_enhanced\` 文件夹。
+3. 启动游戏，在“模组和 DLC”里启用 **所有地块的描述**。
+
+创意工坊版和 ZIP 版二选一，不要同时启用。更新时删掉旧文件夹，再解压新的 ZIP。
 
 当前版本和每次的改动见[更新记录](CHANGELOG.md)。
 

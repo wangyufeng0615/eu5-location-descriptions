@@ -13,7 +13,13 @@
 
 在 Steam 创意工坊订阅，等待下载完成，再到游戏内“模组和 DLC”中启用。游戏语言选择英文或简体中文。
 
-手动安装时，将 ZIP 中整个 location_descriptions_enhanced 文件夹放入 EU5 用户数据目录的 mod 文件夹，保留隐藏的 .metadata 目录，再在游戏中启用。本地版和订阅版不要同时启用。
+不想用创意工坊，也可以从 [Releases](https://github.com/wangyufeng0615/eu5-location-descriptions/releases/latest) 下载 ZIP：
+
+1. 下载 `location_descriptions_enhanced-<版本号>.zip`。
+2. 解压到 `文档\Paradox Interactive\Europa Universalis V\mod\`，解压后应有 `mod\location_descriptions_enhanced\` 文件夹。
+3. 启动游戏，在“模组和 DLC”里启用 **所有地块的描述**。
+
+创意工坊版和 ZIP 版二选一，不要同时启用。更新时删掉旧文件夹，再解压新的 ZIP。
 
 当前版本和每次的改动见[更新记录](CHANGELOG.md)。
 
