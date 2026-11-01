@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 — 2026-11-01
+
+- Rewrite Wuxi: the old text presented the "exhausted tin mines" story as the origin of the name, which is a later folk explanation. It now covers the town's Song-era fairs, its rise to a prefecture in 1295 and the Donglin Academy in more detail. Reported by a player.
+
 ## 1.0.3 — 2026-11-01
 
 - Fix the name of the pigment in Wallerfangen: it is "Wallerfanger blue" (German "Wallerfanger Blau"), and it was traded as far as Italy. Reported by a player.
