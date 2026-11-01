@@ -22,4 +22,6 @@
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]：两者有 578 条英文地点介绍重叠，同时启用时，将优先显示 Oikoumene 的介绍。无其他已知冲突。
 [/list]
 
+TODO：支持更多EU5官方支持语言（french german spanish braz_por russian polish turkish japanese korean），我会尽快实现。如果你有更多需求，请随时留言或联系我即可。
+
 GitHub 源码：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]

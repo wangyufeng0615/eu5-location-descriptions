@@ -22,6 +22,8 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: Both mods provide English descriptions for 578 of the same locations. When both are enabled, Oikoumene's descriptions will take precedence. No other known conflicts.
 [/list]
 
+TODO: support the other official EU5 languages (French, German, Spanish, Brazilian Portuguese, Russian, Polish, Turkish, Japanese, Korean). I'll add them as soon as I can. If you'd like anything else, just leave a comment or contact me.
+
 Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h1]为地图上的[b]每个地块[/b]都补充了介绍[/h1]
@@ -47,5 +49,7 @@ Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptio
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]：两者有 578 条英文地点介绍重叠，同时启用时，将优先显示 Oikoumene 的介绍。无其他已知冲突。
 [/list]
+
+TODO：支持更多EU5官方支持语言（french german spanish braz_por russian polish turkish japanese korean），我会尽快实现。如果你有更多需求，请随时留言或联系我即可。
 
 GitHub 源码：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
