@@ -18,6 +18,12 @@ class VersionAndChangelog(unittest.TestCase):
             with self.assertRaises(ValueError):
                 release.parse_version(bad)
 
+    def test_commit_subject_is_first_sentence(self):
+        note = "Fix Wuchang: the game's Wuchang is modern Ezhou. It now covers Sun Quan's capital."
+        self.assertEqual(release.commit_subject(note), "Fix Wuchang")
+        self.assertEqual(release.commit_subject("Fix the pigment name in Wallerfangen."), "Fix the pigment name in Wallerfangen")
+        self.assertLessEqual(len(release.commit_subject("x" * 200)), 72)
+
     def test_numeric_ordering(self):
         self.assertGreater(release.parse_version("1.0.10"), release.parse_version("1.0.9"))
 

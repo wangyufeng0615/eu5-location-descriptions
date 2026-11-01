@@ -50,6 +50,12 @@ def add_changelog_entry(text: str, version: str, date: str, notes: list[str]) ->
     return CHANGELOG_HEAD + entry + text[len(CHANGELOG_HEAD):]
 
 
+def commit_subject(note: str, limit: int = 72) -> str:
+    """First sentence of a CHANGELOG note, short enough for a commit subject."""
+    first = re.split(r"(?<=[.!?:])\s", note.strip(), maxsplit=1)[0].rstrip(".:")
+    return first if len(first) <= limit else first[: limit - 1].rstrip() + "…"
+
+
 def tree_hashes(root: Path) -> dict[str, str]:
     return {
         path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
@@ -115,8 +121,8 @@ def main() -> None:
         args.note += [line.strip() for line in args.notes_file.read_text(encoding="utf-8-sig").splitlines() if line.strip()]
 
     project_path, changelog_path = ROOT / "project.json", ROOT / "CHANGELOG.md"
-    project_text = project_path.read_text(encoding="utf-8")
-    changelog_text = changelog_path.read_text(encoding="utf-8")
+    project_text = project_path.read_text(encoding="utf-8").replace("\r\n", "\n")
+    changelog_text = changelog_path.read_text(encoding="utf-8").replace("\r\n", "\n")
     current = json.loads(project_text)["version"]
 
     if args.dry_run:
@@ -141,8 +147,8 @@ def main() -> None:
             raise SystemExit(f"{path.relative_to(ROOT)} already exists; builds never overwrite earlier output")
 
     if not args.dry_run:
-        project_path.write_text(new_project, encoding="utf-8")
-        changelog_path.write_text(new_changelog, encoding="utf-8")
+        project_path.write_text(new_project, encoding="utf-8", newline="")
+        changelog_path.write_text(new_changelog, encoding="utf-8", newline="")
     try:
         run_python("-m", "unittest", "discover", "-s", "tests")
         run_python("tools/build.py", "--check")
@@ -157,8 +163,8 @@ def main() -> None:
             raise RuntimeError("Preflight local checks did not pass")
     except BaseException:
         if not args.dry_run:
-            project_path.write_text(project_text, encoding="utf-8")
-            changelog_path.write_text(changelog_text, encoding="utf-8")
+            project_path.write_text(project_text, encoding="utf-8", newline="")
+            changelog_path.write_text(changelog_text, encoding="utf-8", newline="")
             print("Restored project.json and CHANGELOG.md", file=sys.stderr)
         raise
 
@@ -180,7 +186,7 @@ def main() -> None:
         summary["upload_folder"] = str(target)
     if args.commit:
         git("add", "project.json", "CHANGELOG.md", "data")
-        git("commit", "-q", "-m", f"Version {version}: {args.note[0].strip()}")
+        git("commit", "-q", "-m", f"Version {version}: {commit_subject(args.note[0])}")
         summary["commit"] = git("rev-parse", "--short", "HEAD").strip()
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
