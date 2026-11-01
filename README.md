@@ -14,7 +14,7 @@ Subscribe on the Steam Workshop, wait for the download to finish, then enable th
 
 For a manual download, extract the ZIP and put the whole location_descriptions_enhanced folder, including its hidden .metadata folder, in EU5's user-data mod directory. Enable it in the game. Keep only one copy enabled.
 
-Version 1.0.0. In-game and subscription checks are tracked in [release status](docs/RELEASE_READINESS.md).
+See the [changelog](CHANGELOG.md) for the current version and what changed.
 
 ## What to expect
 
@@ -31,9 +31,9 @@ Hover over a location to read its description. Seas, lakes and impassable places
 
 ## Compatibility
 
-Made for game version 1.4 (Steam build 26300913). Compatibility with achievements and multiplayer has not been tested.
+Made for game version 1.4 (Steam build 26300913). It can be added to an existing save, and achievements stay available. In multiplayer, everyone needs the same mods.
 
-Mods that replace the map or write the same location descriptions can conflict. This includes name/flavour mods that also contain descriptions: load order can give you one mod's English text and another's Chinese text. There is no tested compatibility patch yet.
+Mods that replace the map or write the same location descriptions can conflict. This includes name/flavour mods that also contain descriptions: load order can give you one mod's English text and another's Chinese text.
 
 See the [FAQ](docs/FAQ.md) and [compatibility notes](docs/COMPATIBILITY.md).
 
@@ -45,7 +45,7 @@ I'll actively maintain the mod, follow up on feedback, fix problems and keep it 
 
 ## Source and build
 
-The publishing project is separate from the research database. Content changes are reviewed in the research project and imported here; generated localization is not edited by hand. Source-checkout contributors can use tools/find_location.py to find the right record.
+The descriptions are written and checked in a separate research ledger and exported into `data/`; neither `data/` nor the generated localization is edited by hand. Source-checkout contributors can use tools/find_location.py to find the right record.
 
 Python 3.10 or newer is enough; no additional packages or game installation are needed to build the frozen content:
 

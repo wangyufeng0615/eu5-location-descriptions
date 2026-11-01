@@ -16,4 +16,4 @@ The previous active artwork is preserved locally in `dist/artwork-history-202610
 
 The master and derivatives are prepared for use promoting this mod. No additional blanket MIT or Creative Commons license is granted for this promotional artwork by the project's tool/text licenses. Any rights that can be held remain with their respective holder; no assertion is made that an AI-generated work has exclusive copyright in every jurisdiction. Do not imply endorsement by Valve, Paradox or Wikimedia.
 
-Game acceptance is tracked in [SMOKE_TEST.md](../../docs/SMOKE_TEST.md) and [release status](../../docs/RELEASE_READINESS.md). Never label cover artwork or an old placeholder screenshot as proof of the current build.
+Never label cover artwork or an old placeholder screenshot as proof of the current build.

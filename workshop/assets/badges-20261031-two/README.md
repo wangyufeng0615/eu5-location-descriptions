@@ -1,6 +1,6 @@
 # 双徽章：英中分别制作
 
-2026-10-31按用户要求，仅保留全图介绍覆盖100%和语言支持两项；取消第三枚官方介绍数量徽章。英中分别由built-in image_gen生成，提示词见prompts.json及chinese-final-prompt.txt。中文版以“全图介绍”表达覆盖项目。
+2026-10-31按作者要求，仅保留全图介绍覆盖100%和语言支持两项；取消第三枚官方介绍数量徽章。英中分别由built-in image_gen生成，提示词见prompts.json及chinese-final-prompt.txt。中文版以“全图介绍”表达覆盖项目。
 
 英文badges.en.png、中文badges.zh-CN.png分别用于对应语言正文。原始输出保留为master，导出仅裁去上下透明空白。图片透明背景，文件尺寸与哈希见provenance.json。100%指28,254条新增介绍加257条官方介绍覆盖当前适配原版地图全部28,511个地点，不是史实正确率。
 

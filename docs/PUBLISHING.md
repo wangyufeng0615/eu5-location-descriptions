@@ -1,65 +1,56 @@
-# Publication workflow / 发布流程
+# Publishing / 发布流程
 
-## Published-page maintenance, verified 2026-10-31
+The mod is published as one Steam Workshop item, [3830305546](https://steamcommunity.com/sharedfiles/filedetails/?id=3830305546), with English and Simplified Chinese in the same package. Updates go to the same item; do not delete and recreate it.
 
-The existing public item is `3830305546`. `tools/steam_page.py` uses the running Steam client through EU5's own Steam API DLL, checks the signed-in owner, and does not read credentials or operate a UI. With no write flags it only inspects the two language variants. Use a new `--output dist/<record>.json` path each time. Do not run Python with optimization: the helper checks Steam return values with assertions.
+## 1. Update `data/` if the descriptions changed
 
-- Inspect: `python -B tools/steam_page.py --output dist/NEW_INSPECTION.json`.
-- After building, validating and reviewing a candidate: `python -B tools/steam_page.py --assets --content dist/YOUR_CANDIDATE/location_descriptions_enhanced --output dist/NEW_ASSET_RECORD.json`. Omit `--content` for a page-artwork-only change. The command updates the main cover and Chinese supplementary cover, preserving existing screenshots and visibility. It deliberately does not add badges to the gallery.
-- Badge hosting: `python -B tools/steam_page.py --host-badges --output dist/NEW_BADGE_HOSTING.json`. This writes only the two known badge PNGs to content-addressed filenames in this app's Steam Remote Storage and shares them via FileShare. It checks any existing same-name file before reuse and verifies public CDN bytes. It does not enumerate unrelated Cloud files. Retain the two exact cloud_file names recorded in workshop/page.json: these files back the live body images and must not be deleted. Updating a badge creates a new hash-named file; update both language descriptions before retiring an old asset.
-- Insert the actual respective badge URL into each language description using `[img]URL[/img]`; maintain the combined fallback. Then run `python -B tools/steam_page.py --descriptions --output dist/NEW_DESCRIPTION_RECORD.json`. Each localized update must submit **both title and description**: an observed description-only Simplified Chinese update cleared its localized title. The helper now sends both and verifies exact readback.
-- If an older version added badges to the gallery, first move the body references to the independently shared URLs and verify them, then run `python -B tools/steam_page.py --clean-gallery --output dist/NEW_GALLERY_RECORD.json`. The command removes only badges.en.png and badges.zh-CN.png, in descending index order. It refuses to remove an entry still referenced by either localized description. Keep actual screenshots and the supplementary Chinese cover. An experiment on 2026-10-31 confirmed that removing gallery previews made their old CDN links return 404; do not rely on deleted previews as image hosting. Recheck independent URLs and hashes after removal.
-- Read back both languages and compare CDN file hashes. Record subscription mismatches separately: Steam may defer downloading the new thumbnail while EU5 is running. No screenshot, account term, review status, game acceptance result or visibility is inferred from successful API submission.
+`data/` is exported from the research ledger (see [STRUCTURE.md](STRUCTURE.md)). Replace it with a fresh export before releasing; do not edit it by hand.
 
-The current upload is `dist/release-1.0.4/` (versions are plain `x.y.z`; earlier packages kept for rollback); results are in RELEASE_READINESS. Earlier first-publication instructions below are retained for context.
+## 2. Prepare the release
 
-本目录为独立发布工程，结构和与原研究工程的边界见 [STRUCTURE.md](STRUCTURE.md)。既有工坊条目已公开；当前状态以 [RELEASE_READINESS.md](RELEASE_READINESS.md) 为准。
+```
+python -B tools/release.py 1.2.3 --note "Fix the pigment name in Wallerfangen."
+```
 
-This is the publishing source for the released 1.0.0 Workshop mod. The owner selected MIT for tools and CC BY-SA 4.0 for new prose/translations on 2026-10-26; see [LICENSE](../LICENSE). Keep GitHub under the owner's private-repository arrangement. Do not infer historical-review or compatibility-test completion from publication. Current evidence and outstanding work are in [RELEASE_READINESS.md](RELEASE_READINESS.md); official requirements are in [STEAM_REQUIREMENTS.md](STEAM_REQUIREMENTS.md).
+`tools/release.py`:
 
-## English and Simplified Chinese launch
+1. checks that `1.2.3` is a plain `x.y.z` version newer than `project.json`, and that `dist/release-1.2.3/` does not exist yet;
+2. sets the version in `project.json` and adds a dated entry to `CHANGELOG.md` (repeat `--note` for several lines, or use `--notes-file` with one line per entry);
+3. runs the unit tests, `build.py --check`, the build into `dist/release-1.2.3/`, `build.py --verify` and the preflight check (add `--game-root "<EU5 install>"` to compare with the installed game files);
+4. with `--install`, mirrors the built mod folder to `<Documents>/Paradox Interactive/Europa Universalis V/location_descriptions_enhanced` and checks every file hash;
+5. with `--commit`, commits `project.json`, `CHANGELOG.md` and `data/`;
+6. prints the upload folder, file count and total bytes.
 
-Use one Workshop item containing both languages. Maintain the native [English](../README.md) and [Chinese](../README.zh-CN.md) player pages, [English](FAQ.md) and [Chinese](FAQ.zh-CN.md) FAQs, and both contribution guides together. Feedback may use either language and does not require an internal ID. Accepted content proposals go through the research ledger before export; see [MAINTAINING.md](MAINTAINING.md).
+`--dry-run` runs the checks and builds into `dist/dryrun-<time>/` without changing the version, CHANGELOG, install folder or Git.
 
-The current uploaded build is `dist/release-1.0.4/`; keep previous packages as rollback material. Page text, announcements, change notes and artwork stay in `workshop/`, without a duplicate launch pack. Announcement drafts are not posted messages. Workshop comments are the player feedback channel. The author commits to active maintenance, following up on feedback, fixing problems and keeping up with game updates. Community-page choices are documented in [COMMUNITY_REFERENCES.md](COMMUNITY_REFERENCES.md).
+## 3. Upload
 
-Check final page appearance on the actual Workshop item. No local HTML preview tool is required or maintained. New items or unpublished candidates should first be checked privately.
+In EU5, open **Mod Tools**, select the mod, choose **Upload content from a folder**, and enter the **full path** of the installed folder printed by the script. Upload only `location_descriptions_enhanced/` (with its hidden `.metadata/`), never the repository or `dist/`. A relative name has uploaded the whole working folder before.
 
-The selected display title is **Descriptions for Every Tile** / **所有地块的描述**. `workshop/page.json` lists both cover images for validation; the Chinese README uses the Chinese JPEG. The shared Workshop primary image and runtime thumbnail remain English. Use the Chinese JPEG as additional promotional material; no automatic language-specific Steam primary-image switching is assumed. Source geometry, prompts, selected images and old-artwork preservation are documented in [artwork notes](../workshop/assets/README.md).
+## 4. Verify
 
-For a later build, copy [release-evidence.example.json](release-evidence.example.json) into the new candidate directory alongside its ZIP and build receipt. Fill in the exact ZIP hash, version and game build. After real tests, reference the records for that package and run `python -B tools/preflight.py --build dist/YOUR_CANDIDATE --evidence dist/YOUR_CANDIDATE/release-evidence.json --require-publish-ready`. Missing records keep the release pending; incorrect file hashes or a different candidate fail validation. The tool checks record completeness, not the truth of game screenshots, account actions or historical claims, and never authorizes an upload. If needed, adapt `workshop/upload.vdf.example` for private SteamCMD testing; the game tools remain the preferred upload route.
+The Workshop item's `file_size` from Steam's public `ISteamRemoteStorage/GetPublishedFileDetails` should equal the total bytes printed in step 2. Steam defers downloading updates for subscribers while EU5 is running.
 
-## GitHub first
+## Workshop page
 
-1. Review the English and Chinese README, selected license scopes, attribution and page drafts. Retain upstream third-party notices; the project license does not override them.
-2. Run `python -B tools/build.py --check`, unit tests, then build into a new `dist/` directory. Preserve its `build_receipt.json` and ZIP hash.
-3. The owner authorized `wangyufeng0615/eu5-location-descriptions` as a private repository on 2026-10-26. This source tree has its own main history; the research history, databases, caches and dist output are excluded. `.gitignore` cannot remove already tracked history. Verify the pushed commit and remote file tree after each upload.
-4. Keep GitHub private until game and Workshop acceptance is complete, as the owner requested. Those checks are still pending; this source upload does not satisfy them. The private URL is for maintainers and invited collaborators, not a publicly accessible support channel. CI checks the source and build only; it does not publish to the Workshop or change visibility.
+Page text, covers, screenshots and badges live in `workshop/`. Edit `description.en.txt`, `description.zh-CN.txt` and the combined `description.default.txt` together.
 
-## EU5 Workshop
+`tools/steam_page.py` updates the existing item through the running, signed-in Steam client and EU5's own Steam API library. It reads no credentials and operates no UI. It must run in the desktop session where Steam is running, not over a remote shell. Without write flags it only reads both language variants. Use a new `--output dist/<record>.json` each time, and do not run Python with `-O` (it relies on assertions).
 
-1. Review exceptional upstream notices, use the prepared cover and capture authentic screenshots while testing the full-text package according to [SMOKE_TEST.md](SMOKE_TEST.md). `supported_game_version: "*"` is not all-version compatibility. Test both languages and the official protection set; record saves/achievements/multiplayer only after actual tests.
-2. In the Steam edition, with Steam running and online, use the game's **Mod Tools**. The installed official GUI exposes **Upload New Mod** and **Upload content from a folder**. Select only the built `location_descriptions_enhanced/` directory, never this repository root or its parent `dist/` directory. Include hidden `.metadata/`.
-3. Review the account, package and visibility before submitting. Prefer a private first upload; the exact game default visibility has not been verified. If the game UI does not expose a private option, resolve visibility before a public submission. The generic Steam API supports private uploads; this does not establish what every EU5 UI version exposes.
-4. Accept the applicable Workshop terms as the owner and complete any email verification or moderation step. Retain the resulting item ID; update that item in future. Use `workshop/page.json` and the English/Chinese text, or the combined `description.default.txt` if the game tool exposes one description field. Do not confuse Steam page `schinese` with the game's `simp_chinese` directory. Replace pre-publication status only with verified results.
-5. Test a clean subscription/download, confirm the metadata and localization files actually received, disable local duplicate/prototype copies, enable the subscribed mod, and recheck both languages. Confirm the downloaded version matches the intended package before changing visibility to public.
-6. Record item URL/ID, repository commit, version, baseline, checksum, change notes and test results. For rollback, rebuild and upload a known-good previous package to the same item ID; do not delete and recreate the listing.
+- Inspect: `python -B tools/steam_page.py --output dist/inspect.json`
+- Descriptions: `python -B tools/steam_page.py --descriptions --output dist/descriptions.json` — sends title and description for each language together and verifies the readback. Updating a description alone was observed to clear the Simplified Chinese title.
+- Artwork: `python -B tools/steam_page.py --assets [--content dist/release-x.y.z/location_descriptions_enhanced] --output dist/assets.json` — updates the main cover and the Chinese supplementary image, keeping screenshots and visibility.
+- Badges: `python -B tools/steam_page.py --host-badges --output dist/badges.json` shares the two badge PNGs from Steam Cloud. The cloud file names in `workshop/page.json` back the live description images; do not delete them. Removing a gallery preview breaks old links to it, so never use gallery items as image hosting. `--clean-gallery` removes only old badge previews that no description still references.
 
-## SteamCMD testing fallback
+The tool does not change visibility, create items or accept terms.
 
-Valve documents SteamCMD workshop upload as a **testing** route. `workshop/upload.vdf.example` is deliberately incomplete and uses private visibility (`2`). It is not a verified EU5 upload integration. New items use `publishedfileid` zero; updates must retain the returned nonzero ID. SteamCMD writes that ID back on success. Credentials and Guard codes must not be committed or put in scripts. The existing-item native API helper above requires explicit write flags and an already running Steam session.
+## Rollback
 
-## Official sources checked on 2026-10-26
+Rebuild a known-good earlier version (or reuse its `dist/release-x.y.z/` folder) and upload it to the same item under a new version number.
 
-- [Steam Workshop overview](https://partner.steamgames.com/doc/features/workshop): platform model and integration context.
-- [Steam Workshop implementation](https://partner.steamgames.com/doc/features/workshop/implementation): folder payload, item identity, agreement, upload/update flow, SteamCMD testing and logs. Developer-side Steamworks setup instructions apply to the game's publisher, not automatically to a community mod author.
-- [ISteamUGC preview](https://partner.steamgames.com/doc/api/ISteamUGC#SetItemPreview): web-readable image formats; additional image APIs require below 1 MB. Prepared cover is 1254×1254 JPG and package thumbnail is 512×512 PNG, both below the project's conservative 1,000,000-byte budget. These dimensions are project choices, not verified universal EU5 rules.
-- [Steam visibility enum](https://partner.steamgames.com/doc/api/ISteamRemoteStorage#ERemoteStoragePublishedFileVisibility): public 0, friends 1, private 2, unlisted 3. Unlisted is still accessible by link.
-- [Steam Subscriber Agreement, §6](https://store.steampowered.com/subscriber_agreement/): UGC/Workshop terms; a game's specific terms can also apply.
-- [Paradox User Agreement, §5](https://legal.paradoxplaza.com/eula): mod creation/publication and responsibility for rights; distribution is non-commercial under these terms.
-- [Wikimedia Terms of Use, §7](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content): reused text, attribution and applicable licenses.
-- [GitHub repository limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits): ordinary Git single-object 100 MB enforcement; generated databases/caches belong outside the source tree.
+## References
 
-Additional official research in this preparation round: [UGC email verification and moderation](https://help.steampowered.com/en/wizard/HelpWithUGCSubmission), [Steam Online Conduct](https://store.steampowered.com/online_conduct/), [title/description byte constants](https://partner.steamgames.com/doc/api/ISteamRemoteStorage#constants) and [Steam page language](https://partner.steamgames.com/doc/api/ISteamUGC#SetItemUpdateLanguage). See [STEAM_REQUIREMENTS.md](STEAM_REQUIREMENTS.md) for limits of access and how each requirement is applied.
-
-EU5-specific controls and field names were also checked against the installed game's own `game/main_menu/gui/mod_tools.gui`, `game/main_menu/localization/english/caesar_tools_l_english.yml` and Clausewitz UGC localization. These files are not redistributed. The EU5 wiki returned HTTP 401 during this research; it has not been used as verified instructions. No actual upload, account-capability test or game interface operation has occurred.
+- [Steam Workshop implementation](https://partner.steamgames.com/doc/features/workshop/implementation)
+- [ISteamUGC](https://partner.steamgames.com/doc/api/ISteamUGC) and [ISteamRemoteStorage](https://partner.steamgames.com/doc/api/ISteamRemoteStorage)
+- [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/) and [Paradox User Agreement](https://legal.paradoxplaza.com/eula)
+- [Wikimedia Terms of Use, §7](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content)

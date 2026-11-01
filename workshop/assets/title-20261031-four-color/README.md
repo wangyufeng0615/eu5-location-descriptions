@@ -1,8 +1,8 @@
 # 四色地块封面重设计
 
-2026-10-31，按用户要求放大标题、减少顶部留白，重画英中封面。使用 built-in image_gen，提示词见 prompts.json。当前为本地候选，未上传，也未替换发布候选包。
+2026-10-31，按作者要求放大标题、减少顶部留白，重画英中封面。使用 built-in image_gen，提示词见 prompts.json。当前为本地候选，未上传，也未替换发布候选包。
 
-地图参考直接从本机 EU5 的 locations.png 与 named_locations/00_default.txt 提取，以 definitions.txt 中西西里主岛的23个地点为范围，含埃特纳火山；不含马耳他、潘泰莱里亚等离岛地点。四色按地点邻接关系分配，相邻地点不同色。参考图与地点清单见 sicily-game-reference.png 和 map-source.json。
+地图参考直接从本地安装的 EU5 的 locations.png 与 named_locations/00_default.txt 提取，以 definitions.txt 中西西里主岛的23个地点为范围，含埃特纳火山；不含马耳他、潘泰莱里亚等离岛地点。四色按地点邻接关系分配，相邻地点不同色。参考图与地点清单见 sicily-game-reference.png 和 map-source.json。
 
 生成封面按游戏边界参考绘制，边缘经过视觉平滑，不宣称与游戏地图像素完全一致。两语使用同一地图构图；封面是宣传图，不是游戏截图。游戏地图数据属于原权利人，本目录地图参考不适用项目文本或工具许可证。其他素材权利说明沿用上级 README.md。
 

@@ -4,11 +4,11 @@
 
 ## Do I need a Chinese submod?
 
-No. English and Simplified Chinese ship together in the same item. Choose one of those languages in the game. Traditional Chinese and other languages are not included in the first release; their fallback behaviour has not been verified.
+No. English and Simplified Chinese ship together in the same item. Choose one of those languages in the game. Other game languages, including Traditional Chinese, are not included.
 
 ## Where do I read the descriptions?
 
-They use EU5's existing location-description text, rather than a separate menu added by this mod. Open a location's information and look for its description in the normal game interface. The full-text package's exact presentation and long-text layout are still awaiting the recorded in-game checks.
+Hover over a location. The description appears in its tooltip, where vanilla descriptions appear; seas, lakes and impassable locations have one too. As in vanilla, descriptions are hidden while units are selected.
 
 ## The text is missing or still shows an ID. What should I try?
 
@@ -16,11 +16,11 @@ Check that Steam finished the download and that the mod is enabled in EU5's Mods
 
 ## Can I use it with Oikoumene or another flavour mod?
 
-Not as a confirmed compatible combination. Some naming/flavour mods also provide location descriptions. The same English keys can be replaced while Chinese remains from this mod, giving different accounts of the same place. Use one description set until a bilingual compatibility patch is tested; blindly changing load order does not resolve that mismatch. See [compatibility notes](COMPATIBILITY.md).
+Yes. Both mods provide English descriptions for 578 of the same locations; when both are enabled, Oikoumene's descriptions take precedence there. If another mod replaces only the English text, the Chinese text from this mod can describe the same place differently. See [compatibility notes](COMPATIBILITY.md).
 
 ## What about existing saves, achievements and multiplayer?
 
-The package adds localization rather than gameplay scripts, but that alone is not a test result. Save/reload, achievements and multiplayer have not yet been confirmed for the current candidate. Do not rely on another text mod's compatibility claims as evidence for this one.
+You can add the mod to an existing save. Achievements stay available: the mod changes the game checksum, and the game itself states that this only affects multiplayer. Special launch options such as `-debug_mode` do block achievements, with or without mods. In multiplayer, the host and every player need the same mods in the same order.
 
 ## Does “every tile” mean every entry is a long local history?
 
