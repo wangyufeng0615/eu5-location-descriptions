@@ -2,7 +2,7 @@
 
 No credentials, visibility changes or new-item creation.
 Content upload requires an explicit --content folder in addition to --assets.
-Writes require explicit --assets, --descriptions, --host-badges or --clean-gallery.
+Writes require explicit --assets, --descriptions, --host-badges, --clean-gallery or --change-note.
 Windows/game DLL required.
 """
 import argparse
@@ -103,8 +103,8 @@ class Steam:
         finally:
             self.ug('ReleaseQueryUGCRequest', B, [U64], handle)
 
-    def submit(self, handle):
-        result = self.wait(self.ug('SubmitItemUpdate', U64, [U64,S], handle, None), UpdateResult, 3404)
+    def submit(self, handle, note=None):
+        result = self.wait(self.ug('SubmitItemUpdate', U64, [U64,S], handle, note.encode() if note else None), UpdateResult, 3404)
         if result.item != ITEM or result.agreement:
             raise RuntimeError('Update requires owner terms acceptance or item mismatch')
 
@@ -179,6 +179,15 @@ class Steam:
                                  'url':url, 'sha256':sha256, 'source':str(source.relative_to(ROOT))}
         return results
 
+    def change_note(self, text):
+        """Add a change-note entry without changing content, page text or artwork.
+
+        EU5's Mod Tools upload sends no change note, so notes are added afterwards."""
+        if not text.strip():
+            raise ValueError('Change note is empty')
+        handle = self.ug('StartItemUpdate', U64, [U32,U64], APP, ITEM)
+        self.submit(handle, text.strip())
+
     def description(self, lang, text, title):
         handle = self.ug('StartItemUpdate', U64, [U32,U64], APP, ITEM)
         assert self.ug('SetItemUpdateLanguage', B, [U64,S], handle, lang.encode())
@@ -192,6 +201,7 @@ def main():
     parser.add_argument('--descriptions', action='store_true')
     parser.add_argument('--clean-gallery', action='store_true', help='Remove only the two badge previews')
     parser.add_argument('--host-badges', action='store_true', help='Share only the two badge PNGs via Steam Cloud')
+    parser.add_argument('--change-note', help='UTF-8 file whose text is added as a change-note entry')
     parser.add_argument('--content', help='Optional built mod folder, only with --assets')
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
@@ -201,6 +211,9 @@ def main():
         parser.error('--clean-gallery must run separately so changes can be verified')
     if args.host_badges and (args.assets or args.descriptions or args.clean_gallery):
         parser.error('--host-badges must run separately')
+    if args.change_note and (args.assets or args.descriptions or args.clean_gallery or args.host_badges):
+        parser.error('--change-note must run separately')
+    note = Path(args.change_note).read_text(encoding='utf-8-sig') if args.change_note else None
     output = Path(args.output)
     if output.exists():
         raise FileExistsError('Choose a new record path')
@@ -213,6 +226,8 @@ def main():
         if args.clean_gallery:
             steam.clean_gallery(before['english'], [p['description'] for p in before.values()])
         hosted = steam.host_badges() if args.host_badges else None
+        if note:
+            steam.change_note(note)
         if args.descriptions:
             titles = json.loads((ROOT/'workshop/page.json').read_text(encoding='utf-8'))['titles']
             for lang, file in [('english','description.en.txt'),('schinese','description.zh-CN.txt')]:
@@ -223,6 +238,8 @@ def main():
             expected_title = titles[lang] if args.descriptions else before[lang]['title']
             if after[lang]['title'] != expected_title or after[lang]['visibility'] != before[lang]['visibility']:
                 raise RuntimeError('Unexpected title or visibility change')
+            if note and (after[lang]['description'] != before[lang]['description'] or after[lang]['cover'] != before[lang]['cover']):
+                raise RuntimeError('A change-note update altered the page')
             if args.clean_gallery:
                 expected = [p for p in before[lang]['previews'] if Path(p['file']).name not in {'badges.en.png','badges.zh-CN.png'}]
                 canonical = lambda items:[(p['file'],p['url'],p['type']) for p in items]

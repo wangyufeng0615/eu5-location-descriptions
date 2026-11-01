@@ -35,6 +35,10 @@ Push the tag `vX.Y.Z` for the release commit (`tools/release.py` does not do thi
 
 The Workshop item's `file_size` from Steam's public `ISteamRemoteStorage/GetPublishedFileDetails` should equal the total bytes printed in step 2. Steam defers downloading updates for subscribers while EU5 is running.
 
+## 5. Change notes
+
+EU5's Mod Tools upload sends no change note, so the Workshop's Change Notes tab stays empty unless one is added afterwards. Write the notes for this version in `workshop/changenotes.en.txt` and `workshop/changenotes.zh-CN.txt`, combine them into one file, and run `python -B tools/steam_page.py --change-note <file> --output dist/<record>.json` in the desktop session. This adds a change-note entry without touching the content, page text or artwork.
+
 ## Workshop page
 
 Page text, covers, screenshots and badges live in `workshop/`. Edit `description.en.txt`, `description.zh-CN.txt` and the combined `description.default.txt` together.

@@ -1,6 +1,4 @@
-1.0.0 — First release
+1.0.6
 
-- English and Simplified Chinese descriptions for all 28,254 locations without vanilla text in game version 1.4 (Steam build 26300913).
-- The 257 vanilla descriptions are left untouched.
-- City entries rewritten with fuller local history and checked against English and local-language sources; other entries corrected for broken text, modern-day content and English/Chinese mismatches.
-- Text only; no gameplay, map or name changes.
+- Fixed ten locations whose description was about a different place with the same or a similar name: Baofeng (was the Gaocheng observatory in Dengfeng), Lai'an (was Sicheng), Büren (was Buren in the Netherlands), Pingshan in Huidong (was Pingshan in Shenzhen), Burdekin, Mezen, Ingul, Banda, Altyntobe and Araban.
+- Bundled FAQ and compatibility notes updated: achievements stay available, the mod can be added to an existing save, and multiplayer needs the same mods.
