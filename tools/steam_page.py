@@ -105,8 +105,11 @@ class Steam:
 
     def submit(self, handle, note=None):
         result = self.wait(self.ug('SubmitItemUpdate', U64, [U64,S], handle, note.encode() if note else None), UpdateResult, 3404)
+        if result.result != 1:
+            raise RuntimeError(f'SubmitItemUpdate failed with Steam result {result.result}')
         if result.item != ITEM or result.agreement:
             raise RuntimeError('Update requires owner terms acceptance or item mismatch')
+        return result.result
 
     def assets(self, before, content=None):
         handle = self.ug('StartItemUpdate', U64, [U32,U64], APP, ITEM)

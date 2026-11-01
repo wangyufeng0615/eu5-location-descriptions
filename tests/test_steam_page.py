@@ -42,3 +42,20 @@ class ChangeNoteTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             steam.change_note("   ")
         steam.ug.assert_not_called()
+
+
+class SubmitResultTests(unittest.TestCase):
+    def make(self, code):
+        from tools.steam_page import UpdateResult, ITEM
+        steam = Steam.__new__(Steam)
+        steam.ug = Mock(return_value=1)
+        res = UpdateResult(); res.result = code; res.agreement = False; res.item = ITEM
+        steam.wait = Mock(return_value=res)
+        return steam
+
+    def test_failed_submit_raises(self):
+        with self.assertRaisesRegex(RuntimeError, 'Steam result 2'):
+            self.make(2).submit(5, "note")
+
+    def test_ok_submit_returns_ok(self):
+        self.assertEqual(self.make(1).submit(5, "note"), 1)
