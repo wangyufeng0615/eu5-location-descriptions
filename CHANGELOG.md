@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.6 — 2026-11-02
+
+- Fix ten locations whose description was about a different place with the same or a similar name, found in an identity audit of about 600 high-risk entries: Baofeng (was the Gaocheng observatory in Dengfeng), Lai'an (was Sicheng), Büren (was Buren in the Netherlands), Pingshan in Huidong (was Pingshan in Shenzhen), the upper Burdekin (was its delta), the upper Mezen (was the town of Mezen), the upper Ingul (was Mykolaiv), Banda (was the Bandanese villages on Kei), Altyntobe (was Shymkent) and Araban (was Araban in Gaziantep).
+- Update the bundled FAQ and compatibility notes: achievements stay available, the mod can be added to an existing save, and multiplayer needs the same mods.
+
 ## 1.0.5 — 2026-11-02
 
 - Fix Wuchang: the game's Wuchang is the old Wuchang county, modern Ezhou, not the city with the Yellow Crane Tower. It now covers Sun Quan's capital, the bream of Fankou and Su Shi's pavilion on the West Hill. Reported by a player.
