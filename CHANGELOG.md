@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.8 — 2026-11-03
+
+- Revise ten English and Simplified Chinese descriptions after checking place identities, historical sources and the game map.
+- Correct misplaced subjects in Budjanga, Abitau, Lhakang, Nanlang and Fraserburgh; distinguish Abidos from the later town of Canakkale.
+- Replace unsupported town-specific stories in Dzingcho and Sesheke with regional descriptions, and refine Mayumba and Mauna Loa.
+- Add a one-line history of each public release to the Workshop description.
+
 ## 1.0.7 — 2026-11-03
 
 - Correct 19 English and Simplified Chinese location descriptions whose subjects did not match their map locations.
