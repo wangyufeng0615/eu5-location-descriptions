@@ -25,3 +25,16 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 TODO: support the other official EU5 languages (French, German, Spanish, Brazilian Portuguese, Russian, Polish, Turkish, Japanese, Korean). I'll add them as soon as I can. If you'd like anything else, just leave a comment or contact me.
 
 Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
+
+[h2]Update history[/h2]
+[list]
+[*]1.0.8: Research and revise ten bilingual entries, correcting misplaced subjects and unsupported stories.
+[*]1.0.7: Correct 19 location identities, including Bone in South Sulawesi.
+[*]1.0.6: Fix ten same-name or similar-name mix-ups; clarify save and mod compatibility.
+[*]1.0.5: Correct the historical identities of Wuchang and Jiangxia and rewrite both entries.
+[*]1.0.4: Rewrite Wuxi and remove the misleading exhausted-tin-mine name origin.
+[*]1.0.3: Correct the Wallerfangen pigment name following player feedback.
+[*]1.0.2: Repair paragraphs, punctuation and damaged dates; remove research commentary and anachronisms.
+[*]1.0.1: Restore 62 missing locations, reaching 28,316 entries, and fix text punctuation.
+[*]1.0.0: First public release, adding English and Chinese descriptions where vanilla has none.
+[/list]
