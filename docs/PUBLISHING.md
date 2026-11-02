@@ -23,9 +23,40 @@ python -B tools/release.py 1.2.3 --note "Fix the pigment name in Wallerfangen."
 
 `--dry-run` runs the checks and builds into `dist/dryrun-<time>/` without changing the version, CHANGELOG, install folder or Git.
 
-## 3. Upload
+## 3. Upload through the signed-in Steam client (preferred)
 
-In EU5, open **Mod Tools**, select the mod, choose **Upload content from a folder**, and enter the **full path** of the installed folder printed by the script. Upload only `location_descriptions_enhanced/` (with its hidden `.metadata/`), never the repository or `dist/`. A relative name has uploaded the whole working folder before.
+Since 1.0.7 (2026-11-03), updates to the existing item can be uploaded without opening EU5's Mod Tools. A user request to release a version authorizes the prepared content upload; it does not authorize creating another item, changing visibility, accepting new terms or changing account permissions. Those actions remain with the owner.
+
+`tools/steam_upload.py` reuses the Steam bindings in `steam_page.py`. It validates the requested version, complete build contents, archive and receipt, then checks that the signed-in Steam account owns item `3830305546`. Only the release's absolute mod-folder path is submitted. Titles, descriptions, cover, gallery and visibility are compared before and after. It does not read credentials.
+
+First write the version and English notes to `workshop/changenotes.en.txt`; keep the Chinese file alongside it. The first line must be the version. Run a local-only check (safe over SSH):
+
+```bat
+python -B tools\steam_upload.py 1.0.8 --output dist/upload-1.0.8-check.json
+```
+
+The check does not connect to Steam. To upload, run the following **inside the Windows desktop session where the owner is signed in to Steam**:
+
+```bat
+python -B tools\steam_upload.py 1.0.8 --upload --notes-file workshop/changenotes.en.txt --output dist/upload-1.0.8.json
+```
+
+Use a new output filename each time. Existing records are never overwritten. Without `--upload`, nothing is submitted. Do not use Python `-O`: the reused Steam bindings contain assertions.
+
+For remote operation, save that command in a `.cmd` file with `cd /d` pointing to the publishing checkout, `set PYTHONIOENCODING=utf-8`, an absolute Python executable, and stdout/stderr redirected to a new log. Use `query user` to identify the signed-in desktop user. Schedule the command with that user's interactive token, then start it:
+
+```bat
+schtasks /create /tn EU5Release_VERSION /tr C:\absolute\path\upload.cmd /sc once /st 23:59 /ru DESKTOP_USER /it
+schtasks /run /tn EU5Release_VERSION
+```
+
+Choose a unique task name and a future scheduled time; `/run` starts it immediately. Read the JSON/log until completion. A scheduler success message only means the task started. Success requires Steam `result=1`, `metadata_unchanged=true`, and the online checks below. Once the process has finished, delete **only this temporary task** with `schtasks /delete /tn EU5Release_VERSION /f` so it cannot run again at its scheduled time. Never supply stored passwords or change the user's Steam session to make this work.
+
+If an upload times out or its result is unknown, inspect the Workshop update time, size and record before retrying: it may already have succeeded. If Steam requires terms acceptance or the owner does not match, stop and hand that step to the owner.
+
+### Fallback: EU5 Mod Tools
+
+If the desktop Steam API cannot be used, open **Mod Tools**, select the existing mod, choose **Upload content from a folder**, and enter the **full path** of the installed folder printed by `release.py`. Upload only `location_descriptions_enhanced/` (with its hidden `.metadata/`), never the repository or `dist/`. A relative name has uploaded the whole working folder before.
 
 ## 4. GitHub release
 
@@ -33,11 +64,11 @@ Push the tag `vX.Y.Z` for the release commit (`tools/release.py` does not do thi
 
 ## 5. Verify
 
-The Workshop item's `file_size` from Steam's public `ISteamRemoteStorage/GetPublishedFileDetails` should equal the total bytes printed in step 2. Steam defers downloading updates for subscribers while EU5 is running.
+Verify Steam result=1, the new update time, unchanged visibility, and the Workshop item's `file_size` from Steam's public `ISteamRemoteStorage/GetPublishedFileDetails` against the total bytes printed in step 2. Download the GitHub Release ZIP and compare every extracted file hash with the build receipt; ZIP container hashes can differ between platforms. These checks verify the release artifacts and upload, not in-game rendering or a fresh subscriber download. Steam defers downloading updates for subscribers while EU5 is running.
 
-## 5. Change notes
+## 6. Change notes
 
-EU5's Mod Tools upload sends no change note, so each upload appears on the Workshop's Change Notes tab with an empty entry. Fill it in on the website while signed in as the author: open the Change Notes tab, choose **Edit** on the newest entry, write the English note under English and save, then switch the language to Simplified Chinese and save the Chinese note. Use `workshop/changenotes.en.txt` and `workshop/changenotes.zh-CN.txt` as the text. Submitting a note through the Steam API without new content is accepted but leaves no entry, so the website is the way to do it.
+The API uploader submits the English note together with content; 1.0.7 verified that this creates a real change-note entry. EU5's Mod Tools sends no note and leaves an empty entry. In either case, finish and verify both language variants in the owner's signed-in Chrome: open the Change Notes tab, choose **Edit** on the newest entry, write the English note under English and save, then switch the language to Simplified Chinese and save the Chinese note. Use `workshop/changenotes.en.txt` and `workshop/changenotes.zh-CN.txt` as the text. Submitting a note through the Steam API without new content is accepted but leaves no entry, so the website is the way to do it.
 
 ## Workshop page
 

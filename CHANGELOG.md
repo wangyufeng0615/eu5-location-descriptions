@@ -3,7 +3,7 @@
 ## 1.0.7 — 2026-11-03
 
 - Correct 19 English and Simplified Chinese location descriptions whose subjects did not match their map locations.
-- Rewrite Bone for the Bugis kingdom of South Sulawesi, and correct misplaced towns, regional identities and coastal settings across Asia, Europe, Australia and East Africa.
+- Rewrite Bone for the Bugis kingdom of South Sulawesi, and correct misplaced towns, regional identities and coastal settings across Asia, Europe, Australia and the Americas.
 
 ## 1.0.6 — 2026-11-02
 

@@ -26,7 +26,7 @@ python -B tools/preflight.py --build dist/<新目录> --output dist/<新目录>-
 
 - 版本号一律 `x.y.z`，不加后缀；`tools/build.py` 拒绝其他写法。每次上传工坊前先升版本，更新记录写在 `CHANGELOG.md`。
 - 上传工坊只传构建出的模组文件夹 `location_descriptions_enhanced/`（含隐藏的 `.metadata/`），不能传整个仓库或 `dist/`。用游戏模组工具上传时填这个文件夹的完整路径。
-- 上传、订阅、可见性变更和接受条款都由作者本人在游戏或 Steam 里操作。
+- 用户要求发版时，默认用 `tools/steam_upload.py --upload` 在已登录 Steam 的 Windows 桌面会话更新既有条目；先完成本地检查并保留上传记录，步骤见 `docs/PUBLISHING.md`。EU5 模组工具作为备用。创建条目、订阅、可见性变更、接受条款和账号权限变更不包含在发版授权内，仍由作者处理。
 
 ## 工坊页面
 

@@ -4,7 +4,7 @@
     python -B tools/release.py 1.2.3 --notes-file notes.txt --game-root "<EU5 install>" --install --commit
     python -B tools/release.py --dry-run
 
-Uploading stays manual: the script prints the folder to give EU5's Mod Tools.
+Uploading is a separate explicit step: use steam_upload.py in the signed-in desktop session (see docs/PUBLISHING.md).
 """
 from __future__ import annotations
 

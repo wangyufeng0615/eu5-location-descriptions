@@ -7,7 +7,7 @@ This repository builds and publishes the mod. The descriptions themselves are wr
 ```text
 data/            exported English/Chinese descriptions, per-location sources, vanilla protection set
                  研究库导出的双语正文、来源和官方保护集合（不手改）
-tools/           build.py, preflight.py, release.py, steam_page.py, find_location.py
+tools/           build.py, preflight.py, release.py, steam_upload.py, steam_page.py, find_location.py
 tests/           unit tests for the tools
 workshop/        Workshop page text, covers, screenshots, badges, tooltip GUI override
                  工坊页面文案、封面、截图、徽章和提示框界面文件
