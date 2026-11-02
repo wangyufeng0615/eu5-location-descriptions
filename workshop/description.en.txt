@@ -1,4 +1,4 @@
-[h1]A description for [b]every tile[/b] on the map[/h1]
+[h1]A description for every tile on the map[/h1]
 [img]https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/[/img]
 
 Vanilla EU5 describes only a few hundred locations.
@@ -22,9 +22,11 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: Both mods provide English descriptions for 578 of the same locations. When both are enabled, Oikoumene's descriptions will take precedence. No other known conflicts.
 [/list]
 
-TODO: support the other official EU5 languages (French, German, Spanish, Brazilian Portuguese, Russian, Polish, Turkish, Japanese, Korean). I'll add them as soon as I can. If you'd like anything else, just leave a comment or contact me.
+[h2]Planned updates[/h2]
+Support the other official EU5 languages (French, German, Spanish, Brazilian Portuguese, Russian, Polish, Turkish, Japanese, Korean). I'll add them as soon as I can. If you'd like anything else, just leave a comment or contact me.
 
-Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
+[h2]Source and downloads[/h2]
+[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h2]Update history[/h2]
 [list]

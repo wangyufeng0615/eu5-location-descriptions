@@ -1,4 +1,4 @@
-[h1]A description for [b]every tile[/b] on the map[/h1]
+[h1]A description for every tile on the map[/h1]
 [img]https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/[/img]
 
 Vanilla EU5 describes only a few hundred locations.
@@ -22,9 +22,11 @@ I'm a geography and history enthusiast, and I've corrected and checked these ent
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: Both mods provide English descriptions for 578 of the same locations. When both are enabled, Oikoumene's descriptions will take precedence. No other known conflicts.
 [/list]
 
-TODO: support the other official EU5 languages (French, German, Spanish, Brazilian Portuguese, Russian, Polish, Turkish, Japanese, Korean). I'll add them as soon as I can. If you'd like anything else, just leave a comment or contact me.
+[h2]Planned updates[/h2]
+Support the other official EU5 languages (French, German, Spanish, Brazilian Portuguese, Russian, Polish, Turkish, Japanese, Korean). I'll add them as soon as I can. If you'd like anything else, just leave a comment or contact me.
 
-Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
+[h2]Source and downloads[/h2]
+[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h2]Update history[/h2]
 [list]
@@ -40,7 +42,7 @@ Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptio
 [/list]
 
 
-[h1]为地图上的[b]每个地块[/b]都补充了介绍[/h1]
+[h1]为地图上的每个地块补充介绍[/h1]
 [img]https://images.steamusercontent.com/ugc/11172129997313305366/820A202F759037E92AB33A90CD335456260FE231/[/img]
 
 原版只给小几百个地点写了介绍。
@@ -64,9 +66,11 @@ Source on GitHub: [url=https://github.com/wangyufeng0615/eu5-location-descriptio
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]：两者有 578 条英文地点介绍重叠，同时启用时，将优先显示 Oikoumene 的介绍。无其他已知冲突。
 [/list]
 
-TODO：支持更多EU5官方支持语言（french german spanish braz_por russian polish turkish japanese korean），我会尽快实现。如果你有更多需求，请随时留言或联系我即可。
+[h2]后续计划[/h2]
+支持更多EU5官方语言（法语、德语、西班牙语、巴西葡萄牙语、俄语、波兰语、土耳其语、日语、韩语），我会尽快实现。如果你有更多需求，请随时留言或联系我即可。
 
-GitHub 源码：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
+[h2]源码与下载[/h2]
+GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h2]持续订正记录[/h2]
 [list]
