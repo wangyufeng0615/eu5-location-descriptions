@@ -1,4 +1,6 @@
-1.0.7
+1.0.8
 
-- Correct 19 English and Simplified Chinese location descriptions whose subjects did not match their map locations.
-- Rewrite Bone for the Bugis kingdom of South Sulawesi, and correct misplaced towns, regional identities and coastal settings across Asia, Europe, Australia and the Americas.
+Revise ten English and Simplified Chinese descriptions after checking place identities, historical sources and the game map.
+Correct misplaced subjects in Budjanga, Abitau, Lhakang, Nanlang and Fraserburgh; distinguish Abidos from the later town of Canakkale.
+Replace unsupported town-specific stories in Dzingcho and Sesheke with regional descriptions, and refine Mayumba and Mauna Loa.
+Add a one-line history of each public release to the Workshop description.
