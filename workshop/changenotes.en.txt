@@ -1,4 +1,4 @@
-1.0.6
+1.0.7
 
-- Fixed ten locations whose description was about a different place with the same or a similar name: Baofeng (was the Gaocheng observatory in Dengfeng), Lai'an (was Sicheng), Büren (was Buren in the Netherlands), Pingshan in Huidong (was Pingshan in Shenzhen), Burdekin, Mezen, Ingul, Banda, Altyntobe and Araban.
-- Bundled FAQ and compatibility notes updated: achievements stay available, the mod can be added to an existing save, and multiplayer needs the same mods.
+- Correct 19 English and Simplified Chinese location descriptions whose subjects did not match their map locations.
+- Rewrite Bone for the Bugis kingdom of South Sulawesi, and correct misplaced towns, regional identities and coastal settings across Asia, Europe, Australia and East Africa.
