@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.7 — 2026-11-03
+
+- Correct 19 English and Simplified Chinese location descriptions whose subjects did not match their map locations.
+- Rewrite Bone for the Bugis kingdom of South Sulawesi, and correct misplaced towns, regional identities and coastal settings across Asia, Europe, Australia and East Africa.
+
 ## 1.0.6 — 2026-11-02
 
 - Fix ten locations whose description was about a different place with the same or a similar name, found in an identity audit of about 600 high-risk entries: Baofeng (was the Gaocheng observatory in Dengfeng), Lai'an (was Sicheng), Büren (was Buren in the Netherlands), Pingshan in Huidong (was Pingshan in Shenzhen), the upper Burdekin (was its delta), the upper Mezen (was the town of Mezen), the upper Ingul (was Mykolaiv), Banda (was the Bandanese villages on Kei), Altyntobe (was Shymkent) and Araban (was Araban in Gaziantep).
