@@ -28,6 +28,11 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 [h2]Source and downloads[/h2]
 [url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
+[h2]My other mods[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]Descriptions for Every Province[/b][/url] (Europa Universalis IV): descriptions for all 3,272 land provinces, from the 1444 start to 1821.
+[/list]
+
 [h2]Update history[/h2]
 [list]
 [*]1.0.8: Research and revise ten bilingual entries, correcting misplaced subjects and unsupported stories.

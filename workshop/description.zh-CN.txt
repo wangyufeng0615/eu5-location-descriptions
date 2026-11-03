@@ -28,6 +28,11 @@
 [h2]源码与下载[/h2]
 GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
+[h2]我的其他 MOD[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]所有省份的描述[/b][/url]（欧陆风云4）：为全部 3,272 个陆地省份补上中英文介绍，从 1444 年开局写到 1821 年。
+[/list]
+
 [h2]持续订正记录[/h2]
 [list]
 [*]1.0.8：考证并修订10条中英文介绍，纠正地点错配和缺乏依据的叙事。
