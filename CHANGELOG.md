@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.9 — 2026-11-04
+
+- Revise 50 high-profile locations after a source-checked spot review.
+- Rewrite Xiangyang, Yangqu, Panyu, Agra, Niani and Malacca with sourced histories of the 1337-1837 era.
+- Correct facts and Chinese name renderings in about 40 more entries, including Kunming, Xi'an, Medina, Vilnius, Oxford, Berlin, Jiangdu and Marseille.
+
 ## 1.0.8 — 2026-11-03
 
 - Revise ten English and Simplified Chinese descriptions after checking place identities, historical sources and the game map.
