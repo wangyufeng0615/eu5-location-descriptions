@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 — 2026-11-11
+
+- Add a closing line to 788 locations in the Americas, Oceania, Sub-Saharan Africa, Southeast Asia and Siberia whose tribal or indigenous names hide a well-known later city, for example "The later city of Denver lies here."
+- Where the city sits on the border between two locations, the line says it lies nearby.
+- This line is the only place where the descriptions name cities founded after 1837. Suggested by a player.
+
 ## 1.0.9 — 2026-11-04
 
 - Revise 50 high-profile locations after a source-checked spot review.
