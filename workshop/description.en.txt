@@ -36,6 +36,7 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 
 [h2]Update history[/h2]
 [list]
+[*]1.1.0: Name the later city in 788 tribal- or indigenous-named locations, such as Denver, Nairobi and Kinshasa.
 [*]1.0.9: Spot-check 50 high-profile locations; rewrite six entries and correct facts and Chinese name renderings in about 40 more.
 [*]1.0.8: Research and revise ten bilingual entries, correcting misplaced subjects and unsupported stories.
 [*]1.0.7: Correct 19 location identities, including Bone in South Sulawesi.
