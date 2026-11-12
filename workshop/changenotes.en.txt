@@ -1,7 +1,8 @@
-1.1.1
+1.1.2
 
-Fixed the later-city line for Seattle: it now sits on the east shore of Puget Sound (Puyallup) instead of the Kitsap side (Twana). Thanks to the player who reported it.
-Fixed the later-city line for Olympia: moved from Chehalis to Nisqually.
-Locations that are themselves a city or town (Caracas, Phnom Penh, Ouagadougou, Suakin, Ternate and 26 others) now say "The later city of X also lies here."
-Rewrote the Chiquimula description to cover the Spanish conquest, the colonial corregimiento and the 1765 earthquake, and removed post-1837 content.
-Chinese: Sing Buri now uses its standard Chinese name.
+Revised from feedback by Tricolore Royal. Thank you!
+Chinook: added Fort Astoria, built in 1811 by Astor's Pacific Fur Company at the mouth of the Columbia, the first American-owned settlement on the Pacific coast of North America and later one of the grounds for the US claim to Oregon; the later city of Astoria is now noted.
+Salem: the later-city line moves from Tillamook to Atfalati.
+Delaware: Minguannan now names the later city of Wilmington (it wrongly said Dover), and Dover is noted in Tappahanna.
+Chinese: removed San click letters that showed up as stray symbols at the start of 18 southern African descriptions.
+Chinese: English names left untranslated in about 200 Chinese descriptions now use Chinese names, and redundant English glosses in brackets were removed.
