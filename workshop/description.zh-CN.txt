@@ -25,6 +25,9 @@
 [h2]后续计划[/h2]
 支持更多EU5官方语言（法语、德语、西班牙语、巴西葡萄牙语、俄语、波兰语、土耳其语、日语、韩语），我会尽快实现。如果你有更多需求，请随时留言或联系我即可。
 
+[h2]QQ 群[/h2]
+欢迎加入 QQ 群 [b]518622967[/b]，反馈问题、提出建议，一起共建这几个 MOD！
+
 [h2]源码与下载[/h2]
 GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
