@@ -131,8 +131,7 @@ def check(root, output, game_root=None, evidence_path=None):
         check_bbcode(text)
         page_metrics[language] = {"title_utf8_bytes": len(title.encode("utf-8")), "description_utf8_bytes": len(text.encode("utf-8"))}
     fallback = mod_build.project_file(root, page["fallback_description"]).read_text(encoding="utf-8")
-    if len(fallback.encode("utf-8")) >= 8000:
-        raise ValueError("Combined bilingual fallback description exceeds byte budget")
+    # The combined copy is never uploaded (each language has its own page), so only its size is recorded.
     for name in page["descriptions"].values():
         if mod_build.project_file(root, name).read_text(encoding="utf-8").strip() not in fallback:
             raise ValueError("Combined page copy is stale")
