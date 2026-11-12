@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1 — 2026-11-12
+
+- Fixed the later-city line for Seattle: it now sits on the east shore of Puget Sound (Puyallup) instead of the Kitsap side (Twana). Thanks to the player who reported it.
+- Fixed the later-city line for Olympia: moved from Chehalis to Nisqually.
+- Locations that are themselves a city or town (Caracas, Phnom Penh, Ouagadougou, Suakin, Ternate and 26 others) now say "The later city of X also lies here."
+- Rewrote the Chiquimula description to cover the Spanish conquest, the colonial corregimiento and the 1765 earthquake, and removed post-1837 content.
+- Chinese: Sing Buri now uses its standard Chinese name.
+
 ## 1.1.0 — 2026-11-11
 
 - Add a closing line to 788 locations in the Americas, Oceania, Sub-Saharan Africa, Southeast Asia and Siberia whose tribal or indigenous names hide a well-known later city, for example "The later city of Denver lies here."
