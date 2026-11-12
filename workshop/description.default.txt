@@ -36,7 +36,7 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 
 [h2]Update history[/h2]
 [list]
-[*]1.1.2: Note Astoria and correct the locations of Salem, Wilmington and Dover; in Chinese, remove stray click-letter symbols and translate English names left in about 200 entries. Based on player feedback.
+[*]1.1.3: Note Astoria and correct the locations of Salem, Wilmington and Dover; in Chinese, remove stray click-letter symbols and translate English names left in about 200 entries. Based on player feedback. (1.1.2 was packaged without the new data; the changes took effect in 1.1.3.)
 [*]1.1.1: Fix Seattle and Olympia, and say "also" where the location is itself a town, such as Caracas. Suggested by a player.
 [*]1.1.0: Name the later city in 788 tribal- or indigenous-named locations, such as Denver, Nairobi and Kinshasa.
 [*]1.0.9: Spot-check 50 high-profile locations; rewrite six entries and correct facts and Chinese name renderings in about 40 more.
@@ -58,7 +58,7 @@ Thanks to these players for pointing out problems and suggesting improvements; a
 [*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url] (Reddit): pointed out that the pigment from Wallerfangen is called Wallerfanger blue (fixed in 1.0.3)
 [*][url=https://space.bilibili.com/1340226306]@提剑远游[/url] (Bilibili): pointed out that the tin-mine origin of Wuxi's name is a later invention (Wuxi rewritten in 1.0.4)
 [*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url] (Workshop): pointed out that the in-game Wuchang is today's Ezhou, not the Wuchang of the Yellow Crane Tower (fixed in 1.0.5)
-[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url] (Workshop): suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), then went through the US Northwest and East Coast and found the missing Astoria, the misplaced Salem and Wilmington, stray symbols in southern African entries and untranslated English in Chinese ones such as in Thailand (fixed in 1.1.2)
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url] (Workshop): suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), then went through the US Northwest and East Coast and found the missing Astoria, the misplaced Salem and Wilmington, stray symbols in southern African entries and untranslated English in Chinese ones such as in Thailand (fixed in 1.1.3)
 [/list]
 
 
@@ -103,7 +103,7 @@ GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github
 
 [h2]持续订正记录[/h2]
 [list]
-[*]1.1.2：补注阿斯托里亚，订正塞勒姆、威尔明顿和多佛的位置；中文删去吸气音字母造成的多余符号，补译约200个地点里残留的英文名。根据玩家反馈修改。
+[*]1.1.3：补注阿斯托里亚，订正塞勒姆、威尔明顿和多佛的位置；中文删去吸气音字母造成的多余符号，补译约200个地点里残留的英文名。根据玩家反馈修改。（1.1.2 打包时漏带新数据，内容在 1.1.3 生效。）
 [*]1.1.1：修正西雅图、奥林匹亚的位置；地点本身是城镇的（如加拉加斯）改写“也位于此地”。根据玩家反馈修改。
 [*]1.1.0：为788个以部族或土著语言命名的地点注明后世城市，如丹佛、内罗毕、金沙萨。
 [*]1.0.9：抽查50个热门地点，重写6条介绍，订正约40条的史实与中文译名。
@@ -125,5 +125,5 @@ GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github
 [*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url]（Reddit）：指出 Wallerfangen 出产的颜料应叫 Wallerfanger blue（1.0.3 修复）
 [*][url=https://space.bilibili.com/1340226306]@提剑远游[/url]（B 站）：指出无锡“锡矿采尽而得名”是附会之说（1.0.4 重写无锡）
 [*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]（创意工坊）：指出游戏里的武昌是今天的鄂州，不是黄鹤楼所在的武昌（1.0.5 修复）
-[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]（创意工坊）：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入）；又细查美国西北和东海岸，指出阿斯托里亚漏写、塞勒姆和威尔明顿标错地块，以及南部非洲地点开头的多余符号和泰国等地点未译的英文（1.1.2 修复）
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]（创意工坊）：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入）；又细查美国西北和东海岸，指出阿斯托里亚漏写、塞勒姆和威尔明顿标错地块，以及南部非洲地点开头的多余符号和泰国等地点未译的英文（1.1.3 修复）
 [/list]
