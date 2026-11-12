@@ -48,3 +48,14 @@ GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github
 [*]1.0.1：补回漏出的62个地点，覆盖增至28,316条，并修正文字符号。
 [*]1.0.0：首次公开发布，为缺少原版介绍的地点提供中英文描述。
 [/list]
+
+[h2]致谢[/h2]
+感谢以下玩家在评论区给出的具体反馈：
+[list]
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]：发现利古里亚海和圣港没有介绍，由此查出漏掉 62 个地块的问题（1.0.1 修复）
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]：指出游戏里的武昌是今天的鄂州，不是黄鹤楼所在的武昌（1.0.5 修复）
+[*][url=https://steamcommunity.com/profiles/76561199029538896]@NATURE_ROGUE[/url]：指出部分用词和游戏官方中文译名不一致
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入），并继续核对了西雅图、加拉加斯等地
+[*][url=https://steamcommunity.com/id/Mad_Jag]@MadJaguarSkillz[/url]：建议增加国家、文化和族群的介绍
+[*][url=https://steamcommunity.com/profiles/76561198305041396]@Bushar[/url]：希望推出俄语版
+[/list]

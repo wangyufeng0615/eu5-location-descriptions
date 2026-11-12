@@ -49,6 +49,17 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 [*]1.0.0: First public release, adding English and Chinese descriptions where vanilla has none.
 [/list]
 
+[h2]Thanks[/h2]
+Thanks to these players for specific feedback in the comments:
+[list]
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]: noticed that the Ligurian Sea and Porto Santo had no description, which uncovered a bug that left out 62 locations (fixed in 1.0.1)
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]: pointed out that the in-game Wuchang is today's Ezhou, not the Wuchang of the Yellow Crane Tower (fixed in 1.0.5)
+[*][url=https://steamcommunity.com/profiles/76561199029538896]@NATURE_ROGUE[/url]: pointed out Chinese terms that differ from the game's official Chinese translation
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]: suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), and followed up with checks on Seattle, Caracas and others
+[*][url=https://steamcommunity.com/id/Mad_Jag]@MadJaguarSkillz[/url]: suggested descriptions for countries, cultures and ethnic groups
+[*][url=https://steamcommunity.com/profiles/76561198305041396]@Bushar[/url]: asked for a Russian translation
+[/list]
+
 
 [h1]为地图上的每个地块补充介绍[/h1]
 [img]https://images.steamusercontent.com/ugc/11172129997313305366/820A202F759037E92AB33A90CD335456260FE231/[/img]
@@ -99,4 +110,15 @@ GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github
 [*]1.0.2：修复段落、标点与损坏年代，清理考证口吻和超时代内容。
 [*]1.0.1：补回漏出的62个地点，覆盖增至28,316条，并修正文字符号。
 [*]1.0.0：首次公开发布，为缺少原版介绍的地点提供中英文描述。
+[/list]
+
+[h2]致谢[/h2]
+感谢以下玩家在评论区给出的具体反馈：
+[list]
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]：发现利古里亚海和圣港没有介绍，由此查出漏掉 62 个地块的问题（1.0.1 修复）
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]：指出游戏里的武昌是今天的鄂州，不是黄鹤楼所在的武昌（1.0.5 修复）
+[*][url=https://steamcommunity.com/profiles/76561199029538896]@NATURE_ROGUE[/url]：指出部分用词和游戏官方中文译名不一致
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入），并继续核对了西雅图、加拉加斯等地
+[*][url=https://steamcommunity.com/id/Mad_Jag]@MadJaguarSkillz[/url]：建议增加国家、文化和族群的介绍
+[*][url=https://steamcommunity.com/profiles/76561198305041396]@Bushar[/url]：希望推出俄语版
 [/list]
