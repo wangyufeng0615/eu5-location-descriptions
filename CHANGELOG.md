@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.2 — 2026-11-13
+
+- Revised from feedback by Tricolore Royal. Thank you!
+- Chinook: added Fort Astoria, built in 1811 by Astor's Pacific Fur Company at the mouth of the Columbia, the first American-owned settlement on the Pacific coast of North America and later one of the grounds for the US claim to Oregon; the later city of Astoria is now noted.
+- Salem: the later-city line moves from Tillamook to Atfalati.
+- Delaware: Minguannan now names the later city of Wilmington (it wrongly said Dover), and Dover is noted in Tappahanna.
+- Chinese: removed San click letters that showed up as stray symbols at the start of 18 southern African descriptions.
+- Chinese: English names left untranslated in about 200 Chinese descriptions now use Chinese names, and redundant English glosses in brackets were removed.
+
 ## 1.1.1 — 2026-11-12
 
 - Fixed the later-city line for Seattle: it now sits on the east shore of Puget Sound (Puyallup) instead of the Kitsap side (Twana). Thanks to the player who reported it.
