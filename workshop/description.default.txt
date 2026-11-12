@@ -51,14 +51,13 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 [/list]
 
 [h2]Thanks[/h2]
-Thanks to these players for specific feedback in the comments:
+Thanks to these players for pointing out problems and suggesting improvements; all of the changes below have been released:
 [list]
-[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]: noticed that the Ligurian Sea and Porto Santo had no description, which uncovered a bug that left out 62 locations (fixed in 1.0.1)
-[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]: pointed out that the in-game Wuchang is today's Ezhou, not the Wuchang of the Yellow Crane Tower (fixed in 1.0.5)
-[*][url=https://steamcommunity.com/profiles/76561199029538896]@NATURE_ROGUE[/url]: pointed out Chinese terms that differ from the game's official Chinese translation
-[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]: suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), and followed up with checks on Seattle, Caracas and others
-[*][url=https://steamcommunity.com/id/Mad_Jag]@MadJaguarSkillz[/url]: suggested descriptions for countries, cultures and ethnic groups
-[*][url=https://steamcommunity.com/profiles/76561198305041396]@Bushar[/url]: asked for a Russian translation
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url] (Workshop): noticed that the Ligurian Sea and Porto Santo had no description, which uncovered a bug that left out 62 locations (fixed in 1.0.1)
+[*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url] (Reddit): pointed out that the pigment from Wallerfangen is called Wallerfanger blue (fixed in 1.0.3)
+[*][url=https://space.bilibili.com/1340226306]@提剑远游[/url] (Bilibili): pointed out that the tin-mine origin of Wuxi's name is a later invention (Wuxi rewritten in 1.0.4)
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url] (Workshop): pointed out that the in-game Wuchang is today's Ezhou, not the Wuchang of the Yellow Crane Tower (fixed in 1.0.5)
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url] (Workshop): suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0)
 [/list]
 
 
@@ -115,12 +114,11 @@ GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github
 [/list]
 
 [h2]致谢[/h2]
-感谢以下玩家在评论区给出的具体反馈：
+感谢以下玩家指出问题、提出建议，相关改动都已发布：
 [list]
-[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]：发现利古里亚海和圣港没有介绍，由此查出漏掉 62 个地块的问题（1.0.1 修复）
-[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]：指出游戏里的武昌是今天的鄂州，不是黄鹤楼所在的武昌（1.0.5 修复）
-[*][url=https://steamcommunity.com/profiles/76561199029538896]@NATURE_ROGUE[/url]：指出部分用词和游戏官方中文译名不一致
-[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入），并继续核对了西雅图、加拉加斯等地
-[*][url=https://steamcommunity.com/id/Mad_Jag]@MadJaguarSkillz[/url]：建议增加国家、文化和族群的介绍
-[*][url=https://steamcommunity.com/profiles/76561198305041396]@Bushar[/url]：希望推出俄语版
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]（创意工坊）：发现利古里亚海和圣港没有介绍，由此查出漏掉 62 个地块的问题（1.0.1 修复）
+[*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url]（Reddit）：指出 Wallerfangen 出产的颜料应叫 Wallerfanger blue（1.0.3 修复）
+[*][url=https://space.bilibili.com/1340226306]@提剑远游[/url]（B 站）：指出无锡“锡矿采尽而得名”是附会之说（1.0.4 重写无锡）
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]（创意工坊）：指出游戏里的武昌是今天的鄂州，不是黄鹤楼所在的武昌（1.0.5 修复）
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]（创意工坊）：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入）
 [/list]
