@@ -48,3 +48,14 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 [*]1.0.1: Restore 62 missing locations, reaching 28,316 entries, and fix text punctuation.
 [*]1.0.0: First public release, adding English and Chinese descriptions where vanilla has none.
 [/list]
+
+[h2]Thanks[/h2]
+Thanks to these players for specific feedback in the comments:
+[list]
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]: noticed that the Ligurian Sea and Porto Santo had no description, which uncovered a bug that left out 62 locations (fixed in 1.0.1)
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]: pointed out that the in-game Wuchang is today's Ezhou, not the Wuchang of the Yellow Crane Tower (fixed in 1.0.5)
+[*][url=https://steamcommunity.com/profiles/76561199029538896]@NATURE_ROGUE[/url]: pointed out Chinese terms that differ from the game's official Chinese translation
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]: suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), and followed up with checks on Seattle, Caracas and others
+[*][url=https://steamcommunity.com/id/Mad_Jag]@MadJaguarSkillz[/url]: suggested descriptions for countries, cultures and ethnic groups
+[*][url=https://steamcommunity.com/profiles/76561198305041396]@Bushar[/url]: asked for a Russian translation
+[/list]
