@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 — 2026-11-14
+
+- Reworked 297 city and town descriptions so they read more easily: second paragraphs that had turned into lists of rulers, sieges and dates now follow one thread, names that appear only once are gone, legends are marked as tradition, and local terms are explained.
+- Niani is rewritten: the griots' account of Sundiata is set apart from the written record, and the claim that it was Mali's capital at its height is no longer stated as fact.
+- A few errors fixed along the way, such as the founding date of Antalya, the ode cited for Huixian, and sentences Sargadwari shared with Budaun.
+
 ## 1.2.0 — 2026-11-13
 
 - The 257 locations that have a vanilla description now keep it word for word and continue it with one or two new paragraphs on the place during the game's era, 1337–1837: Paris, Constantinople, Kyōto, Timbuktu, Venice, Delhi, Cuzco and the rest.
