@@ -1,76 +1,52 @@
 [h1]为地图上的每个地块补充介绍[/h1]
 [img]https://images.steamusercontent.com/ugc/11172129997313305366/820A202F759037E92AB33A90CD335456260FE231/[/img]
 
-原版只给小几百个地点写了介绍。
-
-此 MOD 为其余全部 [b]28,316[/b] 个地块补上了高质量的介绍：城镇、乡野、山地、湖泊、海域。不可通行地块也补充了！
-
-官方写过介绍的 [b]257[/b] 个地块，保留官方原文，在后面接着补写一到两段游戏年代的历史。
+原版只给几百个地点写了介绍。此 MOD 为其余全部 [b]28,316[/b] 个地块补上中英文介绍，城镇、乡野、山地、湖泊、海域都有；官方写过介绍的 [b]257[/b] 个地块，保留原文，接着补写游戏年代的历史。
 
 [list]
-[*]支持：英文、中文
-[*]保持 EU5 的风味
-[*]保留官方原文，官方地块也有补充
-[*]存档可中途加入，模组兼容性见下文
-[*]兼容成就
+[*]支持英文、中文，保持 EU5 风味
+[*]存档可中途加入，兼容成就
+[*]以当地语言的维基百科等资料为主，经过多轮考证
 [/list]
-
-每个地块的描述，基于维基百科为主的当地语言资料，进行了多轮考证，消耗了我大量的 Token，使用的都是最好的模型，花了不少钱。但是为了这个 Mod，我想这是值得的 :)
-
-我是一个地理历史爱好者，这些词条都尽量逐条订正过。如果发现错误，欢迎留言，我会持续维护更新这个 mod！
-
-[h2]MOD 兼容性[/h2]
-已对照创意工坊订阅数前 60 的 EU5 模组（2026 年 11 月）逐个比对文件。
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]：两者有 618 条英文地点介绍重叠，同时启用时优先显示 Oikoumene 的英文介绍，中文不受影响。
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582][b]New World Improvement Project[/b][/url]：可以一起用。它新增的 5 个水域地块（黑海北岸 4 个河口湾和威尔士戴菲河口）没有介绍。
-[*]汉化类模组（凯撒汉化、CN 官中汉化修正）：各改了 1 条同名的中文介绍（苏黎世、高丽南京），显示哪一份取决于加载顺序。
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]描述扩展[/b][/url]：阿索斯山、富士山、白山既是地块又是圣地，两边共用一条介绍，同时启用时两个浮窗显示同一段文字。
-[*]和其他模组没有发现冲突的文件，包括 Glorp UI、Midnight UI、Imperial Papermap。
-[/list]
-
-[h2]后续计划[/h2]
-支持更多EU5官方语言（法语、德语、西班牙语、巴西葡萄牙语、俄语、波兰语、土耳其语、日语、韩语），我会尽快实现。如果你有更多需求，请随时留言或联系我即可。
-
-[h2]QQ 群[/h2]
-欢迎加入 QQ 群 [b]518622967[/b]，反馈问题、提出建议，一起共建这几个 MOD！
-
-[h2]源码与下载[/h2]
-GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h2]我的其他 MOD[/h2]
-[b]强烈建议同时订阅并启用这三款 EU5 MOD。[/b]
+[b]欧陆风云5[/b]：建议三个一起订阅
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833397845][b]所有历史人物的描述[/b][/url]（欧陆风云5）：为 7,789 位真实历史人物补上中英文生平，鼠标悬停人物即可看到，兼容铁人和成就。
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]描述扩展：国家、文化、王朝及更多[/b][/url]（欧陆风云5）：为国家、文化、王朝、宗教等对象补充中英文介绍。
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]所有省份和伟大工程的描述[/b][/url]（欧陆风云4）：为全部 3,272 个陆地省份补上中英文介绍，从 1444 年开局写到 1821 年，还有全部 139 座伟大工程。
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833397845][b]所有历史人物的描述[/b][/url]：7,789 位历史人物的生平，悬停人物即可看到
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]描述扩展：国家、文化、王朝及更多[/b][/url]：国家、文化、王朝、宗教等 7,000 多条介绍
+[/list]
+[b]欧陆风云4[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]所有省份和伟大工程的描述[/b][/url]：3,272 个陆地省份和 139 座伟大工程的介绍
 [/list]
 
-[h2]持续订正记录[/h2]
+[h2]兼容性[/h2]
+已与订阅数前 60 的 EU5 模组逐个比对文件，需要留意的只有：
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582]New World Improvement Project[/url]：它新增的 5 个水域地块没有介绍。
+[*]凯撒汉化、CN 官中汉化修正：各有 1 条中文介绍重名，看加载顺序。
+[/list]
+
+[h2]反馈与交流[/h2]
+发现错误欢迎留言，我会持续订正；之后会陆续支持 EU5 的其他官方语言。
+QQ 群：[b]518622967[/b]
+源码与下载：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]GitHub[/url]
+
+[h2]更新记录[/h2]
 [list]
 [*]1.2.1：重写297个读起来像年表的城市和城镇介绍；重写尼亚尼，把传说和史实分开。根据玩家反馈修改。
-[*]1.2.0：为257个官方已有介绍的地块，在官方原文后补写一到两段游戏年代的历史；渥太华、贝拉等4个官方地块注明后世城市。
-[*]1.1.3：补注阿斯托里亚，订正塞勒姆、威尔明顿和多佛的位置；中文删去吸气音字母造成的多余符号，补译约200个地点里残留的英文名。根据玩家反馈修改。（1.1.2 打包时漏带新数据，内容在 1.1.3 生效。）
-[*]1.1.1：修正西雅图、奥林匹亚的位置；地点本身是城镇的（如加拉加斯）改写“也位于此地”。根据玩家反馈修改。
-[*]1.1.0：为788个以部族或土著语言命名的地点注明后世城市，如丹佛、内罗毕、金沙萨。
-[*]1.0.9：抽查50个热门地点，重写6条介绍，订正约40条的史实与中文译名。
-[*]1.0.8：考证并修订10条中英文介绍，纠正地点错配和缺乏依据的叙事。
-[*]1.0.7：订正19条地点身份错误，包括南苏拉威西的波尼。
-[*]1.0.6：修正10处同名、近名地点混淆，补充存档与兼容性说明。
-[*]1.0.5：纠正武昌与江夏的历史地理对应，重写两地介绍。
-[*]1.0.4：重写无锡，移除“锡矿耗尽”的词源误说。
-[*]1.0.3：根据玩家反馈，纠正瓦勒方根蓝颜料名称。
-[*]1.0.2：修复段落、标点与损坏年代，清理考证口吻和超时代内容。
-[*]1.0.1：补回漏出的62个地点，覆盖增至28,316条，并修正文字符号。
-[*]1.0.0：首次公开发布，为缺少原版介绍的地点提供中英文描述。
+[*]1.2.0：官方已有介绍的257个地块，在原文后补写游戏年代的历史。
+[*]1.1.3：补注阿斯托里亚，订正塞勒姆、威尔明顿和多佛的位置，补译约200个地点残留的英文名。根据玩家反馈修改。
 [/list]
+更早的版本见 [url=https://github.com/wangyufeng0615/eu5-location-descriptions/blob/main/CHANGELOG.md]完整更新记录[/url]。
 
 [h2]致谢[/h2]
-感谢以下玩家指出问题、提出建议，相关改动都已发布：
+感谢以下玩家指出问题，相关改动都已发布：
 [list]
-[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]（创意工坊）：发现利古里亚海和圣港没有介绍，由此查出漏掉 62 个地块的问题（1.0.1 修复）
-[*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url]（Reddit）：指出 Wallerfangen 出产的颜料应叫 Wallerfanger blue（1.0.3 修复）
-[*][url=https://space.bilibili.com/1340226306]@提剑远游[/url]（B 站）：指出无锡“锡矿采尽而得名”是附会之说（1.0.4 重写无锡）
-[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]（创意工坊）：指出游戏里的武昌是今天的鄂州，不是黄鹤楼所在的武昌（1.0.5 修复）
-[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]（创意工坊）：建议给部族和土著语言命名的地点注明后世城市（1.1.0 加入）；又细查美国西北和东海岸，指出阿斯托里亚漏写、塞勒姆和威尔明顿标错地块，以及南部非洲地点开头的多余符号和泰国等地点未译的英文（1.1.3 修复）；又指出尼亚尼专有名词太多、传说与历史混写，由此复审约370个城市介绍（1.2.1 修订）
+[*][url=https://steamcommunity.com/profiles/76561198086804904]@江澤にこ[/url]（创意工坊）：发现利古里亚海和圣港没有介绍，由此查出漏掉的 62 个地块（1.0.1）
+[*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url]（Reddit）：指出瓦勒方根的颜料应叫 Wallerfanger blue（1.0.3）
+[*][url=https://space.bilibili.com/1340226306]@提剑远游[/url]（B 站）：指出无锡“锡矿采尽而得名”是附会之说（1.0.4）
+[*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url]（创意工坊）：指出游戏里的武昌是今天的鄂州（1.0.5）
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url]（创意工坊）：建议注明部族地名的后世城市（1.1.0）；指出阿斯托里亚、塞勒姆、威尔明顿等错漏（1.1.3）；指出尼亚尼专名太多、传说与历史混写（1.2.1）
 [/list]
