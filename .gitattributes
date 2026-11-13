@@ -8,3 +8,4 @@
 *.zip binary
 *.png binary
 *.jpg binary
+LICENSE text eol=lf
