@@ -113,20 +113,20 @@
     },
     {
       "id": "alexandria",
-      "purpose": "Compare unchanged official text with mod",
-      "expected_text_source": "official_game",
+      "purpose": "Official text first, unchanged, then the mod's supplement after a blank line",
+      "expected_text_source": "official_game_then_mod",
       "test_status": "pending"
     },
     {
       "id": "amasya",
-      "purpose": "Compare unchanged official text with mod",
-      "expected_text_source": "official_game",
+      "purpose": "Official text first, unchanged, then the mod's supplement after a blank line",
+      "expected_text_source": "official_game_then_mod",
       "test_status": "pending"
     },
     {
       "id": "aarhus",
-      "purpose": "Compare unchanged official text with mod (official since 1.3)",
-      "expected_text_source": "official_game",
+      "purpose": "Official text first, unchanged, then the mod's supplement after a blank line (official since 1.3)",
+      "expected_text_source": "official_game_then_mod",
       "test_status": "pending"
     }
   ]

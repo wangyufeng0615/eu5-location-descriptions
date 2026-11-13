@@ -69,8 +69,12 @@ def load(root):
     baseline = json.loads((root / "data/baseline.json").read_text(encoding="utf-8"))
     targets = set(baseline["target_ids"])
     protected = set(baseline["protected_ids"])
+    # Official locations whose text is official text + our supplement; they override the official key via replace/.
+    extended = set(baseline.get("extended_official_ids", []))
     if len(targets) != len(baseline["target_ids"]) or len(protected) != len(baseline["protected_ids"]) or targets & protected:
         raise ValueError("Invalid or overlapping baseline IDs")
+    if len(extended) != len(baseline.get("extended_official_ids", [])) or not extended <= targets:
+        raise ValueError("Extended official IDs must be unique target IDs")
     records = {}
     for path in sorted((root / "data/descriptions").glob("*.jsonl")):
         for line in path.read_text(encoding="utf-8").splitlines():
@@ -78,6 +82,8 @@ def load(root):
             key = row["id"]
             if not re.fullmatch(r"[A-Za-z0-9_]+", key) or key in records or key not in targets:
                 raise ValueError(f"Duplicate, official or unknown location ID: {key}")
+            if bool(row.get("extends_official")) != (key in extended):
+                raise ValueError(f"extends_official differs from baseline: {key}")
             if row["review_status"] not in ("bilingual_first_pass", "bilingual_reviewed"):
                 raise ValueError(f"Invalid review status: {key}")
             for language in LANGUAGES:
@@ -111,6 +117,10 @@ def quote(value):
     return value.replace("\\", "\\\\").replace('"', '\\"').replace("\r", "").replace("\n", "\\n")
 
 
+def split_rows(rows):
+    return [row for row in rows if not row.get("extends_official")], [row for row in rows if row.get("extends_official")]
+
+
 def localization_bytes(language, chunk):
     lines = [f"l_{language}:"] + [f' {row["id"]}_desc: "{quote(row[language])}"' for row in chunk]
     return ("\n".join(lines) + "\n").encode("utf-8-sig")
@@ -120,11 +130,15 @@ def expected_payload(root, config, rows):
     metadata = {key: config[key] for key in ("name", "version", "game_id", "supported_game_version", "short_description", "tags")}
     metadata.update(id=config["mod_id"], relationships=[], game_custom_data={})
     files = {".metadata/metadata.json": (json.dumps(metadata, ensure_ascii=False, indent=2) + "\n").encode("utf-8")}
+    plain, extended = split_rows(rows)
     for language in LANGUAGES:
-        for offset in range(0, len(rows), 500):
+        for offset in range(0, len(plain), 500):
             # in_game/, not main_menu/: main_menu/localization is listed in the game's checksum manifest.
             name = f"in_game/localization/{language}/lde_{offset // 500 + 1:03d}_l_{language}.yml"
-            files[name] = localization_bytes(language, rows[offset:offset + 500])
+            files[name] = localization_bytes(language, plain[offset:offset + 500])
+        if extended:
+            # Same key as the official description: replace/ makes ours win (official text is kept as its first paragraph).
+            files[f"in_game/localization/{language}/replace/lde_official_l_{language}.yml"] = localization_bytes(language, extended)
     for name in ("CREDITS.md", "NOTICE.md", *LICENSE_FILES):
         files[name] = project_file(root, name).read_bytes()
     for target, source in GAME_FILES.items():
@@ -206,6 +220,7 @@ def build(root, output):
         "licenses": config["licenses"],
         "version": config["version"], "baseline_build": baseline["steam_build_id"],
         "locations_per_language": len(rows), "protected_locations": len(baseline["protected_ids"]),
+        "extended_official_locations": len(split_rows(rows)[1]),
         "review_status_counts": dict(Counter(row["review_status"] for row in rows)),
         "independent_fact_review_complete": False, "placeholder_count": 0,
         "files": files, "archive_sha256": digest(archive),

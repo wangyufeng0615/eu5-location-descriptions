@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,316 added entries for game version 1.4, with the 257 vanilla descriptions left intact.
+English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,316 added entries for game version 1.4, and the 257 vanilla descriptions kept word for word with our paragraphs added after them.
 
 ## Install
 
