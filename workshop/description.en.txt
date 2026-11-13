@@ -31,8 +31,10 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 [url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h2]My other mods[/h2]
+[b]I highly recommend subscribing to all three EU5 mods and using them together.[/b]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833397845][b]Descriptions for Every Historical Character[/b][/url] (Europa Universalis V): biographies for 7,789 real historical characters, shown at the bottom of the character tooltip. Ironman and achievement compatible.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]Descriptions Expanded: Countries, Cultures, Dynasties & More[/b][/url] (Europa Universalis V): adds English and Simplified Chinese descriptions for countries, cultures, dynasties, religions, and more.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]Descriptions for Every Province and Great Project[/b][/url] (Europa Universalis IV): descriptions for all 3,272 land provinces, from the 1444 start to 1821, and all 139 great projects.
 [/list]
 
