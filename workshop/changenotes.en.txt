@@ -1,9 +1,5 @@
-1.1.3
+1.2.0
 
-1.1.2 was packaged without the new data; the changes below take effect in this version.
-Revised from feedback by Tricolore Royal. Thank you!
-Chinook: added Fort Astoria, built in 1811 by Astor's Pacific Fur Company at the mouth of the Columbia, the first American-owned settlement on the Pacific coast of North America and later one of the grounds for the US claim to Oregon; the later city of Astoria is now noted.
-Salem: the later-city line moves from Tillamook to Atfalati.
-Delaware: Minguannan now names the later city of Wilmington (it wrongly said Dover), and Dover is noted in Tappahanna.
-Chinese: removed San click letters that showed up as stray symbols at the start of 18 southern African descriptions.
-Chinese: English names left untranslated in about 200 Chinese descriptions now use Chinese names, and redundant English glosses in brackets were removed.
+The 257 locations that have a vanilla description now keep it word for word and continue it with one or two new paragraphs on the place during the game's era, 1337–1837: Paris, Constantinople, Kyōto, Timbuktu, Venice, Delhi, Cuzco and the rest.
+The later city is now noted on four vanilla tiles: Ottawa (Kitchissippi), Beira (Sofala), Masvingo (Great Zimbabwe) and Qui Nhon (Vijaya); New York, Puebla, Trujillo and Hanoi are named in the new paragraphs themselves.
+Vanilla descriptions are read from the installed game at each release, so they stay as Paradox wrote them; other game languages are unchanged.

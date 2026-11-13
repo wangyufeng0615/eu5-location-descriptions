@@ -24,7 +24,7 @@ You can add the mod to an existing save. Achievements stay available: the mod ch
 
 ## Does “every tile” mean every entry is a long local history?
 
-No. It describes coverage of the current map: 28,316 new entries plus 257 vanilla entries left intact. Length varies, and some entries use relevant regional or geographical background.
+No. It describes coverage of the current map: 28,316 new entries plus the 257 vanilla entries, kept word for word and continued with our paragraphs. Length varies, and some entries use relevant regional or geographical background.
 
 ## What happens when the game updates?
 

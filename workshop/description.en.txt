@@ -5,10 +5,12 @@ Vanilla EU5 describes only a few hundred locations.
 
 This mod adds high-quality descriptions to all the remaining [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. Impassable tiles are covered too!
 
+The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by one or two new paragraphs on their history during the game's era.
+
 [list]
 [*]Supports English and Chinese
 [*]Keeps EU5's flavour
-[*]Preserves the vanilla descriptions
+[*]Keeps the vanilla descriptions and continues them
 [*]Can be added to an existing save; see mod compatibility below
 [*]Achievement compatible
 [/list]
@@ -36,6 +38,7 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 
 [h2]Update history[/h2]
 [list]
+[*]1.2.0: Continue the 257 vanilla descriptions with one or two paragraphs on each place during the game's era; name the later city on four vanilla tiles such as Ottawa and Beira.
 [*]1.1.3: Note Astoria and correct the locations of Salem, Wilmington and Dover; in Chinese, remove stray click-letter symbols and translate English names left in about 200 entries. Based on player feedback. (1.1.2 was packaged without the new data; the changes took effect in 1.1.3.)
 [*]1.1.1: Fix Seattle and Olympia, and say "also" where the location is itself a town, such as Caracas. Suggested by a player.
 [*]1.1.0: Name the later city in 788 tribal- or indigenous-named locations, such as Denver, Nairobi and Kinshasa.

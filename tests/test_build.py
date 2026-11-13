@@ -138,6 +138,34 @@ class BuildGuards(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     mod_build.verify_build(root, root / "dist/test")
 
+    def extended_fixture(self, root, flag=True):
+        row = self.row("official_town")
+        row["english"] = "Official text.\n\nOur supplement."
+        if flag:
+            row["extends_official"] = True
+        self.fixture(root, [self.row(), row])
+        mod_build.write_json(root / "data/baseline.json", {"target_ids": ["test_town", "official_town"], "protected_ids": [], "extended_official_ids": ["official_town"], "map_location_count": 2, "steam_build_id": "1"})
+
+    def test_extended_official_goes_to_replace(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.extended_fixture(root)
+            receipt = mod_build.build(root, root / "dist/test")
+            self.assertEqual(receipt["extended_official_locations"], 1)
+            mod = root / "dist/test/location_descriptions_enhanced/in_game/localization/english"
+            plain = (mod / "lde_001_l_english.yml").read_text(encoding="utf-8-sig")
+            replaced = (mod / "replace/lde_official_l_english.yml").read_text(encoding="utf-8-sig")
+            self.assertIn("test_town_desc", plain)
+            self.assertNotIn("official_town_desc", plain)
+            self.assertIn('official_town_desc: "Official text.\\n\\nOur supplement."', replaced)
+
+    def test_rejects_extended_flag_mismatch(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.extended_fixture(root, flag=False)
+            with self.assertRaisesRegex(ValueError, "extends_official"):
+                mod_build.load(root)
+
     def test_rejects_tampered_zip(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

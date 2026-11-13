@@ -8,7 +8,7 @@
 
 Historical and geographical descriptions for the places EU5 leaves blank. English and Simplified Chinese are included in the same mod.
 
-Game version 1.4 has 28,573 locations. This mod adds descriptions to the 28,316 without vanilla text and leaves the 257 existing vanilla descriptions alone. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
+Game version 1.4 has 28,573 locations. This mod adds descriptions to the 28,316 without vanilla text. The 257 vanilla descriptions are kept word for word and continued with one or two paragraphs of our own. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
 
 ### Getting started
 
@@ -74,7 +74,7 @@ The cover is an AI-assisted graphic, not a game screenshot. This is an unofficia
 
 为 EU5 中原本没有介绍的地点补上历史与地理文本。英文、简体中文首发一起提供，订阅同一个模组即可，不需要另装汉化包。
 
-游戏 1.4 版共有 28,573 个地点。本模组为其中没有原版介绍的 28,316 个补上介绍，原版已有的 257 个介绍保持原文。范围包括城市、乡镇、乡村、山地、海域和湖泊。
+游戏 1.4 版共有 28,573 个地点。本模组为其中没有原版介绍的 28,316 个补上介绍；原版已有介绍的 257 个保留原文，在后面接着补写一到两段。范围包括城市、乡镇、乡村、山地、海域和湖泊。
 
 ### 怎么使用
 

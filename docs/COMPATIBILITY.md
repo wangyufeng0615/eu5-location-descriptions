@@ -1,8 +1,8 @@
 # Compatibility / 兼容性
 
-The mod adds location-description text (`in_game/localization/`) and overrides two vanilla tooltip templates so that seas, lakes and impassable locations show their description (`in_game/gui/zz_lde_location_tooltips.gui`). It changes no gameplay, map or names.
+The mod adds location-description text (`in_game/localization/`) and overrides two vanilla tooltip templates so that seas, lakes and impassable locations show their description (`in_game/gui/zz_lde_location_tooltips.gui`). For the 257 locations with a vanilla description it replaces that key (`in_game/localization/<language>/replace/`) with the vanilla text, unchanged, followed by its own paragraphs. It changes no gameplay, map or names.
 
-本模组只增加地点介绍文本（`in_game/localization/`），并覆盖两个官方提示框模板，让海域、湖泊和不可通行地块也显示介绍（`in_game/gui/zz_lde_location_tooltips.gui`）。不改玩法、地图和地名。
+本模组只增加地点介绍文本（`in_game/localization/`），并覆盖两个官方提示框模板，让海域、湖泊和不可通行地块也显示介绍（`in_game/gui/zz_lde_location_tooltips.gui`）。官方已有介绍的 257 个地点，用 `in_game/localization/<语言>/replace/` 替换该键，内容是原样保留的官方原文加上本模组补写的段落。不改玩法、地图和地名。
 
 | Combination / 组合 | Status / 状态 |
 |---|---|
