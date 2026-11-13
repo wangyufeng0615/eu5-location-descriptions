@@ -34,8 +34,10 @@
 GitHub：[url=https://github.com/wangyufeng0615/eu5-location-descriptions]github.com/wangyufeng0615/eu5-location-descriptions[/url]
 
 [h2]我的其他 MOD[/h2]
+[b]强烈建议同时订阅并启用这三款 EU5 MOD。[/b]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833397845][b]所有历史人物的描述[/b][/url]（欧陆风云5）：为 7,789 位真实历史人物补上中英文生平，鼠标悬停人物即可看到，兼容铁人和成就。
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]描述扩展：国家、文化、王朝及更多[/b][/url]（欧陆风云5）：为国家、文化、王朝、宗教等对象补充中英文介绍。
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]所有省份和伟大工程的描述[/b][/url]（欧陆风云4）：为全部 3,272 个陆地省份补上中英文介绍，从 1444 年开局写到 1821 年，还有全部 139 座伟大工程。
 [/list]
 
