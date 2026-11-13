@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — 2026-11-13
+
+- The 257 locations that have a vanilla description now keep it word for word and continue it with one or two new paragraphs on the place during the game's era, 1337–1837: Paris, Constantinople, Kyōto, Timbuktu, Venice, Delhi, Cuzco and the rest.
+- The later city is now noted on four vanilla tiles: Ottawa (Kitchissippi), Beira (Sofala), Masvingo (Great Zimbabwe) and Qui Nhon (Vijaya); New York, Puebla, Trujillo and Hanoi are named in the new paragraphs themselves.
+- Vanilla descriptions are read from the installed game at each release, so they stay as Paradox wrote them; other game languages are unchanged.
+
 ## 1.1.3 — 2026-11-13
 
 - 1.1.2 was packaged without the new data; the changes below take effect in this version.
