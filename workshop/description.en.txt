@@ -20,8 +20,13 @@ Every description is based on local-language sources, mainly Wikipedia, and went
 I'm a geography and history enthusiast, and I've corrected and checked these entries as carefully as I could. If you find a mistake, please leave a comment. I'll keep maintaining and updating this mod!
 
 [h2]Mod compatibility[/h2]
+Checked against the 60 most-subscribed EU5 mods on the Workshop (November 2026) by comparing their files.
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: Both mods provide English descriptions for 578 of the same locations. When both are enabled, Oikoumene's descriptions will take precedence. No other known conflicts.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233][b]Oikoumene: Dynamic Place Names[/b][/url]: both mods give English descriptions for 618 of the same locations. When both are enabled, Oikoumene's English descriptions take precedence; Chinese is not affected.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582][b]New World Improvement Project[/b][/url]: works. Its 5 new water tiles (four Black Sea limans and the Dyfi estuary) have no description.
+[*]Chinese translation mods (凯撒汉化, CN localization fix): each changes one of the same Chinese descriptions (Zürich, Namgyeong). Which one you see depends on load order.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]Descriptions Expanded[/b][/url]: Mount Athos, Mount Fuji and Mount Haku are both a tile and a holy site and share one description, so with both mods enabled the two tooltips show the same text.
+[*]No conflicting files found with the other mods, including Glorp UI, Midnight UI and Imperial Papermap.
 [/list]
 
 [h2]Planned updates[/h2]
@@ -40,6 +45,7 @@ Support the other official EU5 languages (French, German, Spanish, Brazilian Por
 
 [h2]Update history[/h2]
 [list]
+[*]1.2.1: Rework 297 city and town descriptions that read like chronicles; rewrite Niani to separate legend from record. Based on player feedback.
 [*]1.2.0: Continue the 257 vanilla descriptions with one or two paragraphs on each place during the game's era; name the later city on four vanilla tiles such as Ottawa and Beira.
 [*]1.1.3: Note Astoria and correct the locations of Salem, Wilmington and Dover; in Chinese, remove stray click-letter symbols and translate English names left in about 200 entries. Based on player feedback. (1.1.2 was packaged without the new data; the changes took effect in 1.1.3.)
 [*]1.1.1: Fix Seattle and Olympia, and say "also" where the location is itself a town, such as Caracas. Suggested by a player.
@@ -63,5 +69,5 @@ Thanks to these players for pointing out problems and suggesting improvements; a
 [*][url=https://www.reddit.com/user/al-aSak/]@al-aSak[/url] (Reddit): pointed out that the pigment from Wallerfangen is called Wallerfanger blue (fixed in 1.0.3)
 [*][url=https://space.bilibili.com/1340226306]@提剑远游[/url] (Bilibili): pointed out that the tin-mine origin of Wuxi's name is a later invention (Wuxi rewritten in 1.0.4)
 [*][url=https://steamcommunity.com/profiles/76561199184839333]@渺仟[/url] (Workshop): pointed out that the in-game Wuchang is today's Ezhou, not the Wuchang of the Yellow Crane Tower (fixed in 1.0.5)
-[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url] (Workshop): suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), then went through the US Northwest and East Coast and found the missing Astoria, the misplaced Salem and Wilmington, stray symbols in southern African entries and untranslated English in Chinese ones such as in Thailand (fixed in 1.1.3)
+[*][url=https://steamcommunity.com/profiles/76561198344948094]@Tricolore Royal[/url] (Workshop): suggested naming the later city in tribal- or indigenous-named locations (added in 1.1.0), then went through the US Northwest and East Coast and found the missing Astoria, the misplaced Salem and Wilmington, stray symbols in southern African entries and untranslated English in Chinese ones such as in Thailand (fixed in 1.1.3); and pointed out that Niani crowded in too many names and mixed legend with history, which led to a readability pass over some 370 city entries (1.2.1)
 [/list]
