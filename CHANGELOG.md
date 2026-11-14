@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.3 — 2026-11-14
+
+- Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.
+
 ## 1.2.2 — 2026-11-14
 
 - Other game languages (French, German, Spanish and more) now show the English descriptions.
