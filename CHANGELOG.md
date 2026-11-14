@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2 — 2026-11-14
+
+- Other game languages (French, German, Spanish and more) now show the English descriptions.
+
 ## 1.2.1 — 2026-11-14
 
 - Reworked 297 city and town descriptions so they read more easily: second paragraphs that had turned into lists of rulers, sieges and dates now follow one thread, names that appear only once are gone, legends are marked as tradition, and local terms are explained.
