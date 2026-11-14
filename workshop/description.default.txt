@@ -22,12 +22,7 @@ Vanilla EU5 describes only a few hundred locations. This mod adds English and Ch
 
 [h2]Compatibility[/h2]
 [b]Compatible with[/b]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework (CMF)[/url]
-Checked file by file against the 60 most-subscribed EU5 mods. Only these need attention:
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]: 618 English descriptions overlap; with both enabled, Oikoumene's are shown. Chinese is not affected.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582]New World Improvement Project[/url]: its 5 new water tiles have no description.
-[*]Chinese translation mods (凯撒汉化, CN localization fix): one Chinese description each overlaps; load order decides.
-[/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]: 618 English descriptions overlap; with both enabled, Oikoumene's are shown. Chinese is not affected.
 
 [h2]Feedback[/h2]
 If you find a mistake, please leave a comment and I'll fix it. More official EU5 languages will follow.
@@ -89,12 +84,7 @@ Thanks to these players for pointing out problems; all the fixes have been relea
 
 [h2]兼容性[/h2]
 [b]已确认兼容[/b]：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework（CMF）[/url]
-已与订阅数前 60 的 EU5 模组逐个比对文件，需要留意的只有：
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582]New World Improvement Project[/url]：它新增的 5 个水域地块没有介绍。
-[*]凯撒汉化、CN 官中汉化修正：各有 1 条中文介绍重名，看加载顺序。
-[/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
 
 [h2]反馈与交流[/h2]
 发现错误欢迎留言，我会持续订正；之后会陆续支持 EU5 的其他官方语言。
