@@ -3,6 +3,12 @@
 
 Vanilla EU5 describes only a few hundred locations. This mod adds English and Chinese descriptions to all the other [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by new paragraphs on their history during the game's era.
 
+⭐ [b]Strongly recommended: subscribe to the other two EU5 mods as well.[/b] Together the three cover the map, its people and its countries.
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833397845][b]Descriptions for Every Historical Character[/b][/url]: biographies for 7,789 historical characters, shown on hover
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]Descriptions Expanded: Countries, Cultures, Dynasties & More[/b][/url]: over 7,000 descriptions for countries, cultures, dynasties, religions and more
+[/list]
+
 [list]
 [*]English and Chinese, in EU5's own style
 [*]Can be added to an existing save; achievement compatible
@@ -10,11 +16,6 @@ Vanilla EU5 describes only a few hundred locations. This mod adds English and Ch
 [/list]
 
 [h2]My other mods[/h2]
-[b]Europa Universalis V[/b]: best used all three together
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833397845][b]Descriptions for Every Historical Character[/b][/url]: biographies for 7,789 historical characters, shown on hover
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838927963][b]Descriptions Expanded: Countries, Cultures, Dynasties & More[/b][/url]: over 7,000 descriptions for countries, cultures, dynasties, religions and more
-[/list]
 [b]Europa Universalis IV[/b]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]Descriptions for Every Province and Great Project[/b][/url]: descriptions for all 3,272 land provinces and 139 great projects
