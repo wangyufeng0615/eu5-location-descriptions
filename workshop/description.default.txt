@@ -34,11 +34,24 @@ Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descri
 
 [h2]Update history[/h2]
 [list]
-[*]1.2.1: Rework 297 city and town descriptions that read like chronicles; rewrite Niani to separate legend from record. Based on player feedback.
-[*]1.2.0: Continue the 257 vanilla descriptions with the place's history during the game's era.
-[*]1.1.3: Note Astoria, correct the locations of Salem, Wilmington and Dover, and translate English names left in about 200 Chinese entries. Based on player feedback.
+[*]1.2.1: Reworked 297 city and town descriptions that read like chronicles; rewrote Niani to separate legend from record; fixed a few errors such as the founding date of Antalya. Based on player feedback.
+[*]1.2.0: The 257 vanilla descriptions are kept word for word and continued with the place's history during the game's era; four vanilla tiles now name their later city.
+[*]1.1.3: Noted Astoria, corrected Salem, Wilmington and Dover, removed stray symbols from 18 southern African entries and translated English names left in about 200 Chinese entries. Based on player feedback.
+[*]1.1.2: Packaged without the new data by mistake; its changes took effect in 1.1.3.
+[*]1.1.1: Corrected the later-city lines for Seattle and Olympia; 31 tiles that are themselves cities now name their later city; rewrote Chiquimula.
+[*]1.1.0: 788 tiles with tribal or indigenous names now name the well-known later city that lies there, such as Denver. Suggested by a player.
+[*]1.0.9: Revised 50 high-profile tiles after a source check, rewriting Xiangyang, Agra, Malacca and three more; corrected about 40 other entries.
+[*]1.0.8: Corrected ten descriptions about the wrong place or with unsupported local stories.
+[*]1.0.7: Corrected 19 descriptions whose subject did not match the tile, including Bone in Sulawesi.
+[*]1.0.6: Fixed ten tiles that described a different place with a similar name, such as Baofeng and Büren.
+[*]1.0.5: Wuchang now describes the old county of modern Ezhou; reworked Jiangxia. Based on player feedback.
+[*]1.0.4: Rewrote Wuxi: the tin-mine origin of its name is a later folk story. Based on player feedback.
+[*]1.0.3: Corrected the name of the Wallerfanger blue pigment. Based on player feedback.
+[*]1.0.2: Restored lost paragraph breaks and fixed spacing, wording and stray notes in several hundred entries.
+[*]1.0.1: Added 62 missing tiles such as Porto Santo and part of the Ligurian Sea; new title and cover. Based on player feedback.
+[*]1.0.0: First public release.
 [/list]
-Earlier versions: [url=https://github.com/wangyufeng0615/eu5-location-descriptions/blob/main/CHANGELOG.md]full changelog[/url].
+Details for each version: [url=https://github.com/wangyufeng0615/eu5-location-descriptions/blob/main/CHANGELOG.md]full changelog[/url].
 
 [h2]Thanks[/h2]
 Thanks to these players for pointing out problems; all the fixes have been released:
@@ -88,11 +101,24 @@ QQ 群：[b]518622967[/b]
 
 [h2]更新记录[/h2]
 [list]
-[*]1.2.1：重写297个读起来像年表的城市和城镇介绍；重写尼亚尼，把传说和史实分开。根据玩家反馈修改。
-[*]1.2.0：官方已有介绍的257个地块，在原文后补写游戏年代的历史。
-[*]1.1.3：补注阿斯托里亚，订正塞勒姆、威尔明顿和多佛的位置，补译约200个地点残留的英文名。根据玩家反馈修改。
+[*]1.2.1：重写297个读起来像年表的城市和城镇介绍；重写尼亚尼，把传说和史实分开；顺带订正安塔利亚建城年代等几处错误。根据玩家反馈修改。
+[*]1.2.0：官方已有介绍的257个地块保留原文，接着补写游戏年代的历史；其中4个注明了后世城市。
+[*]1.1.3：补注阿斯托里亚，订正塞勒姆、威尔明顿和多佛的位置，去掉18条南部非洲介绍里的乱码，补译约200个地点残留的英文名。根据玩家反馈修改。
+[*]1.1.2：打包时漏了新数据，改动在1.1.3生效。
+[*]1.1.1：订正西雅图、奥林匹亚的后世城市位置；本身就是城市的31个地块注明后世城市；重写奇基穆拉。
+[*]1.1.0：788个用部族或原住民名称的地块，注明这里后来的知名城市，如丹佛。根据玩家建议添加。
+[*]1.0.9：对照资料复查50个热门地块，重写襄阳、阿格拉、马六甲等6处；另订正约40条。
+[*]1.0.8：订正10条写错地方或故事缺乏依据的介绍。
+[*]1.0.7：订正19条内容与地块对不上的介绍，如苏拉威西的博内。
+[*]1.0.6：修正10个把同名或近名地点写串的地块，如宝丰、比伦。
+[*]1.0.5：武昌改写为今鄂州的旧武昌县，重写江夏。根据玩家反馈修改。
+[*]1.0.4：重写无锡：“锡矿采尽而得名”是后人附会。根据玩家反馈修改。
+[*]1.0.3：订正瓦勒方根的颜料名 Wallerfanger blue。根据玩家反馈修改。
+[*]1.0.2：恢复丢失的分段，订正几百条介绍里的空格、措辞和残留批注。
+[*]1.0.1：补上漏掉的62个地块，如圣港和利古里亚海的一部分；更换标题和封面。根据玩家反馈修改。
+[*]1.0.0：首次公开发布。
 [/list]
-更早的版本见 [url=https://github.com/wangyufeng0615/eu5-location-descriptions/blob/main/CHANGELOG.md]完整更新记录[/url]。
+每个版本的详细说明见 [url=https://github.com/wangyufeng0615/eu5-location-descriptions/blob/main/CHANGELOG.md]完整更新记录[/url]。
 
 [h2]致谢[/h2]
 感谢以下玩家指出问题，相关改动都已发布：
