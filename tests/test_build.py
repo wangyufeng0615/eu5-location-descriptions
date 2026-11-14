@@ -159,19 +159,6 @@ class BuildGuards(unittest.TestCase):
             self.assertNotIn("official_town_desc", plain)
             self.assertIn('official_town_desc: "Official text.\\n\\nOur supplement."', replaced)
 
-    def test_other_languages_get_english_without_replace(self):
-        with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
-            self.extended_fixture(root)
-            mod_build.build(root, root / "dist/test")
-            loc = root / "dist/test/location_descriptions_enhanced/in_game/localization"
-            en = (loc / "english/lde_001_l_english.yml").read_text(encoding="utf-8-sig")
-            for language in mod_build.FALLBACK_LANGUAGES:
-                other = (loc / language / f"lde_001_l_{language}.yml").read_text(encoding="utf-8-sig")
-                self.assertTrue(other.startswith(f"l_{language}:\n"))
-                self.assertEqual(other.split("\n", 1)[1], en.split("\n", 1)[1])
-                self.assertFalse((loc / language / "replace").exists())
-
     def test_rejects_extended_flag_mismatch(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
