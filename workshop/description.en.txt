@@ -22,12 +22,7 @@ Vanilla EU5 describes only a few hundred locations. This mod adds English and Ch
 
 [h2]Compatibility[/h2]
 [b]Compatible with[/b]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework (CMF)[/url]
-Checked file by file against the 60 most-subscribed EU5 mods. Only these need attention:
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]: 618 English descriptions overlap; with both enabled, Oikoumene's are shown. Chinese is not affected.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582]New World Improvement Project[/url]: its 5 new water tiles have no description.
-[*]Chinese translation mods (凯撒汉化, CN localization fix): one Chinese description each overlaps; load order decides.
-[/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]: 618 English descriptions overlap; with both enabled, Oikoumene's are shown. Chinese is not affected.
 
 [h2]Feedback[/h2]
 If you find a mistake, please leave a comment and I'll fix it. More official EU5 languages will follow.

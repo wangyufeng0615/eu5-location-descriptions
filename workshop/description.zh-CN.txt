@@ -22,12 +22,7 @@
 
 [h2]兼容性[/h2]
 [b]已确认兼容[/b]：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework（CMF）[/url]
-已与订阅数前 60 的 EU5 模组逐个比对文件，需要留意的只有：
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599544582]New World Improvement Project[/url]：它新增的 5 个水域地块没有介绍。
-[*]凯撒汉化、CN 官中汉化修正：各有 1 条中文介绍重名，看加载顺序。
-[/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
 
 [h2]反馈与交流[/h2]
 发现错误欢迎留言，我会持续订正；之后会陆续支持 EU5 的其他官方语言。
