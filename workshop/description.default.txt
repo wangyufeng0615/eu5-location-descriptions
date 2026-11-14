@@ -4,7 +4,7 @@
 Vanilla EU5 describes only a few hundred locations. This mod adds English and Chinese descriptions to all the other [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by new paragraphs on their history during the game's era.
 
 [list]
-[*]English and Chinese, in EU5's own style; other game languages show the English text
+[*]English and Chinese, in EU5's own style
 [*]Can be added to an existing save; achievement compatible
 [*]Based mainly on local-language sources such as Wikipedia, with several rounds of fact-checking
 [/list]
@@ -30,6 +30,7 @@ Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descri
 
 [h2]Update history[/h2]
 [list]
+[*]1.2.3: Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.
 [*]1.2.2: Other game languages (French, German, Spanish and more) now show the English descriptions.
 [*]1.2.1: Reworked 297 city and town descriptions that read like chronicles; rewrote Niani to separate legend from record; fixed a few errors such as the founding date of Antalya. Based on player feedback.
 [*]1.2.0: The 257 vanilla descriptions are kept word for word and continued with the place's history during the game's era; four vanilla tiles now name their later city.
@@ -67,7 +68,7 @@ Thanks to these players for pointing out problems; all the fixes have been relea
 原版只给几百个地点写了介绍。此 MOD 为其余全部 [b]28,316[/b] 个地块补上中英文介绍，城镇、乡野、山地、湖泊、海域都有；官方写过介绍的 [b]257[/b] 个地块，保留原文，接着补写游戏年代的历史。
 
 [list]
-[*]支持英文、中文，保持 EU5 风味；其他游戏语言显示英文
+[*]支持英文、中文，保持 EU5 风味
 [*]存档可中途加入，兼容成就
 [*]以当地语言的维基百科等资料为主，经过多轮考证
 [/list]
@@ -94,6 +95,7 @@ QQ 群：[b]518622967[/b]
 
 [h2]更新记录[/h2]
 [list]
+[*]1.2.3：撤回1.2.2给其他游戏语言加的英文副本，模组恢复原来的大小。
 [*]1.2.2：法语、德语、西班牙语等其他游戏语言下显示英文介绍。
 [*]1.2.1：重写297个读起来像年表的城市和城镇介绍；重写尼亚尼，把传说和史实分开；顺带订正安塔利亚建城年代等几处错误。根据玩家反馈修改。
 [*]1.2.0：官方已有介绍的257个地块保留原文，接着补写游戏年代的历史；其中4个注明了后世城市。
