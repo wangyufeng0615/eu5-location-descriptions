@@ -12,9 +12,6 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = ("english", "simp_chinese")
-# 游戏另外 9 种官方语言没有译文时，按文本键挑介绍的地方会把键名原样显示出来；这些语言先放一份英文（2026-11-14 用户定）。
-# 只复制新增的键：replace/ 里是原版已有的键，各语言原版自有译文，不覆盖。
-FALLBACK_LANGUAGES = ("braz_por", "french", "german", "japanese", "korean", "polish", "russian", "spanish", "turkish")
 LICENSE_FILES = ("LICENSE", "LICENSES/MIT.txt", "LICENSES/CC-BY-SA-4.0.txt")
 PLAYER_DOCUMENTS = {
     "README.md": "workshop/player-readme.en.md",
@@ -124,8 +121,8 @@ def split_rows(rows):
     return [row for row in rows if not row.get("extends_official")], [row for row in rows if row.get("extends_official")]
 
 
-def localization_bytes(language, chunk, source=None):
-    lines = [f"l_{language}:"] + [f' {row["id"]}_desc: "{quote(row[source or language])}"' for row in chunk]
+def localization_bytes(language, chunk):
+    lines = [f"l_{language}:"] + [f' {row["id"]}_desc: "{quote(row[language])}"' for row in chunk]
     return ("\n".join(lines) + "\n").encode("utf-8-sig")
 
 
@@ -142,10 +139,6 @@ def expected_payload(root, config, rows):
         if extended:
             # Same key as the official description: replace/ makes ours win (official text is kept as its first paragraph).
             files[f"in_game/localization/{language}/replace/lde_official_l_{language}.yml"] = localization_bytes(language, extended)
-    for language in FALLBACK_LANGUAGES:
-        for offset in range(0, len(plain), 500):
-            name = f"in_game/localization/{language}/lde_{offset // 500 + 1:03d}_l_{language}.yml"
-            files[name] = localization_bytes(language, plain[offset:offset + 500], source="english")
     for name in ("CREDITS.md", "NOTICE.md", *LICENSE_FILES):
         files[name] = project_file(root, name).read_bytes()
     for target, source in GAME_FILES.items():
