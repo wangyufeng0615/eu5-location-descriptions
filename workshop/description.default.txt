@@ -21,6 +21,7 @@ Vanilla EU5 describes only a few hundred locations. This mod adds English and Ch
 [/list]
 
 [h2]Compatibility[/h2]
+[b]Compatible with[/b]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework (CMF)[/url]
 Checked file by file against the 60 most-subscribed EU5 mods. Only these need attention:
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]: 618 English descriptions overlap; with both enabled, Oikoumene's are shown. Chinese is not affected.
@@ -87,6 +88,7 @@ Thanks to these players for pointing out problems; all the fixes have been relea
 [/list]
 
 [h2]兼容性[/h2]
+[b]已确认兼容[/b]：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework（CMF）[/url]
 已与订阅数前 60 的 EU5 模组逐个比对文件，需要留意的只有：
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。

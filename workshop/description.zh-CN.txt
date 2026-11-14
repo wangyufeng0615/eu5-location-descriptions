@@ -21,6 +21,7 @@
 [/list]
 
 [h2]兼容性[/h2]
+[b]已确认兼容[/b]：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework（CMF）[/url]
 已与订阅数前 60 的 EU5 模组逐个比对文件，需要留意的只有：
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
