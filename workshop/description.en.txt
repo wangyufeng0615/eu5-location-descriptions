@@ -4,7 +4,7 @@
 Vanilla EU5 describes only a few hundred locations. This mod adds English and Chinese descriptions to all the other [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by new paragraphs on their history during the game's era.
 
 [list]
-[*]English and Chinese, in EU5's own style; other game languages show the English text
+[*]English and Chinese, in EU5's own style
 [*]Can be added to an existing save; achievement compatible
 [*]Based mainly on local-language sources such as Wikipedia, with several rounds of fact-checking
 [/list]
@@ -30,6 +30,7 @@ Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descri
 
 [h2]Update history[/h2]
 [list]
+[*]1.2.3: Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.
 [*]1.2.2: Other game languages (French, German, Spanish and more) now show the English descriptions.
 [*]1.2.1: Reworked 297 city and town descriptions that read like chronicles; rewrote Niani to separate legend from record; fixed a few errors such as the founding date of Antalya. Based on player feedback.
 [*]1.2.0: The 257 vanilla descriptions are kept word for word and continued with the place's history during the game's era; four vanilla tiles now name their later city.
