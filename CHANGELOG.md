@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.5 — 2026-11-22
+
+- Revised from feedback by Tricolore Royal. Thank you!
+- 15 more tiles in Alaska and New England now name their later city: Anchorage, Fairbanks, Valdez, Ketchikan, Nome, Portland, Lewiston, Bangor, Bar Harbor, Portsmouth, Burlington, Montpelier, Lowell, Bridgeport and New London. Each was checked against the game map.
+- Juneau: the later-city line moves from Aa'kw Kwáan to T'aaku Kwáan, where the city lies on the game map.
+- Passagassawkeag is rewritten as Belfast, whose river it is; Bangor is now noted on Penobscot.
+- Shee't'iká now says that it is Sitka.
+
 ## 1.2.4 — 2026-11-21
 
 - Editorial quality pass across 26 major cities and locations in English and Simplified Chinese: unified historical terminology, converted remaining imperial measurements in Chinese to metric, fixed chronological and phrasing issues.
