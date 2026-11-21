@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.4 — 2026-11-21
+
+- Editorial quality pass across 26 major cities and locations in English and Simplified Chinese: unified historical terminology, converted remaining imperial measurements in Chinese to metric, fixed chronological and phrasing issues.
+
 ## 1.2.3 — 2026-11-14
 
 - Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.
