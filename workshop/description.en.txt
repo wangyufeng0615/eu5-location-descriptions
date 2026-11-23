@@ -1,5 +1,4 @@
 [h1]A description for every tile on the map[/h1]
-[img]https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/[/img]
 
 Vanilla EU5 describes only a few hundred locations. This mod adds descriptions to all the other [b]28,316[/b] tiles, in every language the game supports: towns, countryside, mountains, lakes and seas. The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by new paragraphs on their history during the game's era.
 
