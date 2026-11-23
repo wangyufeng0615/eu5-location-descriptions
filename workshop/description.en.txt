@@ -31,7 +31,7 @@ Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descri
 
 [h2]Update history[/h2]
 [list]
-[*]1.3.0: Descriptions in the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish. The 257 vanilla tiles keep the official text in each language.
+[*]1.3.0: Descriptions in the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish.
 [*]1.2.5: 15 more tiles in Alaska and New England now name their later city, among them Anchorage, Fairbanks, Portland, Bangor and Bridgeport; Juneau moves to T'aaku Kwáan, and Passagassawkeag is rewritten as Belfast. Thanks to Tricolore Royal.
 [*]1.2.4: Editorial pass over 26 major cities and locations: consistent historical names, metric units in Chinese, clearer chronology.
 [*]1.2.3: Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.

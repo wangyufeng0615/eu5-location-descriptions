@@ -31,7 +31,7 @@ Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descri
 
 [h2]Update history[/h2]
 [list]
-[*]1.3.0: Descriptions in the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish. The 257 vanilla tiles keep the official text in each language.
+[*]1.3.0: Descriptions in the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish.
 [*]1.2.5: 15 more tiles in Alaska and New England now name their later city, among them Anchorage, Fairbanks, Portland, Bangor and Bridgeport; Juneau moves to T'aaku Kwáan, and Passagassawkeag is rewritten as Belfast. Thanks to Tricolore Royal.
 [*]1.2.4: Editorial pass over 26 major cities and locations: consistent historical names, metric units in Chinese, clearer chronology.
 [*]1.2.3: Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.
@@ -100,7 +100,7 @@ QQ 群：[b]518622967[/b]
 
 [h2]更新记录[/h2]
 [list]
-[*]1.3.0：新增其余 9 种官方语言：俄语、西班牙语、巴西葡萄牙语、德语、日语、法语、波兰语、韩语、土耳其语。257 个官方地块在各语言里保留官方原文。
+[*]1.3.0：新增其余 9 种官方语言：俄语、西班牙语、巴西葡萄牙语、德语、日语、法语、波兰语、韩语、土耳其语。
 [*]1.2.5：阿拉斯加和新英格兰又有15个地块注明了后世城市，包括安克雷奇、费尔班克斯、波特兰、班戈、布里奇波特等；朱诺移到塔库宽，帕萨加萨基格改写为贝尔法斯特。感谢 Tricolore Royal。
 [*]1.2.4：润色26个主要城市和地点：统一历史译名，中文改用公制单位，理顺年代叙述。
 [*]1.2.3：撤回1.2.2给其他游戏语言加的英文副本，模组恢复原来的大小。
