@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0 — 2026-11-23
+
+- Descriptions in all of EU5's official languages: added Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish, translated from the English with AI (alwaysday1 first pass, reviewed sentence by sentence with GPT-6.2 Sol, plus scripted checks for dates, names and formatting).
+- English and Simplified Chinese are unchanged. The 257 vanilla tiles keep the official text in each language, followed by the translated supplement.
+- New cover with the language list.
+
 ## 1.2.5 — 2026-11-22
 
 - Revised from feedback by Tricolore Royal. Thank you!

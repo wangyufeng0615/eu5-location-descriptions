@@ -1,6 +1,6 @@
 # Workshop artwork
 
-- `cover-master.png`: selected English four-colour Sicily master with English ✓ above 中文 ✓, copied unchanged from `title-20261031-languages-v2/cover.en.png`.
+- `cover-master.png`: English master with English ✓, 中文 ✓ and Other official languages ✓ (2026-11-23), copied unchanged from `title-20261123-all-languages/cover.en.png`.
 - `cover.jpg`: English primary Workshop cover, 1254×1254 JPEG, quality 90.
 - `cover.zh-CN.jpg`: matching Chinese cover, 1254×1254 JPEG, quality 90.
 - `thumbnail.png`: 512×512 English PNG derivative for the shared package's `.metadata/thumbnail.png`.

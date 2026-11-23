@@ -1,7 +1,7 @@
 {
   "name": "Descriptions for Every Tile",
   "mod_id": "location_descriptions_enhanced",
-  "version": "1.2.5",
+  "version": "1.3.0",
   "game_id": "eu5",
   "first_release_languages": [
     "english",
@@ -9,7 +9,7 @@
   ],
   "steam_app_id": 3450310,
   "supported_game_version": "1.*",
-  "short_description": "English and Simplified Chinese descriptions for the 28,316 EU5 locations without vanilla flavour text, and new paragraphs after the 257 vanilla ones: towns, countryside, mountains, lakes and sea zones.",
+  "short_description": "Descriptions in all EU5 languages for the 28,316 locations without vanilla flavour text, and new paragraphs after the 257 vanilla ones: towns, countryside, mountains, lakes and sea zones.",
   "tags": [
     "Historical",
     "Translation"

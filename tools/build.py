@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-LANGUAGES = ("english", "simp_chinese")
+LANGUAGES = ("english", "simp_chinese", "russian", "spanish", "braz_por", "german", "japanese", "french", "polish", "korean", "turkish")
 LICENSE_FILES = ("LICENSE", "LICENSES/MIT.txt", "LICENSES/CC-BY-SA-4.0.txt")
 PLAYER_DOCUMENTS = {
     "README.md": "workshop/player-readme.en.md",

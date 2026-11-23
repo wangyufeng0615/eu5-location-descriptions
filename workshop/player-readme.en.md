@@ -2,17 +2,17 @@
 
 [简体中文](README.zh-CN.md)
 
-English and Simplified Chinese descriptions for the places EU5 leaves blank. The same package contains both languages: 28,316 added entries for game version 1.4, and the 257 vanilla descriptions kept word for word with our paragraphs added after them.
+Descriptions for the places EU5 leaves blank, in all of the game's official languages (English and Simplified Chinese written directly; Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish translated from the English with AI). The same package contains every language: 28,316 added entries for game version 1.4, and the 257 vanilla descriptions kept word for word with our paragraphs added after them.
 
 ## Install
 
-For a manual download, place this whole location_descriptions_enhanced folder in EU5's user-data mod directory, including its hidden .metadata folder. Enable it in Mods and DLC, and choose English or Simplified Chinese in the game. For Workshop installs, subscribe and wait for the download before enabling it. Do not enable the local and subscribed copies together.
+For a manual download, place this whole location_descriptions_enhanced folder in EU5's user-data mod directory, including its hidden .metadata folder. Enable it in Mods and DLC, and play in any of the game's languages. For Workshop installs, subscribe and wait for the download before enabling it. Do not enable the local and subscribed copies together.
 
 The texts were drafted with AI assistance from published sources, mostly Wikipedia in English and the local language, then corrected and checked by the author, a geography enthusiast; city entries were checked fact by fact. Entries vary in detail, and some mistakes will remain.
 
 ## Compatibility and help
 
-Made for game version 1.4 (Steam build 26300913). Other description mods and map overhauls may conflict; English and Chinese can end up displaying different versions of an entry.
+Made for game version 1.4 (Steam build 26300913). Other description mods and map overhauls may conflict; different languages can end up displaying different versions of an entry.
 
 Read the [FAQ](docs/FAQ.md), [compatibility notes](docs/COMPATIBILITY.md) or [contributing guide](CONTRIBUTING.md). For mistakes or loading problems, just leave a Workshop comment in English or Chinese. Include the place name if relevant; screenshots or sources are helpful but optional. I'll actively maintain the mod, follow up on feedback, fix problems and keep it up to date as the game changes.
 

@@ -23,7 +23,7 @@ For loading problems, include the game build, mod version, language and other en
 
 Local history, place identification, English editing and Simplified Chinese proofreading are all useful. A better source or a short explanation can be more valuable than a complete replacement entry. Feedback in just one language is welcome; the two versions will be reconciled during review.
 
-Other languages can be discussed in a proposal, but the first release ships English and Simplified Chinese. Do not create empty language packs or label machine output as a reviewed translation.
+English and Simplified Chinese are written directly; since 1.3.0 the nine other official languages are translated from the English with AI and labelled as such. Corrections to those translations are welcome; do not label machine output as a reviewed translation.
 
 ## Propose a text change in a pull request
 

@@ -6,7 +6,7 @@
 
 ## English
 
-Historical and geographical descriptions for the places EU5 leaves blank. English and Simplified Chinese are included in the same mod.
+Historical and geographical descriptions for the places EU5 leaves blank. English and Simplified Chinese are written directly; the nine other official languages (Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish) are translated from the English with AI. All are in the same mod.
 
 Game version 1.4 has 28,573 locations. This mod adds descriptions to the 28,316 without vanilla text. The 257 vanilla descriptions are kept word for word and continued with one or two paragraphs of our own. Coverage includes cities, towns, countryside, mountains, sea zones and lakes.
 

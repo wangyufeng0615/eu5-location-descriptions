@@ -4,7 +4,7 @@
 
 ## Do I need a Chinese submod?
 
-No. English and Simplified Chinese ship together in the same item. Choose one of those languages in the game. Other game languages, including Traditional Chinese, are not included.
+No. All of EU5's official languages ship together in the same item: English and Simplified Chinese written directly, the other nine translated from the English with AI. Traditional Chinese is not a game language and is not included.
 
 ## Where do I read the descriptions?
 

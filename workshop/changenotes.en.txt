@@ -1,2 +1,2 @@
-1.2.5
-Revised from feedback by Tricolore Royal. Thank you! 15 more tiles in Alaska and New England now name their later city: Anchorage, Fairbanks, Valdez, Ketchikan, Nome, Portland, Lewiston, Bangor, Bar Harbor, Portsmouth, Burlington, Montpelier, Lowell, Bridgeport and New London. Juneau moves from Aa'kw Kwáan to T'aaku Kwáan, where the city lies on the game map. Passagassawkeag is rewritten as Belfast: it is Belfast's river, and Bangor now sits in Penobscot. Shee't'iká now says that it is Sitka.
+1.3.0
+Descriptions now come in all of EU5's official languages. Added Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish, translated from the English with AI; if a translation reads wrongly, please tell me in the comments. English and Chinese are unchanged, and the 257 vanilla tiles keep the official text in every language.

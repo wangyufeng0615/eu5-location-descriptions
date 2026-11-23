@@ -1,7 +1,7 @@
 [h1]A description for every tile on the map[/h1]
 [img]https://images.steamusercontent.com/ugc/13578589985414708755/92635B0C7AA1ADBF48CF4D76AFF2CDF9C6F08F3D/[/img]
 
-Vanilla EU5 describes only a few hundred locations. This mod adds English and Chinese descriptions to all the other [b]28,316[/b] tiles: towns, countryside, mountains, lakes and seas. The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by new paragraphs on their history during the game's era.
+Vanilla EU5 describes only a few hundred locations. This mod adds descriptions to all the other [b]28,316[/b] tiles, in every language the game supports: towns, countryside, mountains, lakes and seas. The [b]257[/b] tiles that already have a vanilla description keep it word for word, followed by new paragraphs on their history during the game's era.
 
 ⭐ [b]Strongly recommended: subscribe to the other two EU5 mods as well.[/b] Together the three cover the map, its people and its countries.
 [list]
@@ -11,7 +11,7 @@ Vanilla EU5 describes only a few hundred locations. This mod adds English and Ch
 Or subscribe to all three at once from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838947253][b]the collection[/b][/url].
 
 [list]
-[*]English and Chinese, in EU5's own style
+[*]Written in English and Chinese in EU5's own style, and translated with AI into the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish
 [*]Can be added to an existing save; achievement compatible
 [*]Based mainly on local-language sources such as Wikipedia, with several rounds of fact-checking
 [/list]
@@ -27,11 +27,12 @@ Or subscribe to all three at once from [url=https://steamcommunity.com/sharedfil
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]: 618 English descriptions overlap; with both enabled, Oikoumene's are shown. Chinese is not affected.
 
 [h2]Feedback[/h2]
-If you find a mistake, please leave a comment and I'll fix it. More official EU5 languages will follow.
+If you find a mistake or a clumsy translation, please leave a comment in any language and I'll fix it.
 Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descriptions]GitHub[/url]
 
 [h2]Update history[/h2]
 [list]
+[*]1.3.0: Descriptions in the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish, translated from the English with AI. The 257 vanilla tiles keep the official text in each language.
 [*]1.2.5: 15 more tiles in Alaska and New England now name their later city, among them Anchorage, Fairbanks, Portland, Bangor and Bridgeport; Juneau moves to T'aaku Kwáan, and Passagassawkeag is rewritten as Belfast. Thanks to Tricolore Royal.
 [*]1.2.4: Editorial pass over 26 major cities and locations: consistent historical names, metric units in Chinese, clearer chronology.
 [*]1.2.3: Removed the English copies for other game languages added in 1.2.2; the download is back to its earlier size.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "steam_app_id": 3450310,
-  "steam_build_id": "26377361",
+  "steam_build_id": "26655995",
   "source_run": "research_yaml_export",
   "map_location_count": 28573,
   "target_ids": [
@@ -28842,11 +28842,20 @@
   "source_file_sha256": {
     "in_game\\map_data\\default.map": "fdc0812dfb90c90744f8d09650b0a2945fc3b3abc1fe957ad03aff61b53e4d86",
     "in_game\\map_data\\definitions.txt": "9a9df23e4415e9d450db7d015231708540d151285017bb5b8aca61cadf2ed265",
-    "in_game\\map_data\\location_templates.txt": "f2f3d80a2bb65b41b578a51cb06cc47a0f8d83b682eec8c2cce69f1add9cd59c",
+    "in_game\\map_data\\location_templates.txt": "2c1ec72fe9c7878d296d155a624b2f593f8df48b1da28a1f271219bad899d623",
     "main_menu\\localization\\english\\location_flavor_l_english.yml": "4e83ee7229ffef24ebec716868391689eae8750283a99f65b480216067d10b6f",
     "main_menu\\localization\\english\\location_names\\location_names_l_english.yml": "dfe51d8ddafde62910d80f2e1aebc11a311bc76ac94d76dc3150d1efd54af44e",
     "main_menu\\localization\\simp_chinese\\location_flavor_l_simp_chinese.yml": "7d7e6f6582156ab6348cca96be5ac4c29c01bbaaab35dccfb64e1f2ce752632c",
-    "main_menu\\localization\\simp_chinese\\location_names\\location_names_l_simp_chinese.yml": "fa6157f69e6097301d810486c7bca7464269b6db01c7d61fa556e8e388bca3fb"
+    "main_menu\\localization\\simp_chinese\\location_names\\location_names_l_simp_chinese.yml": "fa6157f69e6097301d810486c7bca7464269b6db01c7d61fa556e8e388bca3fb",
+    "main_menu\\localization\\russian\\location_flavor_l_russian.yml": "b5fe674958904d36af3a7d4f9ea7450be375d236de849d7b189b19df3bd6ea7f",
+    "main_menu\\localization\\spanish\\location_flavor_l_spanish.yml": "8b7c6533c5b7d4519a4a04a39b7b6aff97b78c50515f93ff49f8e04a69b1fbd2",
+    "main_menu\\localization\\braz_por\\location_flavor_l_braz_por.yml": "0da13e0375a6d1ac56402f6110ea6180b8336fecfd4f55e5daf28ec0b74b69b0",
+    "main_menu\\localization\\german\\location_flavor_l_german.yml": "140ade33e53829cefdca0b2e0517c1ff5aa1cc955756322a3eb9af47da2992b8",
+    "main_menu\\localization\\japanese\\location_flavor_l_japanese.yml": "06526eb48374de41bf94f51f3a13d00018647bbabe62f84905df74c51fa9f40d",
+    "main_menu\\localization\\french\\location_flavor_l_french.yml": "dd02598df949a22c09df93743856da9fc6951eea47da9cd0ba258e8702b47bc6",
+    "main_menu\\localization\\polish\\location_flavor_l_polish.yml": "2cbecb7256ab9fdfd21421cda37f5f06fa15deddc8e7a231e4af76f986faf868",
+    "main_menu\\localization\\korean\\location_flavor_l_korean.yml": "eadb3edb5ada508c09cd942e35128f97a7f7948073ea41e1bd976cf20aea0ab8",
+    "main_menu\\localization\\turkish\\location_flavor_l_turkish.yml": "924cdab1b1cc217bc991eac8f8cf83b1a45b614285325a213364fb49a509ab89"
   },
   "independent_fact_review_complete": false
 }

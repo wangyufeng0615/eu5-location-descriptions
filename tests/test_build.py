@@ -36,7 +36,9 @@ class BuildGuards(unittest.TestCase):
         thumbnail.write_bytes(b"test image bytes")
 
     def row(self, key="test_town"):
-        return {"id": key, "english": "A town beside the river.", "simp_chinese": "河边的小镇。", "review_status": "bilingual_first_pass", "sources": [{"title": "Example", "url": "https://en.wikipedia.org/wiki/Example", "revision_id": 1}]}
+        row = {"id": key, "english": "A town beside the river.", "simp_chinese": "河边的小镇。", "review_status": "bilingual_first_pass", "sources": [{"title": "Example", "url": "https://en.wikipedia.org/wiki/Example", "revision_id": 1}]}
+        row.update({language: f"A town beside the river ({language})." for language in mod_build.LANGUAGES[2:]})
+        return row
 
     def test_rejects_official_override(self):
         with tempfile.TemporaryDirectory() as temporary:
