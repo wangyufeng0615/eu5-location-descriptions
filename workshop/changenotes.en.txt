@@ -1,2 +1,2 @@
 1.3.0
-Descriptions now come in all of EU5's official languages. Added Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish, translated from the English with AI; if a translation reads wrongly, please tell me in the comments. English and Chinese are unchanged, and the 257 vanilla tiles keep the official text in every language.
+Descriptions now come in all of EU5's official languages. Added Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish; if a translation reads wrongly, please tell me in the comments. English and Chinese are unchanged, and the 257 vanilla tiles keep the official text in every language.
