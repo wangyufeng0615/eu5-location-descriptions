@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.1 — 2026-11-26
+
+- Revised from suggestions by Apocalypto and Tricolore Royal. Thank you!
+- 57 tiles in the Middle East and the former Roman world now name the famous ancient cities that stood there: Pompeii, Herculaneum, Ostia, Paestum, Selinus, Sybaris, Olympia, Delphi, Pella, Philippi, Troy, Hattusa, Sardis, Hierapolis, Xanthos, Perge, Chalcedon, Salamis, Chersonesus, Tyre, Petra, Ugarit, Caesarea Maritima, Apamea, Dura-Europos, Ur, Uruk, Ctesiphon, Assur, Nimrud, Hatra, Nippur, Chogha Zanbil, Memphis, Thebes, Heliopolis, Timgad, Cuicul, Utica, Sabratha, Numantia, Italica and Carnuntum.
+- Present-day cities give their ancient names: Massalia (Marseille), Burdigala (Bordeaux), Nemausus (Nîmes), Arelate (Arles), Tolosa (Toulouse), Durocortorum (Reims), Emerita Augusta (Mérida), Hadrumetum (Sousse), Camulodunum (Colchester), Aquae Sulis (Bath), Katane (Catania), Caralis (Cagliari), Brundisium (Brindisi), Beneventum (Benevento) and Ptolemais (Acre).
+- About 600 translated descriptions in other languages read more naturally, mostly Turkish, German and Polish.
+- Every change, entry by entry: https://eu5.wangyufeng.org/en/changelog/2026-11-26-ancient-cities
+
 ## 1.3.0 — 2026-11-23
 
 - Descriptions in all of EU5's official languages: added Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish.
