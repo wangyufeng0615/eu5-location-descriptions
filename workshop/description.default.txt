@@ -31,6 +31,7 @@ Source and downloads: [url=https://github.com/wangyufeng0615/eu5-location-descri
 
 [h2]Update history[/h2]
 [list]
+[*]1.3.1: 57 tiles in the Middle East and the former Roman world now name the famous ancient cities that stood there, such as Ctesiphon, Pompeii, Petra, Troy and Hattusa; present-day cities such as Marseille and Mérida give their ancient names. Thanks to Apocalypto and Tricolore Royal. [url=https://eu5.wangyufeng.org/en/changelog/2026-11-26-ancient-cities]All changes[/url]
 [*]1.3.0: Descriptions in the nine other official languages: Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish.
 [*]1.2.5: 15 more tiles in Alaska and New England now name their later city, among them Anchorage, Fairbanks, Portland, Bangor and Bridgeport; Juneau moves to T'aaku Kwáan, and Passagassawkeag is rewritten as Belfast. Thanks to Tricolore Royal.
 [*]1.2.4: Editorial pass over 26 major cities and locations: consistent historical names, metric units in Chinese, clearer chronology.
@@ -101,6 +102,7 @@ QQ 群：[b]518622967[/b]
 
 [h2]更新记录[/h2]
 [list]
+[*]1.3.1：中东和前罗马疆域的57个地块写出了曾在此地的著名古城，如泰西封、庞贝、佩特拉、特洛伊、哈图沙；马赛、梅里达等今天的城市补上了古名。感谢 Apocalypto 和 Tricolore Royal。[url=https://eu5.wangyufeng.org/zh/changelog/2026-11-26-ancient-cities]逐条改动[/url]
 [*]1.3.0：新增其余 9 种官方语言：俄语、西班牙语、巴西葡萄牙语、德语、日语、法语、波兰语、韩语、土耳其语。
 [*]1.2.5：阿拉斯加和新英格兰又有15个地块注明了后世城市，包括安克雷奇、费尔班克斯、波特兰、班戈、布里奇波特等；朱诺移到塔库宽，帕萨加萨基格改写为贝尔法斯特。感谢 Tricolore Royal。
 [*]1.2.4：润色26个主要城市和地点：统一历史译名，中文改用公制单位，理顺年代叙述。

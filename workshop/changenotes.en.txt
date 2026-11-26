@@ -1,2 +1,2 @@
-1.3.0
-Descriptions now come in all of EU5's official languages. Added Russian, Spanish, Brazilian Portuguese, German, Japanese, French, Polish, Korean and Turkish; if a translation reads wrongly, please tell me in the comments. English and Chinese are unchanged.
+1.3.1
+Ancient city names: 57 tiles in the Middle East and the former Roman world now name the famous ancient cities that stood there, such as Ctesiphon, Pompeii, Petra, Troy and Hattusa, and present-day cities such as Marseille and Mérida now give their ancient names (Massalia, Emerita Augusta). Thanks to Apocalypto and Tricolore Royal for the suggestion. About 600 translated descriptions in other languages also read more naturally now, mostly Turkish, German and Polish. Every change: https://eu5.wangyufeng.org/en/changelog/2026-11-26-ancient-cities
