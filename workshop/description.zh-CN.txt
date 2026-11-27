@@ -22,6 +22,7 @@
 [/list]
 
 [h2]兼容性[/h2]
+加载顺序放在 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3601047146]Glorp UI[/url] 下方，即可完美兼容。
 [b]已确认兼容[/b]：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework（CMF）[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233]Oikoumene: Dynamic Place Names[/url]：618 个地点的英文介绍重叠，同时启用时显示它的，中文不受影响。
 
