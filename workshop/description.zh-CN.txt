@@ -20,6 +20,14 @@
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]所有省份和伟大工程的描述[/b][/url]：3,272 个陆地省份和 139 座伟大工程的介绍
 [/list]
+[b]十字军之王3[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3846107142][b]更多词条描述[/b][/url]：头衔、地块、历史人物、文化、家族等 12,681 条介绍
+[/list]
+[b]维多利亚3[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3845677160][b]更多词条描述[/b][/url]：地域、国家、文化、人物、公司等 6,714 条介绍
+[/list]
 
 [h2]兼容性[/h2]
 加载顺序放在 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3601047146]Glorp UI[/url] 下方，即可完美兼容。

@@ -20,6 +20,14 @@ Or subscribe to all three at once from [url=https://steamcommunity.com/sharedfil
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]Descriptions for Every Province and Great Project[/b][/url]: descriptions for all 3,272 land provinces and 139 great projects
 [/list]
+[b]Crusader Kings III[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3846107142][b]Descriptions for Everything[/b][/url]: 12,681 descriptions for titles, holdings, historical characters, cultures, houses and more
+[/list]
+[b]Victoria 3[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3845677160][b]Descriptions for Everything[/b][/url]: 6,714 descriptions for states, countries, cultures, characters, companies and more
+[/list]
 
 [h2]Compatibility[/h2]
 Place this mod below [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3601047146]Glorp UI[/url] in the load order and the two are fully compatible.
@@ -90,6 +98,14 @@ Thanks to these players for pointing out problems; all the fixes have been relea
 [b]欧陆风云4[/b]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833082096][b]所有省份和伟大工程的描述[/b][/url]：3,272 个陆地省份和 139 座伟大工程的介绍
+[/list]
+[b]十字军之王3[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3846107142][b]更多词条描述[/b][/url]：头衔、地块、历史人物、文化、家族等 12,681 条介绍
+[/list]
+[b]维多利亚3[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3845677160][b]更多词条描述[/b][/url]：地域、国家、文化、人物、公司等 6,714 条介绍
 [/list]
 
 [h2]兼容性[/h2]
